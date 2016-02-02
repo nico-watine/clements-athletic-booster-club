@@ -8,7 +8,7 @@
 	<title>Clements Athletic Booster Club | Clements High School</title>
 	<meta name="description" content="Page description for search results &amp; social shares goes here.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="canonical" href="http://new-project.static" /> -->
+	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
 	<link rel="author" href="/humans.txt">
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Clements Athletic Booster Club" />
 	<meta property="og:description" content="Page description for search results &amp; social shares goes here." />
-	<!-- <meta property="og:url" content="http://new-project.static" /> -->
+	<meta property="og:url" content="http://clementsathleticboosterclub.org" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
 	<!-- <meta property="og:image" content="http://new-project.static/img" /> -->
 

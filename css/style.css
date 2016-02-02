@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
+@import url("https://fonts.googleapis.com/css?family=Graduate|Open+Sans:400,700");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove default margin. */
@@ -130,14 +131,14 @@ html { -moz-box-sizing: border-box; box-sizing: border-box; }
 
 html { font-size: 1em; }
 
-body { color: #333; font-weight: 400; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.2; }
+body { color: #333; font-weight: 400; font-family: "Open Sans", sans-serif; line-height: 1.2; }
 
 p { margin-bottom: 1.4rem; }
 
 a, a:visited { color: #222; }
 a:hover, a:visited:hover { text-decoration: none; }
 
-h1, h2, h3, h4 { margin: 0 0 0.5rem; font-weight: 700; }
+h1, h2, h3, h4 { margin: 0 0 0.5rem; font-weight: 400; }
 
 h5, h6 { margin: 0 0 0.5rem; font-weight: 400; letter-spacing: 1.2; text-transform: uppercase; }
 
@@ -147,18 +148,25 @@ h2 { font-size: 2.3125em; }
 
 h3 { font-size: 1.75em; }
 
-h4, p.large { font-size: 1.3125em; }
+h4 { font-size: 1.3125em; }
 
 h5 { font-size: 1em; }
 
 h6 { font-size: 0.75em; }
+
+p.large { font-size: 1.375rem; }
 
 @media screen and (max-width: 48.125em) { h1 { font-size: 2.3125em; }
   h2 { font-size: 1.75em; }
   h3 { font-size: 1.3125em; }
   h4 { font-size: 1em; }
   h5 { font-size: 0.75em; }
-  h6 { font-size: 0.75em; } }
+  h6 { font-size: 0.75em; }
+  p.large { font-weight: 1.25rem; } }
+.bold { font-weight: 700; }
+
+.header { font-family: "Graduate", cursive; font-weight: 400; }
+
 html, body { margin: 0; padding: 0; }
 
 audio, canvas, img, video { vertical-align: middle; }

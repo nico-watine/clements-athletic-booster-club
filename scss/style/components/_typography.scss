@@ -64,8 +64,7 @@ h3 {
 	font-size: $h3-size;
 }
 
-h4,
-p.large {
+h4 {
 	font-size: $h4-size;
 }
 
@@ -75,6 +74,10 @@ h5 {
 
 h6 {
 	font-size: $h6-size;
+}
+
+p.large {
+	font-size: rem(22);
 }
 
 @include media($max-770) {
@@ -102,5 +105,22 @@ h6 {
 	h6 {
 		font-size: $h6-size;
 	}
+
+	p.large {
+		font-weight: rem(20);
+	}
 }
 
+.bold {
+	font-weight: $bold-font-weight;
+}
+
+// .body {
+// 	font-family: $body-font-family;
+// 	font-weight: $body-font-weight;
+// }
+
+.header {
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+}
