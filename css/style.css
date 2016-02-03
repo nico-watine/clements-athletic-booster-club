@@ -214,7 +214,7 @@ a.button:hover, button:hover { color: #000; background-color: #ccc; }
 html, body { height: 100%; }
 
 .height-wrapper { min-height: 100%; position: relative; }
-.height-wrapper header { padding-bottom: 40.625em; }
+.height-wrapper main { padding-bottom: 40.625em; }
 .height-wrapper footer { position: absolute; bottom: 0; width: 100%; }
 
 body { background: #E8E8E8 url("/img/assets/bg/bg.png") repeat; }

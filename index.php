@@ -66,6 +66,10 @@
 		</div>
 </header>
 
+<main style="text-align: center; margin-top: 100px;">
+	<h1 class="header">Full site on the way!</h1>
+</main>
+
 <footer>
 	<div class="outer-container">
 		<div class="row">
