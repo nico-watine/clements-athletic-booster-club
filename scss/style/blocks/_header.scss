@@ -1,6 +1,7 @@
 @import "../settings/_settings.scss";
 
 $max-955: "only screen and (max-width : 955px)";
+$max-900: "only screen and (max-width : 900px)";
 
 header {
 	padding-top: em(12);
@@ -23,12 +24,11 @@ header {
 	}
 
 	#masthead {
-		@include shift(3 of 16);
 		padding-top: em(18);
 
 		#site-name {
 			margin-bottom: em(12);
-			padding-right: em(12);
+			// padding-right: em(12);
 			h1 {
 				font-size: rem(40);
 			}
@@ -45,10 +45,8 @@ header {
 		address {
 			margin-bottom: rem(10);
 		}
-		
-		.logo {
-			height: auto;
 
+		.logo {
 			img {
 				width: em(130);
 				height: em(130);
@@ -57,6 +55,22 @@ header {
 
 		#masthead {
 			padding-top: 0;
+		}
+	}
+}
+
+@media #{$max-900} {
+	header {
+		#masthead {
+			#site-name {
+				h1 {
+					font-size: rem(32);
+				}
+
+				h2 {
+					font-size: rem(26);
+				}
+			}
 		}
 	}
 }
