@@ -1,5 +1,7 @@
 @import "../settings/_settings.scss";
 
+$max-955: "only screen and (max-width : 955px)";
+
 nav#header-nav {
 
 	ul {
@@ -21,5 +23,14 @@ nav#header-nav {
 			}
 		}
 	}
+}
 
+@media #{$max-955} {
+	nav#header-nav {
+		// margin-top: em(35);
+
+		ul {
+			// float: left;
+		}
+	}
 }

@@ -1,5 +1,8 @@
 @import "../settings/_settings.scss";
 
+$max-955: "only screen and (max-width : 955px)";
+$max-900: "only screen and (max-width : 900px)";
+
 header {
 	padding-top: em(12);
 
@@ -9,28 +12,64 @@ header {
 	}
 
 	.logo {
-		@include span-columns(3 of 16);
-		text-align: center;
+		float: left;
+		padding-left: em(12);
+		margin-right: em(18);
+		height: em(230);
 
 		img {
-			max-width: em(180);
-			height: auto;
-			width: 100%;
+			width: em(180);
+			height: em(180);
 		}
 	}
 
 	#masthead {
-		@include span-columns(13 of 16);
 		padding-top: em(18);
 
 		#site-name {
 			margin-bottom: em(12);
+			// padding-right: em(12);
 			h1 {
-				font-size: $h2-size;
+				font-size: rem(40);
 			}
 
 			h2 {
-				font-size: $h3-size;
+				font-size: rem(28);
+			}
+		}
+	}
+}
+
+@media #{$max-955} {
+	header {
+		address {
+			margin-bottom: rem(10);
+		}
+
+		.logo {
+			img {
+				width: em(130);
+				height: em(130);
+			}
+		}
+
+		#masthead {
+			padding-top: 0;
+		}
+	}
+}
+
+@media #{$max-900} {
+	header {
+		#masthead {
+			#site-name {
+				h1 {
+					font-size: rem(32);
+				}
+
+				h2 {
+					font-size: rem(26);
+				}
 			}
 		}
 	}

@@ -42,24 +42,24 @@
 				<img src="/img/assets/logo/logo.png" srcset="/img/assets/logo/logo@2x.png 2x" alt="Clements High School Logo">
 			</div>
 			<div id="masthead">
-				<div class="row" id="site-name">
+				<div id="site-name">
 					<h1 class="header">Clements Athletic Booster Club</h1>
 					<h2>Clements High School | <strong>FBISD</strong></h2>
 				</div>
-				<nav class="row" id="header-nav">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Football</a></li>
-						<li><a href="#">Cheer</a></li>
-						<li><a href="#">Baseball</a></li>
-						<li><a href="#">Swimming</a></li>
-						<li><a href="#">Basketball</a></li>
-						<li><a href="#">Track &amp; Field</a></li>
-						<li><a href="#">Calendar</a></li>
-						<li><a href="#">Join CABC</a></li>
-					</ul>
-				</nav>	
 			</div>
+			<nav id="header-nav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Football</a></li>
+					<li><a href="#">Cheer</a></li>
+					<li><a href="#">Baseball</a></li>
+					<li><a href="#">Swimming</a></li>
+					<li><a href="#">Basketball</a></li>
+					<li><a href="#">Track &amp; Field</a></li>
+					<li><a href="#">Calendar</a></li>
+					<li><a href="#">Join CABC</a></li>
+				</ul>
+			</nav>
 		</div>
 </header>
 
