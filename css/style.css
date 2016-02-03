@@ -223,15 +223,17 @@ body { background: #E8E8E8 url("/img/assets/bg/bg.png") repeat; }
 
 header { padding-top: 0.75em; }
 header address { text-align: right; padding-right: 0.75rem; }
-header .logo { float: left; display: block; margin-right: 1.75788%; width: 17.32172%; text-align: center; }
-header .logo:last-child { margin-right: 0; }
-header .logo img { max-width: 11.25em; height: auto; width: 100%; }
-header #masthead { float: left; display: block; margin-right: 1.75788%; width: 80.9204%; padding-top: 1.125em; }
-header #masthead:last-child { margin-right: 0; }
-header #masthead #site-name { margin-bottom: 0.75em; }
-header #masthead #site-name h1 { font-size: 2.8125em; }
-header #masthead #site-name h2 { font-size: 1.9375em; }
+header .logo { float: left; padding-left: 0.75em; margin-right: 1.125em; height: 14.375em; }
+header .logo img { width: 11.25em; height: 11.25em; }
+header #masthead { margin-left: 19.0796%; padding-top: 1.125em; }
+header #masthead #site-name { margin-bottom: 0.75em; padding-right: 0.75em; }
+header #masthead #site-name h1 { font-size: 2.5rem; }
+header #masthead #site-name h2 { font-size: 1.75rem; }
 
+@media only screen and (max-width: 955px) { header address { margin-bottom: 0.625rem; }
+  header .logo { height: auto; }
+  header .logo img { width: 8.125em; height: 8.125em; }
+  header #masthead { padding-top: 0; } }
 nav#header-nav ul { list-style-type: none; margin: 0; padding: 0; }
 nav#header-nav ul li { float: left; margin: 0 0.875em 0.75em 0; }
 nav#header-nav ul li a { font-family: "Graduate", cursive; text-decoration: none; }
