@@ -6,21 +6,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>Clements Athletic Booster Club | Clements High School</title>
-	<meta name="description" content="Page description for search results &amp; social shares goes here.">
+	<meta name="description" content="The future home for all Clements High School sports teams, with team schedules and more.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
 	<link rel="author" href="/humans.txt">
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" href="/touch-icon-192x192">
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Clements Athletic Booster Club" />
-	<meta property="og:description" content="Page description for search results &amp; social shares goes here." />
+	<meta property="og:description" content="The future home for all Clements High School sports teams, with team schedules and more." />
 	<meta property="og:url" content="http://clementsathleticboosterclub.org" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
-	<!-- <meta property="og:image" content="http://new-project.static/img" /> -->
+	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-image.png" />
 
 	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 
@@ -111,14 +111,6 @@
 	</div>
 </footer>
 </div>
-
-
-
-
-
-
-
-
 
 </body>
 </html>
