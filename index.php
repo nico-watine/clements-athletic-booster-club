@@ -31,6 +31,60 @@
 	<![endif]-->
 </head>
 <body>
+<div class="height-wrapper">
+	
+<header>
+	<div id="logo-shade"></div>
+	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
+	<div class="outer-container">
+		<div class="row">
+			<div class="logo">
+				<img src="/img/assets/logo/logo.png" srcset="/img/assets/logo/logo@2x.png 2x" alt="Clements High School Logo">
+			</div>
+			<div id="masthead">
+				<div class="row" id="site-name">
+					<h1 class="header">Clements Athletic Booster Club</h1>
+					<h2>Clements High School | <strong>FBISD</strong></h2>
+				</div>
+				<nav class="row" id="header-nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Football</a></li>
+						<li><a href="#">Cheer</a></li>
+						<li><a href="#">Baseball</a></li>
+						<li><a href="#">Swimming</a></li>
+						<li><a href="#">Basketball</a></li>
+						<li><a href="#">Track &amp; Field</a></li>
+						<li><a href="#">Calendar</a></li>
+						<li><a href="#">Join CABC</a></li>
+					</ul>
+				</nav>	
+			</div>
+		</div>
+</header>
+
+<footer>
+	<div class="outer-container">
+		<div class="row">
+			<div class="site-nav">
+				<h4 class="header">CABC Sports</h4>
+			</div>
+			<div class="footer-info">
+				<div class="school-details">
+					<h4 class="header">Clements High School</h4>
+					<p>A Fort Bend ISD School</p>
+					<p><a href="https://goo.gl/maps/BP1Xx2EdqK22" target="_blank">4200 Elkins Rd | Sugar Land, TX 77479</a></p>
+				</div>
+				<div class="affiliate-sites">
+					<h4 class="header">Affiliate Sites</h4>
+					<p><a href="http://www.fortbendisd.com/chs" target="_blank">CHS Official Website</a></p>
+					<p><a href="http://www.fortbendisd.com/" target="_blank">FBISD Official Website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
 
 
 
@@ -39,10 +93,6 @@
 
 
 
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery/1-11-3/jquery-min.js"><\/script>')</script>
-<script src="<?php autoVer('/js/scripts-min.js'); ?>"></script>
 
 </body>
 </html>

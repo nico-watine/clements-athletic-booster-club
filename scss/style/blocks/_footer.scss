@@ -1,1 +1,43 @@
 @import "../settings/_settings.scss";
+
+footer {
+	background: #666;
+	padding: em(26) em(16);
+
+	* {
+		color: #fff;
+		margin: 0;
+	}
+
+	.site-nav,
+	.footer-info {
+		@include span-columns(8 of 16);
+
+		h4 {
+			font-size: rem(16);
+			margin-bottom: rem(8);
+		}
+
+		p {
+			font-size: rem(14);
+			margin-bottom: rem(6);
+		}
+
+		a {
+			color: #fff;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.footer-info {
+		text-align: right;
+
+		.school-details {
+			margin-bottom: em(24);
+		}
+	}
+}

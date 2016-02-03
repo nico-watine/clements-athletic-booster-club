@@ -1,1 +1,25 @@
 @import "../settings/_settings.scss";
+
+nav#header-nav {
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			float: left;
+			margin: 0 em(14) em(12) 0;
+
+			a {
+				font-family: $header-font-family;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+}
