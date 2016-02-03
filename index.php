@@ -50,14 +50,17 @@
 			<nav id="header-nav">
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Football</a></li>
-					<li><a href="#">Cheer</a></li>
 					<li><a href="#">Baseball</a></li>
-					<li><a href="#">Swimming</a></li>
 					<li><a href="#">Basketball</a></li>
+					<li><a href="#">Cheer</a></li>
+					<li><a href="#">Football</a></li>
+					<li><a href="#">Golf</a></li>
+					<li><a href="#">Soccer</a></li>
+					<li><a href="#">Swimming</a></li>
+					<li><a href="#">Tennis</a></li>
 					<li><a href="#">Track &amp; Field</a></li>
-					<li><a href="#">Calendar</a></li>
-					<li><a href="#">Join CABC</a></li>
+					<!-- <li><a href="#">Calendar</a></li> -->
+					<!-- <li><a href="#">Join CABC</a></li> -->
 				</ul>
 			</nav>
 		</div>
