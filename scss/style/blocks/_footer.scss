@@ -2,7 +2,7 @@
 
 footer {
 	background: #666;
-	padding: em(26) em(16);
+	padding: 0 em(16) em(30);
 
 	* {
 		color: #fff;
@@ -34,10 +34,53 @@ footer {
 	}
 
 	.footer-info {
+		#tricolor {
+			line-height: 0;
+			margin-bottom: rem(16);
+
+			span {
+				height: rem(10);
+				width: rem(150);
+				display: inline-block;
+			}
+			span#white {
+				background: #fff;
+			}
+			span#light-blue {
+				background: $light-blue;
+			}
+			span#navy-blue {
+				background: $dark-blue;
+			}
+		}
 		text-align: right;
 
 		.school-details {
 			margin-bottom: em(24);
+		}
+	}
+
+	.site-nav {
+		padding-top: em(28);
+
+		nav#footer-nav {
+			ul {
+				display: inline-block;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+
+				li {
+					margin-bottom: em(6);
+
+					a {
+						font-size: rem(14);
+					}
+				}
+			}
+			ul#column-2 {
+				margin-left: em(55);
+			}
 		}
 	}
 }

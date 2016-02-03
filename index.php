@@ -71,8 +71,27 @@
 		<div class="row">
 			<div class="site-nav">
 				<h4 class="header">CABC Sports</h4>
+				<nav id="footer-nav">
+					<ul id="column-1">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Baseball</a></li>
+						<li><a href="#">Basketball</a></li>
+						<li><a href="#">Cheer</a></li>
+						<li><a href="#">Football</a></li>
+					</ul>
+					<ul id="column-2">
+						<li><a href="#">Golf</a></li>
+						<li><a href="#">Soccer</a></li>
+						<li><a href="#">Swimming</a></li>
+						<li><a href="#">Tennis</a></li>
+						<li><a href="#">Track &amp; Field</a></li>
+						<!-- <li><a href="#">Calendar</a></li> -->
+						<!-- <li><a href="#">Join CABC</a></li> -->
+					</ul>
+				</nav>
 			</div>
 			<div class="footer-info">
+				<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
 				<div class="school-details">
 					<h4 class="header">Clements High School</h4>
 					<p>A Fort Bend ISD School</p>
