@@ -1,5 +1,8 @@
 @import "../settings/_settings.scss";
 
+$max-620: "only screen and (max-width : 620px)";
+$max-540: "only screen and (max-width : 540px)";
+
 p#colophon {
 	margin-top: rem(26);
 	letter-spacing: 1.2px;
@@ -37,7 +40,7 @@ footer {
 	#tricolor {
 		float: right;
 		line-height: 0;
-		margin-bottom: rem(16);
+		// margin-bottom: rem(16);
 
 		span {
 			height: rem(10);
@@ -57,6 +60,7 @@ footer {
 
 	.site-nav,
 	.footer-info {
+		padding-top: em(28);
 		@include span-columns(8 of 16);
 
 		h4 {
@@ -80,25 +84,6 @@ footer {
 	}
 
 	.footer-info {
-		// #tricolor {
-		// 	line-height: 0;
-		// 	margin-bottom: rem(16);
-
-		// 	span {
-		// 		height: rem(10);
-		// 		width: rem(150);
-		// 		display: inline-block;
-		// 	}
-		// 	span#white {
-		// 		background: #fff;
-		// 	}
-		// 	span#light-blue {
-		// 		background: $light-blue;
-		// 	}
-		// 	span#navy-blue {
-		// 		background: $dark-blue;
-		// 	}
-		// }
 		text-align: right;
 
 		.school-details {
@@ -107,7 +92,7 @@ footer {
 	}
 
 	.site-nav {
-		padding-top: em(28);
+		// padding-top: em(28);
 
 		nav#footer-nav {
 			ul {
@@ -126,6 +111,39 @@ footer {
 			}
 			ul#column-2 {
 				margin-left: em(55);
+			}
+		}
+	}
+}
+
+@media #{$max-620} {
+	footer {
+		#tricolor {
+			span {
+				width: rem(100);
+			}
+		}
+		.site-nav {
+			nav#footer-nav {
+				ul#column-2 {
+					margin-left: em(25);
+				}
+			}
+		}
+	}		
+}
+
+@media #{$max-540} {
+	footer {
+		.site-nav,
+		.footer-info {
+			@include span-columns(8 of 8);
+			text-align: center;
+		}
+
+		#tricolor {
+			span {
+				width: rem(80);
 			}
 		}
 	}
