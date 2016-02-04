@@ -11,8 +11,8 @@
 	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
 	<link rel="author" href="/humans.txt">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="icon" href="/touch-icon-192x192">
+	<link rel="icon" href="/apple-touch-icon.png">
+	<link rel="icon" href="/touch-icon-192x192.png">
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
