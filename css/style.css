@@ -220,6 +220,8 @@ html, body { height: 100%; }
 body { background: #E8E8E8 url("/img/assets/bg/bg.png") repeat; }
 
 #logo-shade { position: absolute; z-index: -55; width: 100%; height: 100%; top: 0; left: 0; background: url("/img/assets/bg/logo-shade.png") no-repeat left top; }
+@media screen and (max-width: 48.125em) { #logo-shade { background-size: 18.75em; } }
+@media only screen and (max-width: 33.75em) { #logo-shade { background-size: 15em; } }
 
 header { padding-top: 0.75em; }
 header address { text-align: right; padding-right: 0.75rem; }
@@ -230,19 +232,19 @@ header #masthead #site-name { margin-bottom: 0.75em; }
 header #masthead #site-name h1 { font-size: 2.5rem; }
 header #masthead #site-name h2 { font-size: 1.75rem; }
 
-@media only screen and (max-width: 955px) { header address { margin-bottom: 0.625rem; }
+@media only screen and (max-width: 59.688em) { header address { margin-bottom: 0.625rem; }
   header .logo img { width: 8.125em; height: 8.125em; }
   header #masthead { padding-top: 0; } }
-@media only screen and (max-width: 900px) { header #masthead #site-name h1 { font-size: 2rem; }
+@media only screen and (max-width: 56.25em) { header #masthead #site-name h1 { font-size: 2rem; }
   header #masthead #site-name h2 { font-size: 1.625rem; } }
-@media only screen and (max-width: 540px) { header address { text-align: center; padding: 0; }
+@media only screen and (max-width: 33.75em) { header address { text-align: center; padding: 0; }
   header .logo { padding-left: 0.5em; margin-right: 0.625em; height: 5em; }
   header .logo img { width: 5em; height: 5em; }
   header #masthead { padding: 0 0.5em 0 0.75em; }
   header #masthead #site-name h1 { padding-top: 0.625rem; font-size: 1.625rem; margin-bottom: 0.75rem; }
   header #masthead #site-name h1 span { display: inline-block; }
   header #masthead #site-name h2 { font-size: 1.375rem; } }
-@media only screen and (max-width: 480px) { header address { font-size: 0.875rem; }
+@media only screen and (max-width: 30em) { header address { font-size: 0.875rem; }
   header #masthead #site-name h1 { font-size: 1.375rem; padding-top: 0; margin-bottom: 0; }
   header #masthead #site-name h2 { font-size: 1.125rem; }
   header #masthead #site-name h2 span { display: none; visibility: hidden; } }
@@ -279,8 +281,8 @@ footer .site-nav nav#footer-nav ul li { margin-bottom: 0.375em; }
 footer .site-nav nav#footer-nav ul li a { font-size: 0.875rem; }
 footer .site-nav nav#footer-nav ul#column-2 { margin-left: 3.4375em; }
 
-@media only screen and (max-width: 620px) { footer #tricolor span { width: 6.25rem; }
+@media only screen and (max-width: 38.75em) { footer #tricolor span { width: 6.25rem; }
   footer .site-nav nav#footer-nav ul#column-2 { margin-left: 1.5625em; } }
-@media only screen and (max-width: 540px) { footer .site-nav, footer .footer-info { float: left; display: block; margin-right: 3.57866%; width: 100%; text-align: center; }
+@media only screen and (max-width: 33.75em) { footer .site-nav, footer .footer-info { float: left; display: block; margin-right: 3.57866%; width: 100%; text-align: center; }
   footer .site-nav:last-child, footer .footer-info:last-child { margin-right: 0; }
   footer #tricolor span { width: 5rem; } }

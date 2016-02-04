@@ -1,9 +1,9 @@
 @import "../settings/_settings.scss";
 
-$max-955: "only screen and (max-width : 955px)";
-$max-900: "only screen and (max-width : 900px)";
-$max-540: "only screen and (max-width : 540px)";
-$max-480: "only screen and (max-width : 480px)";
+$max-955: "only screen and (max-width : 59.688em)";
+$max-900: "only screen and (max-width : 56.250em)";
+$max-540: "only screen and (max-width : 33.750em)";
+$max-480: "only screen and (max-width : 30.000em)";
 
 header {
 	padding-top: em(12);
@@ -30,7 +30,6 @@ header {
 
 		#site-name {
 			margin-bottom: em(12);
-			// padding-right: em(12);
 			h1 {
 				font-size: rem(40);
 			}
