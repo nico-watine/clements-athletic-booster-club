@@ -20,7 +20,8 @@
 	<meta property="og:description" content="The future home for all Clements High School sports teams, with game schedules and more." />
 	<meta property="og:url" content="http://clementsathleticboosterclub.org" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
-	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/teaser.png" />
+	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-shot.png" />
+	<meta property="fb:app_id" content="1674633382806636" />
 
 	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 
@@ -31,6 +32,24 @@
 	<![endif]-->
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1674633382806636',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 <div class="height-wrapper">
 	
 <header>
@@ -67,7 +86,8 @@
 </header>
 
 <main style="text-align: center; margin-top: 100px;">
-	<h1 class="header">Full site on the way!</h1>
+	<h1 class="header" style="margin-bottom: 30px;">Full site on the way!</h1>
+	<div class="fb-like" data-href="http://clementsathleticboosterclub.org/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
 </main>
 
 <footer>
@@ -113,6 +133,15 @@
 	</div>
 </footer>
 </div>
+
+<script>
+	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	e.src='https://www.google-analytics.com/analytics.js';
+	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	ga('create','UA-55459011-9','auto');ga('send','pageview');
+</script>
 
 </body>
 </html>
