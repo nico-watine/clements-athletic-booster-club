@@ -1,5 +1,30 @@
 @import "../settings/_settings.scss";
 
+p#colophon {
+	margin-top: rem(26);
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	font-size: rem(10);
+
+	a {
+		color: #ccc;
+
+		span {
+			text-decoration: underline;
+			color: #ccc;
+		}
+
+		&:hover {
+			text-decoration: underline;
+			color: #fff;
+
+			span {
+				color: #fff;
+			}
+		}
+	}
+}
+
 footer {
 	background: #666;
 	padding: 0 em(16) em(30);
