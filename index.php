@@ -58,12 +58,12 @@
 	<div class="outer-container">
 		<div class="row">
 			<div class="logo">
-				<img src="/img/assets/logo/logo.png" srcset="/img/assets/logo/logo@2x.png 2x" alt="Clements High School Logo">
+				<a href="/"><img src="/img/assets/logo/logo.png" srcset="/img/assets/logo/logo@2x.png 2x" alt="Clements High School Logo"></a>
 			</div>
 			<div id="masthead">
 				<div id="site-name">
-					<h1 class="header">Clements Athletic Booster Club</h1>
-					<h2>Clements High School | <strong>FBISD</strong></h2>
+					<h1 class="header">Clements Athletic <span>Booster Club</span></h1>
+					<h2>Clements High School <span>| <strong>FBISD</strong></span></h2>
 				</div>
 			</div>
 			<nav id="header-nav">
@@ -92,6 +92,7 @@
 
 <footer>
 	<div class="outer-container">
+		<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
 		<div class="row">
 			<div class="site-nav">
 				<h4 class="header">CABC Sports</h4>
@@ -116,7 +117,7 @@
 				<!-- <p id="colophon"><a href="http://studioncreations.com" target="_blank">A <span>STUDIO N</span> CREATION</a></p> -->
 			</div>
 			<div class="footer-info">
-				<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
+				<!-- <div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div> -->
 				<div class="school-details">
 					<h4 class="header">Clements High School</h4>
 					<p>A Fort Bend ISD School</p>

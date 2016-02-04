@@ -214,7 +214,7 @@ a.button:hover, button:hover { color: #000; background-color: #ccc; }
 html, body { height: 100%; }
 
 .height-wrapper { min-height: 100%; position: relative; }
-.height-wrapper main { padding-bottom: 40.625em; }
+.height-wrapper main { padding-bottom: 34.375em; }
 .height-wrapper footer { position: absolute; bottom: 0; width: 100%; }
 
 body { background: #E8E8E8 url("/img/assets/bg/bg.png") repeat; }
@@ -235,11 +235,24 @@ header #masthead #site-name h2 { font-size: 1.75rem; }
   header #masthead { padding-top: 0; } }
 @media only screen and (max-width: 900px) { header #masthead #site-name h1 { font-size: 2rem; }
   header #masthead #site-name h2 { font-size: 1.625rem; } }
+@media only screen and (max-width: 540px) { header address { text-align: center; padding: 0; }
+  header .logo { padding-left: 0.5em; margin-right: 0.625em; height: 5em; }
+  header .logo img { width: 5em; height: 5em; }
+  header #masthead { padding: 0 0.5em 0 0.75em; }
+  header #masthead #site-name h1 { padding-top: 0.625rem; font-size: 1.625rem; margin-bottom: 0.75rem; }
+  header #masthead #site-name h1 span { display: inline-block; }
+  header #masthead #site-name h2 { font-size: 1.375rem; } }
+@media only screen and (max-width: 480px) { header address { font-size: 0.875rem; }
+  header #masthead #site-name h1 { font-size: 1.375rem; padding-top: 0; margin-bottom: 0; }
+  header #masthead #site-name h2 { font-size: 1.125rem; }
+  header #masthead #site-name h2 span { display: none; visibility: hidden; } }
 nav#header-nav ul { list-style-type: none; margin: 0; padding: 0; }
 nav#header-nav ul li { float: left; margin: 0 0.875em 0.75em 0; }
 nav#header-nav ul li a { font-family: "Graduate", cursive; text-decoration: none; }
 nav#header-nav ul li a:hover { text-decoration: underline; }
 
+@media only screen and (max-width: 540px) { nav#header-nav { padding-left: 0.75em; } }
+@media only screen and (max-width: 480px) { nav#header-nav ul li a { font-size: 0.875rem; } }
 p#colophon { margin-top: 1.625rem; letter-spacing: 1.2px; text-decoration: none; font-size: 0.625rem; }
 p#colophon a { color: #ccc; }
 p#colophon a span { text-decoration: underline; color: #ccc; }
@@ -248,6 +261,11 @@ p#colophon a:hover span { color: #fff; }
 
 footer { background: #666; padding: 0 1em 1.875em; }
 footer * { color: #fff; margin: 0; }
+footer #tricolor { float: right; line-height: 0; margin-bottom: 1rem; }
+footer #tricolor span { height: 0.625rem; width: 9.375rem; display: inline-block; }
+footer #tricolor span#white { background: #fff; }
+footer #tricolor span#light-blue { background: #02C3F3; }
+footer #tricolor span#navy-blue { background: #2859A6; }
 footer .site-nav, footer .footer-info { float: left; display: block; margin-right: 1.75788%; width: 49.12106%; }
 footer .site-nav:last-child, footer .footer-info:last-child { margin-right: 0; }
 footer .site-nav h4, footer .footer-info h4 { font-size: 1rem; margin-bottom: 0.5rem; }
@@ -255,11 +273,6 @@ footer .site-nav p, footer .footer-info p { font-size: 0.875rem; margin-bottom: 
 footer .site-nav a, footer .footer-info a { color: #fff; text-decoration: none; }
 footer .site-nav a:hover, footer .footer-info a:hover { text-decoration: underline; }
 footer .footer-info { text-align: right; }
-footer .footer-info #tricolor { line-height: 0; margin-bottom: 1rem; }
-footer .footer-info #tricolor span { height: 0.625rem; width: 9.375rem; display: inline-block; }
-footer .footer-info #tricolor span#white { background: #fff; }
-footer .footer-info #tricolor span#light-blue { background: #02C3F3; }
-footer .footer-info #tricolor span#navy-blue { background: #2859A6; }
 footer .footer-info .school-details { margin-bottom: 1.5em; }
 footer .site-nav { padding-top: 1.75em; }
 footer .site-nav nav#footer-nav ul { display: inline-block; list-style-type: none; margin: 0; padding: 0; }

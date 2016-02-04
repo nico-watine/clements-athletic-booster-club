@@ -1,6 +1,7 @@
 @import "../settings/_settings.scss";
 
-$max-955: "only screen and (max-width : 955px)";
+$max-540: "only screen and (max-width : 540px)";
+$max-480: "only screen and (max-width : 480px)";
 
 nav#header-nav {
 
@@ -25,3 +26,20 @@ nav#header-nav {
 	}
 }
 
+@media #{$max-540} {
+	nav#header-nav {
+		padding-left: em(12);
+	}
+}
+
+@media #{$max-480} {
+	nav#header-nav {
+		ul {
+			li {
+				a {
+					font-size: rem(14);
+				}
+			}
+		}
+	}	
+}

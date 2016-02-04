@@ -34,6 +34,27 @@ footer {
 		margin: 0;
 	}
 
+	#tricolor {
+		float: right;
+		line-height: 0;
+		margin-bottom: rem(16);
+
+		span {
+			height: rem(10);
+			width: rem(150);
+			display: inline-block;
+		}
+		span#white {
+			background: #fff;
+		}
+		span#light-blue {
+			background: $light-blue;
+		}
+		span#navy-blue {
+			background: $dark-blue;
+		}
+	}
+
 	.site-nav,
 	.footer-info {
 		@include span-columns(8 of 16);
@@ -59,25 +80,25 @@ footer {
 	}
 
 	.footer-info {
-		#tricolor {
-			line-height: 0;
-			margin-bottom: rem(16);
+		// #tricolor {
+		// 	line-height: 0;
+		// 	margin-bottom: rem(16);
 
-			span {
-				height: rem(10);
-				width: rem(150);
-				display: inline-block;
-			}
-			span#white {
-				background: #fff;
-			}
-			span#light-blue {
-				background: $light-blue;
-			}
-			span#navy-blue {
-				background: $dark-blue;
-			}
-		}
+		// 	span {
+		// 		height: rem(10);
+		// 		width: rem(150);
+		// 		display: inline-block;
+		// 	}
+		// 	span#white {
+		// 		background: #fff;
+		// 	}
+		// 	span#light-blue {
+		// 		background: $light-blue;
+		// 	}
+		// 	span#navy-blue {
+		// 		background: $dark-blue;
+		// 	}
+		// }
 		text-align: right;
 
 		.school-details {

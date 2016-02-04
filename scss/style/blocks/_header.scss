@@ -2,6 +2,8 @@
 
 $max-955: "only screen and (max-width : 955px)";
 $max-900: "only screen and (max-width : 900px)";
+$max-540: "only screen and (max-width : 540px)";
+$max-480: "only screen and (max-width : 480px)";
 
 header {
 	padding-top: em(12);
@@ -69,6 +71,71 @@ header {
 
 				h2 {
 					font-size: rem(26);
+				}
+			}
+		}
+	}
+}
+
+@media #{$max-540} {
+	header {
+
+		address {
+			text-align: center;
+			padding: 0;
+		}
+
+		.logo {
+			padding-left: em(8);
+			margin-right: em(10);
+			height: em(80);
+
+			img {
+				width: em(80);
+				height: em(80);
+			}
+		}
+		#masthead {
+			padding: 0 em(8) 0 em(12);
+
+			#site-name {
+				h1 {
+					padding-top: rem(10);
+					font-size: rem(26);
+					margin-bottom: rem(12);
+
+					span {
+						display: inline-block;
+					}
+				}
+
+				h2 {
+					font-size: rem(22);
+				}
+			}
+		}
+	}
+}
+
+@media #{$max-480} {
+	header {
+		address {
+			font-size: rem(14);
+		}
+		#masthead {
+			#site-name {
+				h1 {
+					font-size: rem(22);
+					padding-top: 0;
+					margin-bottom: 0;
+				}
+				h2 {
+					font-size: rem(18);
+
+					span {
+						display: none;
+						visibility: hidden;
+					}
 				}
 			}
 		}
