@@ -86,7 +86,8 @@
 </header>
 
 <main style="text-align: center; margin-top: 100px;">
-	<h1 class="header" style="margin-bottom: 30px;">Full site on the way!</h1>
+	<h1 class="header">Full site on the way</h1>
+	<h3 style="margin-bottom: 30px;">Spread the word!</h3>
 	<div class="fb-like" data-href="http://clementsathleticboosterclub.org/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
 </main>
 
@@ -114,10 +115,8 @@
 						<!-- <li><a href="#">Join CABC</a></li> -->
 					</ul>
 				</nav>
-				<!-- <p id="colophon"><a href="http://studioncreations.com" target="_blank">A <span>STUDIO N</span> CREATION</a></p> -->
 			</div>
 			<div class="footer-info">
-				<!-- <div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div> -->
 				<div class="school-details">
 					<h4 class="header">Clements High School</h4>
 					<p>A Fort Bend ISD School</p>
