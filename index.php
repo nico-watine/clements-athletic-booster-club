@@ -92,10 +92,11 @@
 </main>
 
 <footer>
-	<div class="outer-container">
-		<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
+	<!-- <div class="outer-container"> -->
+<!-- 		<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div> -->
 		<div class="row">
-			<div class="site-nav">
+			<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
+			<div class="small-12 medium-6 columns site-nav">
 				<h4 class="header">CABC Sports</h4>
 				<nav id="footer-nav">
 					<ul id="column-1">
@@ -116,7 +117,8 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="footer-info">
+			<div class="small-12 medium-6 columns footer-info">
+				<!-- <div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div> -->
 				<div class="school-details">
 					<h4 class="header">Clements High School</h4>
 					<p>A Fort Bend ISD School</p>
@@ -130,7 +132,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	<!-- </div> -->
 </footer>
 </div>
 
