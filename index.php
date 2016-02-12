@@ -57,16 +57,32 @@
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
 	<div class="outer-container">
 		<div class="row">
-			<div class="logo">
+			<div class="medium-2 columns logo">
 				<a href="/"><img src="/img/assets/logo/logo.png" srcset="/img/assets/logo/logo@2x.png 2x" alt="Clements High School Logo"></a>
 			</div>
-			<div id="masthead">
+			<div class="medium-10 columns" id="masthead">
 				<div id="site-name">
 					<h1 class="header">Clements Athletic <span>Booster Club</span></h1>
 					<h2>Clements High School <span>| <strong>FBISD</strong></span></h2>
 				</div>
+				<nav id="header-nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Baseball</a></li>
+						<li><a href="#">Basketball</a></li>
+						<li><a href="#">Cheer</a></li>
+						<li><a href="#">Football</a></li>
+						<li><a href="#">Golf</a></li>
+						<li><a href="#">Soccer</a></li>
+						<li><a href="#">Swimming</a></li>
+						<li><a href="#">Tennis</a></li>
+						<li><a href="#">Track &amp; Field</a></li>
+						<!-- <li><a href="#">Calendar</a></li> -->
+						<!-- <li><a href="#">Join CABC</a></li> -->
+					</ul>
+				</nav>
 			</div>
-			<nav id="header-nav">
+			<!-- <nav id="header-nav">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Baseball</a></li>
@@ -78,10 +94,10 @@
 					<li><a href="#">Swimming</a></li>
 					<li><a href="#">Tennis</a></li>
 					<li><a href="#">Track &amp; Field</a></li>
-					<!-- <li><a href="#">Calendar</a></li> -->
-					<!-- <li><a href="#">Join CABC</a></li> -->
+					<li><a href="#">Calendar</a></li>
+					<li><a href="#">Join CABC</a></li>
 				</ul>
-			</nav>
+			</nav> -->
 		</div>
 </header>
 

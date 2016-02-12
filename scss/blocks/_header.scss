@@ -1,4 +1,142 @@
 @import "../_settings.scss";
 
+$max-955: "only screen and (max-width : 59.688em)";
+$max-900: "only screen and (max-width : 56.250em)";
+$max-540: "only screen and (max-width : 33.750em)";
+$max-480: "only screen and (max-width : 30.000em)";
 
+header {
+	padding-top: em(12);
 
+	address {
+		text-align: right;
+		padding-right: rem(12);
+	}
+
+	.logo {
+		// float: left;
+		// padding-left: em(12);
+		// margin-right: em(18);
+		// height: em(230);
+
+		img {
+			// width: em(180);
+			// height: em(180);
+		}
+	}
+
+	#masthead {
+		padding-top: em(18);
+
+		#site-name {
+			margin-bottom: em(12);
+			h1 {
+				font-size: rem(40);
+			}
+
+			h2 {
+				font-size: rem(28);
+			}
+		}
+	}
+}
+
+@media #{$max-955} {
+	header {
+		address {
+			margin-bottom: rem(10);
+		}
+
+		// .logo {
+		// 	img {
+		// 		width: em(130);
+		// 		height: em(130);
+		// 	}
+		// }
+
+		#masthead {
+			padding-top: 0;
+		}
+	}
+}
+
+@media #{$max-900} {
+	header {
+		#masthead {
+			#site-name {
+				h1 {
+					font-size: rem(32);
+				}
+
+				h2 {
+					font-size: rem(26);
+				}
+			}
+		}
+	}
+}
+
+@media #{$max-540} {
+	header {
+
+		address {
+			text-align: center;
+			padding: 0;
+		}
+
+		.logo {
+			padding-left: em(8);
+			margin-right: em(10);
+			height: em(80);
+
+			img {
+				width: em(80);
+				height: em(80);
+			}
+		}
+		#masthead {
+			padding: 0 em(8) 0 em(12);
+
+			#site-name {
+				h1 {
+					padding-top: rem(10);
+					font-size: rem(26);
+					margin-bottom: rem(12);
+
+					span {
+						display: inline-block;
+					}
+				}
+
+				h2 {
+					font-size: rem(22);
+				}
+			}
+		}
+	}
+}
+
+@media #{$max-480} {
+	header {
+		address {
+			font-size: rem(14);
+		}
+		#masthead {
+			#site-name {
+				h1 {
+					font-size: rem(22);
+					padding-top: 0;
+					margin-bottom: 0;
+				}
+				h2 {
+					font-size: rem(18);
+
+					span {
+						display: none;
+						visibility: hidden;
+					}
+				}
+			}
+		}
+	}
+}
