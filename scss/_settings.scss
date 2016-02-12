@@ -56,6 +56,10 @@ $z-5: 0 rem(17) rem(17) 0 rgba(0,0,0,0.15), 0 rem(27) rem(55) 0 rgba(0,0,0,0.30)
 // 1. Global
 // ---------
 
+// COLORS //
+$dark-blue: #2859A6;
+$light-blue: #02C3F3;
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -108,8 +112,11 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Graduate', cursive;
-$header-font-weight: 400;
+$custom-header-font-family: 'Graduate', cursive;
+$custom-header-font-weight: 400;
+
+$header-font-family: $body-font-family;
+$header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (

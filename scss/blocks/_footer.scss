@@ -1,2 +1,150 @@
 @import "../_settings.scss";
 
+$max-620: "only screen and (max-width : 38.750em)";
+$max-540: "only screen and (max-width : 33.750em)";
+
+p#colophon {
+	margin-top: rem(26);
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	font-size: rem(10);
+
+	a {
+		color: #ccc;
+
+		span {
+			text-decoration: underline;
+			color: #ccc;
+		}
+
+		&:hover {
+			text-decoration: underline;
+			color: #fff;
+
+			span {
+				color: #fff;
+			}
+		}
+	}
+}
+
+footer {
+	background: #666;
+	padding: 0 em(16) em(30);
+
+	* {
+		color: #fff;
+		margin: 0;
+	}
+
+	#tricolor {
+		float: right;
+		line-height: 0;
+		// margin-bottom: rem(16);
+
+		span {
+			height: rem(10);
+			width: rem(150);
+			display: inline-block;
+		}
+		span#white {
+			background: #fff;
+		}
+		span#light-blue {
+			background: $light-blue;
+		}
+		span#navy-blue {
+			background: $dark-blue;
+		}
+	}
+
+	.site-nav,
+	.footer-info {
+		padding-top: em(28);
+		// @include span-columns(8 of 16);
+
+		h4 {
+			font-size: rem(16);
+			margin-bottom: rem(8);
+		}
+
+		p {
+			font-size: rem(14);
+			margin-bottom: rem(6);
+		}
+
+		a {
+			color: #fff;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.footer-info {
+		text-align: right;
+
+		.school-details {
+			margin-bottom: em(24);
+		}
+	}
+
+	.site-nav {
+		// padding-top: em(28);
+
+		nav#footer-nav {
+			ul {
+				display: inline-block;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+
+				li {
+					margin-bottom: em(6);
+
+					a {
+						font-size: rem(14);
+					}
+				}
+			}
+			ul#column-2 {
+				margin-left: em(55);
+			}
+		}
+	}
+}
+
+@media #{$max-620} {
+	footer {
+		#tricolor {
+			span {
+				width: rem(100);
+			}
+		}
+		.site-nav {
+			nav#footer-nav {
+				ul#column-2 {
+					margin-left: em(25);
+				}
+			}
+		}
+	}		
+}
+
+@media #{$max-540} {
+	footer {
+		.site-nav,
+		.footer-info {
+			// @include span-columns(8 of 8);
+			text-align: center;
+		}
+
+		#tricolor {
+			span {
+				width: rem(80);
+			}
+		}
+	}
+}
