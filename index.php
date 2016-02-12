@@ -23,7 +23,7 @@
 	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-shot.png" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
-	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
+	<link rel="stylesheet" href="<?php autoVer('/css/app.css'); ?>"/>
 
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="<?php autoVer('/css/ie.css'); ?>"/>
@@ -133,6 +133,11 @@
 	</div>
 </footer>
 </div>
+
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/what-input/what-input.js"></script>
+<script src="/bower_components/foundation-sites/dist/foundation.js"></script>
+<script src="<?php autoVer('/js/min/app-min.js'); ?>"></script>
 
 <script>
 	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

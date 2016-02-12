@@ -1,3 +1,8 @@
+// CDN IMPORTS
+$url:null;
+// $url:'http://cdn.studioncreations.com';
+// url('#{$url}/
+
 // BOX-SHADOW VALUES //
 $z-1: 0 rem(1) rem(4) 0 rgba(0,0,0,0.37);
 $z-2: 0 rem(2) rem(2) 0 rgba(0,0,0,0.20), 0 rem(6) rem(10) 0 rgba(0,0,0,0.30);
@@ -66,7 +71,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Open Sans', Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -103,8 +108,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-family: 'Graduate', cursive;
+$header-font-weight: 400;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
