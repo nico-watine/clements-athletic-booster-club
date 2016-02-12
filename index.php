@@ -92,47 +92,43 @@
 </main>
 
 <footer>
-	<!-- <div class="outer-container"> -->
-<!-- 		<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div> -->
-		<div class="row">
-			<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
-			<div class="small-12 medium-6 columns site-nav">
-				<h4 class="header">CABC Sports</h4>
-				<nav id="footer-nav">
-					<ul id="column-1">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Baseball</a></li>
-						<li><a href="#">Basketball</a></li>
-						<li><a href="#">Cheer</a></li>
-						<li><a href="#">Football</a></li>
-					</ul>
-					<ul id="column-2">
-						<li><a href="#">Golf</a></li>
-						<li><a href="#">Soccer</a></li>
-						<li><a href="#">Swimming</a></li>
-						<li><a href="#">Tennis</a></li>
-						<li><a href="#">Track &amp; Field</a></li>
-						<!-- <li><a href="#">Calendar</a></li> -->
-						<!-- <li><a href="#">Join CABC</a></li> -->
-					</ul>
-				</nav>
+	<div class="row">
+		<div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div>
+		<div class="small-12 medium-6 columns site-nav">
+			<h4 class="header">CABC Sports</h4>
+			<nav id="footer-nav">
+				<ul id="column-1">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Baseball</a></li>
+					<li><a href="#">Basketball</a></li>
+					<li><a href="#">Cheer</a></li>
+					<li><a href="#">Football</a></li>
+				</ul>
+				<ul id="column-2">
+					<li><a href="#">Golf</a></li>
+					<li><a href="#">Soccer</a></li>
+					<li><a href="#">Swimming</a></li>
+					<li><a href="#">Tennis</a></li>
+					<li><a href="#">Track &amp; Field</a></li>
+					<!-- <li><a href="#">Calendar</a></li> -->
+					<!-- <li><a href="#">Join CABC</a></li> -->
+				</ul>
+			</nav>
+		</div>
+		<div class="small-12 medium-6 columns footer-info">
+			<div class="school-details">
+				<h4 class="header">Clements High School</h4>
+				<p>A Fort Bend ISD School</p>
+				<p><a href="https://goo.gl/maps/BP1Xx2EdqK22" target="_blank">4200 Elkins Rd | Sugar Land, TX 77479</a></p>
 			</div>
-			<div class="small-12 medium-6 columns footer-info">
-				<!-- <div id="tricolor"><span id="white"></span><span id="light-blue"></span><span id="navy-blue"></span></div> -->
-				<div class="school-details">
-					<h4 class="header">Clements High School</h4>
-					<p>A Fort Bend ISD School</p>
-					<p><a href="https://goo.gl/maps/BP1Xx2EdqK22" target="_blank">4200 Elkins Rd | Sugar Land, TX 77479</a></p>
-				</div>
-				<div class="affiliate-sites">
-					<h4 class="header">Affiliate Sites</h4>
-					<p><a href="http://www.fortbendisd.com/chs" target="_blank">CHS Official Website</a></p>
-					<p><a href="http://www.fortbendisd.com/" target="_blank">FBISD Official Website</a></p>
-					<p id="colophon"><a href="http://studioncreations.com" target="_blank">A <span>STUDIO N</span> CREATION</a></p>
-				</div>
+			<div class="affiliate-sites">
+				<h4 class="header">Affiliate Sites</h4>
+				<p><a href="http://www.fortbendisd.com/chs" target="_blank">CHS Official Website</a></p>
+				<p><a href="http://www.fortbendisd.com/" target="_blank">FBISD Official Website</a></p>
+				<p id="colophon"><a href="http://studioncreations.com" target="_blank">A <span>STUDIO N</span> CREATION</a></p>
 			</div>
 		</div>
-	<!-- </div> -->
+	</div>
 </footer>
 </div>
 
