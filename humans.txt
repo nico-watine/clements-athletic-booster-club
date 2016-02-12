@@ -15,13 +15,20 @@ Get in touch with Nico :: nico.w@tine.rocks
 ================
 
 /* SITE COLOPHON */
+
+A FOUNDATION 6 FRAMEWORK SITE
+
+/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
+/* zurb.com */
+
 Standards: 
-  Semantic HTML5 
-  CSS3 pre-processed via SASS
+	Semantic HTML5 
+	CSS3 pre-processed via SASS
 
 Components: 
-  Normalize.css (because Nicolas Gallagher is awesome)
-  html5shiv.js (for that dinosaur called IE8)
+	jQuery
+	Orbit
+	Reveal
 
 Software: 
   Sublime Text
