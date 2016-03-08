@@ -4,7 +4,9 @@ header {
 	padding-top: em(18);
 
 	address {
-		float: right;
+		right: 0;
+		top: em(18);
+		position: absolute;
 		font-size: rem(18);
 		padding-right: em(18);
 	}
@@ -13,7 +15,7 @@ header {
 		margin-bottom: em(26);
 
 		#site-name {
-			padding-top: rem(22);
+			padding-top: rem(28);
 
 			h1 {
 				margin: 0;

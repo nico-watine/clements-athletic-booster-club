@@ -4071,13 +4071,15 @@ body {
 header {
   padding-top: 1.125em; }
   header address {
-    float: right;
+    right: 0;
+    top: 1.125em;
+    position: absolute;
     font-size: 1.125rem;
     padding-right: 1.125em; }
   header #masthead {
     margin-bottom: 1.625em; }
     header #masthead #site-name {
-      padding-top: 1.375rem; }
+      padding-top: 1.75rem; }
       header #masthead #site-name h1 {
         margin: 0; }
       header #masthead #site-name h2 {
@@ -4096,3 +4098,11 @@ nav {
     nav ul.menu li.active a,
     nav ul.menu li:hover a {
       color: #fff; }
+
+section#golf-tournament-banner {
+  height: 33.75em;
+  width: 100%;
+  background: #fff url("/img/events/golf-tournament/index/banner-bg.jpg") no-repeat center top;
+  background-size: cover;
+  border-bottom: 0.25em solid #2859A6;
+  margin-bottom: 1.875em; }

@@ -1,0 +1,10 @@
+@import "../../_settings.scss";
+
+section#golf-tournament-banner {
+	height: em(540);
+	width: 100%;
+	background: #fff url('#{$url}/img/events/golf-tournament/index/banner-bg.jpg') no-repeat center top;
+	background-size: cover;
+	border-bottom: em(4) solid $dark-blue;
+	margin-bottom: em(30);
+}
