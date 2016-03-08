@@ -7,4 +7,78 @@ section#golf-tournament-banner {
 	background-size: cover;
 	border-bottom: em(4) solid $dark-blue;
 	margin-bottom: em(30);
+	padding: em(50) 0 0;
+	text-align: center;
+
+	* {
+		text-shadow: 0 rem(2) rem(4) #000;
+		color: #fff;
+	}
+
+	h2#banner-header {
+		line-height: 1.2;
+		margin-bottom: rem(20);
+
+		span {
+			display: block;
+		}
+
+		span#annual {
+			@extend .body;
+			letter-spacing: rem(2);
+			font-size: rem(24);
+			text-transform: uppercase;
+		}
+		span#name {
+			font-size: rem(62);
+		}
+		span#tournament {
+			font-size: rem(46);
+		}
+	}
+
+	h3#benefiting {
+		margin-bottom: rem(20);
+	}
+
+	h3#date-time {
+		font-size: rem(26);
+		letter-spacing: rem(2);
+		margin-bottom: rem(40);
+	}
+
+	.c2a-button {
+		// background: #fff;
+		// padding: rem(16);
+		// text-align: center;
+
+		a {
+			@extend .title;
+			text-shadow: none;
+			font-size: rem(24);
+			color: #000;
+
+			display: block;
+			width: rem(400);
+			margin: 0 auto;
+
+			background: #fff;
+			padding: rem(8);
+			border-radius: rem(5);
+			border: rem(2) solid $dark-blue;
+			box-shadow: $z-3;
+
+			// background: #fff;
+			// padding: rem(16);
+
+			// div {
+			// 	background: #fff;
+			// 	padding: rem(16);				
+			// }
+
+			// span {
+			// 	display: block;
+			// }
+		}
+	}
 }

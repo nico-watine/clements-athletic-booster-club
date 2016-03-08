@@ -60,7 +60,17 @@
 	</div>
 </nav>
 <section id="golf-tournament-banner">
-	
+	<div class="row">
+		<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
+		<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
+		<h3 id="date-time">2 MAY 2016 | SWEETWATER COUNTRY CLUB</h3>
+		<div class="c2a-button">
+			<a href="#">
+				Tournament Details 
+				<br>Player &amp; Sponsor Info
+			</a>
+		</div>
+	</div>
 </section>
 
 
