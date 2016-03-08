@@ -17,9 +17,10 @@ body.dev-page {
 }
 
 
-body.dev-page#grid {
+// body.dev-page#grid {
+body {
 	.row {
-		border: 1px solid white;
+		// border: 1px solid white;
 	}
 	@media #{$large-up} {
 		background: green;

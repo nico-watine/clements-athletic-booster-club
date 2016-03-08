@@ -1,4 +1,4 @@
-@import "../settings/_settings.scss";
+@import "../_settings.scss";
 
 $max-540: "only screen and (max-width : 540px)";
 $max-480: "only screen and (max-width : 480px)";
@@ -15,7 +15,8 @@ nav#header-nav {
 			margin: 0 em(14) em(12) 0;
 
 			a {
-				font-family: $header-font-family;
+				font-family: $custom-header-font-family;
+				color: #333;
 				text-decoration: none;
 
 				&:hover {

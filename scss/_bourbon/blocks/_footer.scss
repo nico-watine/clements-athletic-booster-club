@@ -1,7 +1,5 @@
-@import "../settings/_settings.scss";
+@import "../_settings.scss";
 
-$max-620: "only screen and (max-width : 38.750em)";
-$max-540: "only screen and (max-width : 33.750em)";
 
 p#colophon {
 	margin-top: rem(26);
@@ -61,7 +59,6 @@ footer {
 	.site-nav,
 	.footer-info {
 		padding-top: em(28);
-		@include span-columns(8 of 16);
 
 		h4 {
 			font-size: rem(16);
@@ -115,36 +112,27 @@ footer {
 		}
 	}
 }
-
-@media #{$max-620} {
+@include breakpoint(medium only) {
 	footer {
 		#tricolor {
 			span {
 				width: rem(100);
 			}
 		}
-		.site-nav {
-			nav#footer-nav {
-				ul#column-2 {
-					margin-left: em(25);
-				}
-			}
-		}
-	}		
+	}
 }
 
-@media #{$max-540} {
+@include breakpoint(small only) {
 	footer {
-		.site-nav,
-		.footer-info {
-			@include span-columns(8 of 8);
-			text-align: center;
-		}
-
 		#tricolor {
 			span {
 				width: rem(80);
 			}
 		}
+		.site-nav,
+		.footer-info {
+			text-align: center;
+		}
 	}
 }
+

@@ -1,4 +1,4 @@
-@import "../settings/_settings.scss";
+@import "../_settings.scss";
 
 $max-955: "only screen and (max-width : 59.688em)";
 $max-900: "only screen and (max-width : 56.250em)";
@@ -14,14 +14,14 @@ header {
 	}
 
 	.logo {
-		float: left;
-		padding-left: em(12);
-		margin-right: em(18);
-		height: em(230);
+		// float: left;
+		// padding-left: em(12);
+		// margin-right: em(18);
+		// height: em(230);
 
 		img {
-			width: em(180);
-			height: em(180);
+			// width: em(180);
+			// height: em(180);
 		}
 	}
 
@@ -47,12 +47,12 @@ header {
 			margin-bottom: rem(10);
 		}
 
-		.logo {
-			img {
-				width: em(130);
-				height: em(130);
-			}
-		}
+		// .logo {
+		// 	img {
+		// 		width: em(130);
+		// 		height: em(130);
+		// 	}
+		// }
 
 		#masthead {
 			padding-top: 0;

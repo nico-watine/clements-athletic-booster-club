@@ -33,7 +33,32 @@
 </head>
 <body>
 
+<div id="logo-shade"></div>
 
+<header>
+	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
+	<div id="masthead">
+		<div class="row">
+			<div id="site-logo" class="medium-2 columns">
+				<img srcset="/img/assets/logo/logo@2x.png 2x" src="/img/assets/logo/logo.png" alt="Clements High School Logo">
+			</div>
+			<div id="site-name" class="medium-10 columns">
+				<h1 class="title">Clements Athletic Booster Club</h1>
+				<h2>Clements High School | <strong>FBISD</strong></h2>
+			</div>
+		</div>
+	</div>
+</header>
+<nav>
+	<div class="row">
+		<ul class="menu">
+			<li class="active"><a href="/">Home</a></li>
+			<li><a href="#">CABC Sports</a></li>
+			<li><a href="#">2016 Golf Tournament</a></li>
+			<li><a href="#">Join/Contact CABC</a></li>
+		</ul>
+	</div>
+</nav>
 
 
 <script src="/bower_components/jquery/dist/jquery.js"></script>

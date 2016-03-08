@@ -1,5 +1,6 @@
-@import "../settings/_settings.scss";
+@import "../_settings.scss";
 
+$max-770: "only screen and (max-width : 770px)";
 $max-540: "only screen and (max-width : 33.750em)";
 
 body {
@@ -15,7 +16,7 @@ body {
 	left: 0;
 	background: url('#{$url}/img/assets/bg/logo-shade.png') no-repeat left top;
 
-	@include media($max-770) {
+	@media #{$max-770} {
 		background-size: em(300);
 	}
 

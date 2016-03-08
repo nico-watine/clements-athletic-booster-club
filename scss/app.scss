@@ -2,6 +2,7 @@
 @import "bourbon";
 
 @import 'settings';
+@import "_mixins.scss";
 @import 'foundation';
 @import 'motion-ui';
 
@@ -70,6 +71,6 @@
 
 
 //COMMENT OUT PRE-UPLOAD//----------------------------------------------------
-@import "dev/_grid.scss";
+// @import "dev/_grid.scss";
 //----------------------------------------------------------------------------
 
