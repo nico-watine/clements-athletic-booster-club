@@ -5,7 +5,7 @@
 <html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<title>Clements Athletic Booster Club | Clements High School</title>
+	<title>2016 CABC Golf Tournament | Clements High School</title>
 	<meta name="description" content="The future home for all Clements High School sports teams, with game schedules and more.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
@@ -31,7 +31,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body id="cabc-golf-tournament-2016" style="margin-bottom: 200px;">
 
 <div id="logo-shade"></div>
 
@@ -52,14 +52,45 @@
 <nav>
 	<div class="row">
 		<ul class="menu">
-			<li class="active"><a href="/">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="#">CABC Sports</a></li>
-			<li><a href="/cabc-golf-tournament-2016">2016 Golf Tournament</a></li>
+			<li class="active"><a href="#">2016 Golf Tournament</a></li>
 			<li><a href="#">Join/Contact CABC</a></li>
 		</ul>
 	</div>
 </nav>
-<section id="golf-tournament-banner">
+<main>
+	<div class="row" id="tournament-tag">
+		<p class="large-10 large-offset-1 columns p-x">The tournament, open to the public, will include 18 holes of golf, cart, lunch and dinner. Following the tournament, awards will be given.</p>
+	</div>
+	<div class="row text-center" id="tournament-deets">
+		<div class="medium-4 columns">
+			<div class="content-box" id="when">
+				<div class="prose">
+					<h3 class="title">When</h3>
+				</div>
+				<div class="icon-bg"></div>
+			</div>
+		</div>
+		<div class="medium-4 columns">
+			<div class="content-box" id="where">
+				<div class="prose">
+					<h3 class="title">Where</h3>
+				</div>
+				<div class="icon-bg"></div>
+			</div>
+		</div>
+		<div class="medium-4 columns">
+			<div class="content-box" id="cost">
+				<div class="prose">
+					<h3 class="title">Cost</h3>
+				</div>
+				<div class="icon-bg"></div>
+			</div>
+		</div>
+	</div>
+</main>
+<!-- <section id="golf-tournament-banner">
 	<div class="row">
 		<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
 		<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
@@ -71,7 +102,7 @@
 			</a>
 		</div>
 	</div>
-</section>
+</section> -->
 
 
 <script src="/bower_components/jquery/dist/jquery.js"></script>

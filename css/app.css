@@ -4022,6 +4022,57 @@ figure {
 .body, section#golf-tournament-banner h2#banner-header span#annual {
   font-family: "Open Sans", Roboto, Arial, sans-serif; }
 
+@font-face {
+  font-family: 'cabc';
+  src: url("/fonts/icons/cabc/cabc.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/icons/cabc/cabc.eot?#iefix") format("embedded-opentype"), url("/fonts/icons/cabc/cabc.woff") format("woff"), url("/fonts/icons/cabc/cabc.ttf") format("truetype"), url("/fonts/icons/cabc/cabc.svg#c37aea192cd9086cace3ebca564eeccd") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "cabc";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  line-height: 1;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-clock:before {
+  content: '\63'; }
+
+/* 'c' */
+.icon-dollar:before {
+  content: '\64'; }
+
+/* 'd' */
+.icon-mail:before {
+  content: '\65'; }
+
+/* 'e' */
+.icon-location:before {
+  content: '\6d'; }
+
+/* 'm' */
+.icon-mobile-alt:before {
+  content: '\70'; }
+
+/* 'p' */
 .inline-block {
   display: inline-block; }
 
@@ -4145,3 +4196,41 @@ section#golf-tournament-banner {
     border-radius: 0.3125rem;
     border: 0.125rem solid #2859A6;
     box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3); }
+
+body#cabc-golf-tournament-2016 main #tournament-tag {
+  margin-bottom: 3.125em;
+  padding-top: 0.75em; }
+  body#cabc-golf-tournament-2016 main #tournament-tag p {
+    font-size: 1.5625rem;
+    text-align: center; }
+
+body#cabc-golf-tournament-2016 main #tournament-deets .content-box {
+  border: 0.125em solid #02C3F3;
+  border-radius: 0.125em;
+  box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3);
+  background: #fff;
+  position: relative; }
+  body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 1.25em 0; }
+  body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg {
+    padding: 1.25em; }
+  body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg:after {
+    font-family: 'cabc';
+    color: #E8E8E8;
+    font-size: 11.25rem;
+    line-height: 1;
+    display: block; }
+
+body#cabc-golf-tournament-2016 main .content-box#when .icon-bg:after {
+  content: '\63'; }
+
+body#cabc-golf-tournament-2016 main .content-box#where .icon-bg:after {
+  content: '\6d'; }
+
+body#cabc-golf-tournament-2016 main .content-box#cost .icon-bg:after {
+  content: '\64'; }

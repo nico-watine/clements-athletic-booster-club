@@ -1,0 +1,66 @@
+@import "../../_settings.scss";
+
+body#cabc-golf-tournament-2016 {
+	main {
+		#tournament-tag {
+			margin-bottom: em(50);
+			padding-top: em(12);
+
+			p {
+				font-size: rem(25);
+				text-align: center;
+			}
+		}
+
+		#tournament-deets {
+			.content-box {
+				border: em(2) solid $light-blue;
+				border-radius: em(2);
+				box-shadow: $z-3;
+				background: #fff;
+				position: relative;
+
+				.prose {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					z-index: 1;
+					padding: em(20) 0;
+				}
+				
+				.icon-bg {
+					padding: em(20);
+				}
+
+				.icon-bg:after {
+					font-family: 'cabc';
+					color: #E8E8E8;
+					font-size: rem(180);
+					line-height: 1;
+					display: block;
+				}
+			}
+		}
+
+		.content-box#when {
+			.icon-bg:after {
+				content: '\63';
+			}
+		}
+
+		.content-box#where {
+			.icon-bg:after {
+				content: '\6d';
+			}
+		}
+
+		.content-box#cost {
+			.icon-bg:after {
+				content: '\64';
+			}
+		}
+	}
+}
+
+
