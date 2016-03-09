@@ -31,7 +31,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body id="cabc-golf-tournament-2016" style="height: 3000px;">
+<body id="cabc-golf-tournament-2016">
 
 <div id="logo-shade"></div>
 
@@ -109,6 +109,10 @@
 		</div>
 	</section>
 	<section class="row p-x" id="sponsorship-section">
+		<div class="section-intro text-center">
+			<h2 class="title">Sponsorship Opportunities</h2>
+			<p>Expected Number of Players: Full field of 128 (1st signed up, 1st served), on the Pecan Course</p>
+		</div>
 		<div class="styled-content-container">
 			<ul class="tabs" data-tabs id="sponsorship-tabs">
 				<li class="tabs-title is-active"><a class="title" href="#title-sponsorship" aria-selected="true">Title</a></li>
@@ -212,6 +216,17 @@
 				</div>
 			</div>
 		</div>
+	</section>
+	<section class="row text-center" id="signup-contact">
+		<h2 id="question">Want to play or sponsor?</h2>
+		<h2 id="c2a" class="title">Sign Up Today!</h2>
+		<p id="info">
+			<span>To sign up, please contact :</span>
+			<span id="name">Luis Gonzales</span>
+			<span id="position">CABC Golf Tournament Chair</span>
+		</p>
+		<p id="phone"><i class="icon-mobile-alt"></i>&nbsp;(832) 419-4717</p>
+		<p id="email"><i class="icon-mail"></i>&nbsp;luis.m.gutierrez@morganstanley.com</p>
 	</section>
 </main>
 
