@@ -31,7 +31,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body id="cabc-golf-tournament-2016" style="margin-bottom: 200px;">
+<body id="cabc-golf-tournament-2016">
 
 <div id="logo-shade"></div>
 
@@ -59,7 +59,7 @@
 		</ul>
 	</div>
 </nav>
-<main>
+<main style="margin-bottom: 300px;">
 	<div class="row" id="tournament-tag">
 		<p class="large-10 large-offset-1 columns p-x">The tournament, open to the public, will include 18 holes of golf, cart, lunch and dinner. Following the tournament, awards will be given.</p>
 	</div>
@@ -95,6 +95,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="row" id="testimonial">
+		<div class="medium-3 columns" id="cabc-badge">
+			<img src="/img/events/golf-tournament/tournament-page/export-cabc.png" alt="">
+		</div>
+		<div class="medium-9 columns" id="quote">
+			<div class="wrapper">
+				<blockquote>
+					"We really want our community friends, alumni, and supporters of Clements athletics to come out and play. Fort Bend Independent School District does not provide all the necessary funding for sports, so our golf tournament is our biggest and most important fundraiser. It’s always a great time.”
+					<cite>Mitch Danklef | CABC President</cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
 </main>
 <!-- <section id="golf-tournament-banner">
 	<div class="row">
@@ -127,3 +140,7 @@
 
 </body>
 </html>
+
+
+
+<!-- /img/events/golf-tournament/tournament-page/export-cabc.png -->

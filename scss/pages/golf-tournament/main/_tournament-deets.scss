@@ -1,18 +1,11 @@
-@import "../../_settings.scss";
+@import "../../../_settings.scss";
 
 body#cabc-golf-tournament-2016 {
 	main {
-		#tournament-tag {
-			margin-bottom: em(50);
-			padding-top: em(12);
-
-			p {
-				font-size: rem(25);
-				text-align: center;
-			}
-		}
 
 		#tournament-deets {
+			margin-bottom: em(60);
+
 			.content-box {
 				border: em(2) solid $light-blue;
 				border-radius: em(4);
