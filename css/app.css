@@ -4266,3 +4266,10 @@ body#cabc-golf-tournament-2016 main #testimonial {
         body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper blockquote cite {
           color: #666;
           font-size: 1.125rem; }
+
+body#cabc-golf-tournament-2016 main #sponsorship-section .sponsorship-name {
+  margin-bottom: 0; }
+
+body#cabc-golf-tournament-2016 main #sponsorship-section .sponsorship-value {
+  font-size: 1.875rem;
+  margin-bottom: 1.125rem; }
