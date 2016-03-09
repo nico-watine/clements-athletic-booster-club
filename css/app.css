@@ -4243,25 +4243,26 @@ body#cabc-golf-tournament-2016 main .content-box#where .icon-bg:after {
 body#cabc-golf-tournament-2016 main .content-box#cost .icon-bg:after {
   content: '\64'; }
 
-body#cabc-golf-tournament-2016 main #testimonial #cabc-badge {
-  position: relative;
-  height: 13.75em; }
-  body#cabc-golf-tournament-2016 main #testimonial #cabc-badge img {
-    padding-right: 0.875em;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); }
-
-body#cabc-golf-tournament-2016 main #testimonial #quote {
-  position: relative;
-  height: 13.75em; }
-  body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); }
-    body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper blockquote {
-      color: #000;
-      font-size: 1.125rem; }
-      body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper blockquote cite {
-        color: #666;
+body#cabc-golf-tournament-2016 main #testimonial {
+  margin-bottom: 3.125em; }
+  body#cabc-golf-tournament-2016 main #testimonial #cabc-badge {
+    position: relative;
+    height: 13.75em; }
+    body#cabc-golf-tournament-2016 main #testimonial #cabc-badge img {
+      padding-right: 0.875em;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+  body#cabc-golf-tournament-2016 main #testimonial #quote {
+    position: relative;
+    height: 13.75em; }
+    body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper blockquote {
+        color: #000;
         font-size: 1.125rem; }
+        body#cabc-golf-tournament-2016 main #testimonial #quote .wrapper blockquote cite {
+          color: #666;
+          font-size: 1.125rem; }

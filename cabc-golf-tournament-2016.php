@@ -31,7 +31,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body id="cabc-golf-tournament-2016">
+<body id="cabc-golf-tournament-2016" style="height: 3000px;">
 
 <div id="logo-shade"></div>
 
@@ -59,11 +59,11 @@
 		</ul>
 	</div>
 </nav>
-<main style="margin-bottom: 300px;">
+<main>
 	<div class="row" id="tournament-tag">
 		<p class="large-10 large-offset-1 columns p-x">The tournament, open to the public, will include 18 holes of golf, cart, lunch and dinner. Following the tournament, awards will be given.</p>
 	</div>
-	<div class="row text-center" id="tournament-deets">
+	<section class="row text-center" id="tournament-deets">
 		<div class="medium-4 columns">
 			<div class="content-box" id="when">
 				<div class="prose">
@@ -94,8 +94,8 @@
 				<div class="icon-bg"></div>
 			</div>
 		</div>
-	</div>
-	<div class="row" id="testimonial">
+	</section>
+	<section class="row" id="testimonial">
 		<div class="medium-3 columns" id="cabc-badge">
 			<img src="/img/events/golf-tournament/tournament-page/export-cabc.png" alt="">
 		</div>
@@ -107,22 +107,46 @@
 				</blockquote>
 			</div>
 		</div>
-	</div>
-</main>
-<!-- <section id="golf-tournament-banner">
-	<div class="row">
-		<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
-		<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
-		<h3 id="date-time">2 MAY 2016 | SWEETWATER COUNTRY CLUB</h3>
-		<div class="c2a-button">
-			<a href="#">
-				Tournament Details 
-				<br>Player &amp; Sponsor Info
-			</a>
+	</section>
+	<section class="row" id="sponsorship-section">
+		<ul class="tabs" data-tabs id="sponsorship-tabs">
+			<li class="tabs-title is-active"><a class="title" href="#title-sponsorship" aria-selected="true">Title</a></li>
+			<li class="tabs-title"><a class="title" href="#hole-in-one" aria-selected="true">Hole-In-One</a></li>
+			<li class="tabs-title"><a class="title" href="#lunch-dinner" aria-selected="true">Lunch/Dinner</a></li>
+			<li class="tabs-title"><a class="title" href="#hole-19" aria-selected="true">19th Hole</a></li>
+			<li class="tabs-title"><a class="title" href="#closest-to-pin" aria-selected="true">Closest To The Pin</a></li>
+			<li class="tabs-title"><a class="title" href="#longest-drive" aria-selected="true">Longest Drive</a></li>
+			<li class="tabs-title"><a class="title" href="#valet" aria-selected="true">Valet</a></li>
+			<li class="tabs-title"><a class="title" href="#hole" aria-selected="true">Hole</a></li>
+		</ul>
+		<div class="tabs-content" data-tabs-content="example-tabs">
+			<div class="tabs-panel is-active" id="title-sponsorship">
+				<h3 class="title">Title Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="hole-in-one">
+				<h3 class="title">Hole-In-One Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="lunch-dinner">
+				<h3 class="title">Lunch/Dinner Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="hole-19">
+				<h3 class="title">19th Hole Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="closest-to-pin">
+				<h3 class="title">Closest To Pin Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="longest-drive">
+				<h3 class="title">Longest Drive Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="valet">
+				<h3 class="title">Valet Sponsorship</h3>
+			</div>
+			<div class="tabs-panel" id="hole">
+				<h3 class="title">Hole Sponsorship</h3>
+			</div>
 		</div>
-	</div>
-</section> -->
-
+	</section>
+</main>
 
 <script src="/bower_components/jquery/dist/jquery.js"></script>
 <script src="/bower_components/what-input/what-input.js"></script>
@@ -140,7 +164,3 @@
 
 </body>
 </html>
-
-
-
-<!-- /img/events/golf-tournament/tournament-page/export-cabc.png -->
