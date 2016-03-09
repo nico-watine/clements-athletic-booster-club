@@ -4,12 +4,65 @@ body#cabc-golf-tournament-2016 {
 	main {
 
 		#sponsorship-section {
-			.sponsorship-name {
-				margin-bottom: 0;
-			}
-			.sponsorship-value {
-				font-size: rem(30);
-				margin-bottom: rem(18);	
+
+			.styled-content-container {
+				box-shadow: $z-3;
+				// border: rem(3) solid $dark-blue;
+
+				ul#sponsorship-tabs {
+					// border: 0;
+					border: rem(3) solid $dark-blue;
+					border-bottom: 0;
+					// background: $dark-blue;
+					background: #e6e6e6;
+
+					li {
+						// border-right: rem(3) solid $dark-blue;
+						background: #fff;
+						// border-bottom: rem(3) solid $dark-blue;
+						// border-top: rem(3) solid $dark-blue;
+
+						a {
+							border-right: rem(3) solid $dark-blue;
+							border-bottom: rem(3) solid $dark-blue;
+							border-top: rem(3) solid $dark-blue;
+							font-size: rem(18);
+							padding: rem(20) rem(12);
+						}
+					}
+
+					li.is-active {
+						a {
+							color: #fff;
+							background: $dark-blue;
+						}
+					}
+				}
+
+				.tabs-content {
+					border: rem(3) solid $dark-blue;
+					.tabs-panel {
+						.sponsorship-name {
+							margin-bottom: 0;
+						}
+						.sponsorship-value {
+							font-size: rem(30);
+							margin-bottom: rem(18);	
+						}
+						p {
+							font-size: rem(22);
+							margin-bottom: rem(10);
+						}
+						ul {
+							li {
+								font-size: rem(18);
+								line-height: 1.8;
+							}
+						}
+					}
+				}
+
+
 			}
 		}
 	}

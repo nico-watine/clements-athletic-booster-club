@@ -108,106 +108,108 @@
 			</div>
 		</div>
 	</section>
-	<section class="row" id="sponsorship-section">
-		<ul class="tabs" data-tabs id="sponsorship-tabs">
-			<li class="tabs-title is-active"><a class="title" href="#title-sponsorship" aria-selected="true">Title</a></li>
-			<li class="tabs-title"><a class="title" href="#hole-in-one" aria-selected="true">Hole-In-One</a></li>
-			<li class="tabs-title"><a class="title" href="#lunch-dinner" aria-selected="true">Lunch/Dinner</a></li>
-			<li class="tabs-title"><a class="title" href="#hole-19" aria-selected="true">19th Hole</a></li>
-			<li class="tabs-title"><a class="title" href="#closest-to-pin" aria-selected="true">Closest To The Pin</a></li>
-			<li class="tabs-title"><a class="title" href="#longest-drive" aria-selected="true">Longest Drive</a></li>
-			<li class="tabs-title"><a class="title" href="#valet" aria-selected="true">Valet</a></li>
-			<li class="tabs-title"><a class="title" href="#hole" aria-selected="true">Hole</a></li>
-		</ul>
-		<div class="tabs-content" data-tabs-content="example-tabs">
-			<div class="tabs-panel is-active" id="title-sponsorship">
-				<h3 class="title sponsorship-name">Title Sponsorship</h3>
-				<h3 class="sponsorship-value">$10,000</h3>
-				<p>A unique opportunity for a corporate partner to be the exclusive title sponsor of this event and receive:</p>
-				<ul>
-					<li>Golfing for three (3) VIP foursomes, including VIP parking</li>
-					<li>Top billing of company name/logo on tournament signage at registration, putting greens and driving ranges</li>
-					<li>Company logo and tag line on the CABC website, including hyperlink to company’s web page</li>
-					<li>Two individual weeks’ (one per semester) use of CHS marquee, facing Sweetwater (at Elkins Rd) to display company message</li>
-					<li>Twelve (12) exclusive tweets from Clements High School’s twitter account on dates of your choice (4k followers)</li>
-					<li>Seven (7) dedicated email blasts, sent to all students, parents, teachers and alumni of CHS.</li>
-					<li>Full Page ad with forward position, in one season’s athletic program of your choice (2016-17 school year).</li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="hole-in-one">
-				<h3 class="title sponsorship-name">Hole-In-One Sponsorship</h3>
-				<h3 class="sponsorship-value">$5,000</h3>
-				<ul>
-					<li>Golfing for two (2) VIP foursomes, including VIP parking</li>
-					<li>Name/logo displayed on tournament signage on the putting greens and driving ranges</li>
-					<li>One week use of the Clements High School marquee, facing Sweetwater (at Elkins Rd) to display company message</li>
-					<li>Six (6) exclusive tweet from Clements High School’s twitter account on dates of your choice (4,000 followers)</li>
-					<li>Four (4) dedicated email blast, sent to all students, parents, teachers and alumni of CHS </li>
-					<li>One Page ad in one season’s athletic program of your choice (2016-17 school year)</li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="lunch-dinner">
-				<h3 class="title sponsorship-name">Lunch or Dinner Sponsorship</h3>
-				<h3 class="sponsorship-value">$3,500</h3>
-				<p>Underwrite lunch for an estimated 150 golfers and volunteers, and receive:</p>
-				<ul>
-					<li>Golfing for one (1) VIP foursome, including VIP parking</li>
-					<li>Signage at the lunch serving location & name/logo displayed on the putting greens and driving ranges. </li>
-					<li>Three days use of the CHS marquee, facing Sweetwater (at Elkins Rd) to display company message</li>
-					<li>Three (3) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
-					<li>Two (2) dedicated email blast, sent to all students, parents, teachers and alumni of CHS </li>
-					<li>Half Page ad in one season’s athletic program of your choice (2016-17 school year)</li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="hole-19">
-				<h3 class="title sponsorship-name">19th Hole Sponsorship</h3>
-				<h3 class="sponsorship-value">$2,500</h3>
-				<p>Provide refreshments for the day at both the turn and 19th hole, and receive:</p>
-				<ul>
-					<li>Golfing for one (1) VIP foursome, including VIP parking</li>
-					<li>Name/logo exclusive signage at the turn, plus name/logo on signage at putting greens and driving ranges.</li>
-					<li>Two (2) exclusive tweets from Clements High School’s twitter account (4,000 followers)</li>
-					<li>One (1) dedicated email blast, sent to all students, parents, teachers and alumni of CHS </li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="closest-to-pin">
-				<h3 class="title sponsorship-name">'Closest To The Pin' Sponsorship (2 Available)</h3>
-				<h3 class="sponsorship-value">$1,500</h3>
-				<p>Two sponsors will underwrite the Closest to the Pin prize packages for their respective holes and will each receive:</p>
-				<ul>
-					<li>Golfing for one (1) VIP foursome, including VIP parking</li>
-					<li>Name/logo on hole signage on each par three on the course</li>
-					<li>One (1) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="longest-drive">
-				<h3 class="title sponsorship-name">Longest Drive Sponsorship (2 Available)</h3>
-				<h3 class="sponsorship-value">$1,500</h3>
-				<p>Two sponsors will underwrite the Longest Drive prize packages for their respective holes and will each receive:</p>
-				<ul>
-					<li>Golfing for one (1) VIP foursome, including VIP parking</li>
-					<li>Name/logo on hole signage on each par five on the course</li>
-					<li>One (1) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="valet">
-				<h3 class="title sponsorship-name">Valet Sponsorship</h3>
-				<h3 class="sponsorship-value">$1,500</h3>
-				<p>Underwrite the valet service for the tournament and receive:</p>
-				<ul>
-					<li>Golfing for one (1) VIP foursome, including VIP parking</li>
-					<li>Name/logo on exclusive signage at the valet stand at the entrance to Sweetwater Country Club</li>
-					<li>One (1) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
-				</ul>
-			</div>
-			<div class="tabs-panel" id="hole">
-				<h3 class="title sponsorship-name">Hole Sponsorship</h3>
-				<h3 class="sponsorship-value">$750</h3>
-				<p>Sponsor one hole on the course and receive:</p>
-				<ul>
-					<li>Golf for one (1) VIP foursome, including VIP parking</li>
-					<li>Name/logo on signage at one hole</li>
-				</ul>
+	<section class="row p-x" id="sponsorship-section">
+		<div class="styled-content-container">
+			<ul class="tabs" data-tabs id="sponsorship-tabs">
+				<li class="tabs-title is-active"><a class="title" href="#title-sponsorship" aria-selected="true">Title</a></li>
+				<li class="tabs-title"><a class="title" href="#hole-in-one" aria-selected="true">Hole-In-One</a></li>
+				<li class="tabs-title"><a class="title" href="#lunch-dinner" aria-selected="true">Lunch/Dinner</a></li>
+				<li class="tabs-title"><a class="title" href="#hole-19" aria-selected="true">19th Hole</a></li>
+				<li class="tabs-title"><a class="title" href="#closest-to-pin" aria-selected="true">Closest To The Pin</a></li>
+				<li class="tabs-title"><a class="title" href="#longest-drive" aria-selected="true">Longest Drive</a></li>
+				<li class="tabs-title"><a class="title" href="#valet" aria-selected="true">Valet</a></li>
+				<li class="tabs-title"><a class="title" href="#hole" aria-selected="true">Hole</a></li>
+			</ul>
+			<div class="tabs-content" data-tabs-content="example-tabs">
+				<div class="tabs-panel is-active" id="title-sponsorship">
+					<h3 class="title sponsorship-name">Title Sponsorship</h3>
+					<h3 class="sponsorship-value">$10,000</h3>
+					<p>A unique opportunity for a corporate partner to be the exclusive title sponsor of this event and receive:</p>
+					<ul>
+						<li>Golfing for three (3) VIP foursomes, including VIP parking</li>
+						<li>Top billing of company name/logo on tournament signage at registration, putting greens and driving ranges</li>
+						<li>Company logo and tag line on the CABC website, including hyperlink to company’s web page</li>
+						<li>Two individual weeks’ (one per semester) use of CHS marquee, facing Sweetwater (at Elkins Rd) to display company message</li>
+						<li>Twelve (12) exclusive tweets from Clements High School’s twitter account on dates of your choice (4k followers)</li>
+						<li>Seven (7) dedicated email blasts, sent to all students, parents, teachers and alumni of CHS.</li>
+						<li>Full Page ad with forward position, in one season’s athletic program of your choice (2016-17 school year).</li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="hole-in-one">
+					<h3 class="title sponsorship-name">Hole-In-One Sponsorship</h3>
+					<h3 class="sponsorship-value">$5,000</h3>
+					<ul>
+						<li>Golfing for two (2) VIP foursomes, including VIP parking</li>
+						<li>Name/logo displayed on tournament signage on the putting greens and driving ranges</li>
+						<li>One week use of the Clements High School marquee, facing Sweetwater (at Elkins Rd) to display company message</li>
+						<li>Six (6) exclusive tweet from Clements High School’s twitter account on dates of your choice (4,000 followers)</li>
+						<li>Four (4) dedicated email blast, sent to all students, parents, teachers and alumni of CHS </li>
+						<li>One Page ad in one season’s athletic program of your choice (2016-17 school year)</li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="lunch-dinner">
+					<h3 class="title sponsorship-name">Lunch or Dinner Sponsorship</h3>
+					<h3 class="sponsorship-value">$3,500</h3>
+					<p>Underwrite lunch for an estimated 150 golfers and volunteers, and receive:</p>
+					<ul>
+						<li>Golfing for one (1) VIP foursome, including VIP parking</li>
+						<li>Signage at the lunch serving location & name/logo displayed on the putting greens and driving ranges. </li>
+						<li>Three days use of the CHS marquee, facing Sweetwater (at Elkins Rd) to display company message</li>
+						<li>Three (3) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
+						<li>Two (2) dedicated email blast, sent to all students, parents, teachers and alumni of CHS </li>
+						<li>Half Page ad in one season’s athletic program of your choice (2016-17 school year)</li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="hole-19">
+					<h3 class="title sponsorship-name">19th Hole Sponsorship</h3>
+					<h3 class="sponsorship-value">$2,500</h3>
+					<p>Provide refreshments for the day at both the turn and 19th hole, and receive:</p>
+					<ul>
+						<li>Golfing for one (1) VIP foursome, including VIP parking</li>
+						<li>Name/logo exclusive signage at the turn, plus name/logo on signage at putting greens and driving ranges.</li>
+						<li>Two (2) exclusive tweets from Clements High School’s twitter account (4,000 followers)</li>
+						<li>One (1) dedicated email blast, sent to all students, parents, teachers and alumni of CHS </li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="closest-to-pin">
+					<h3 class="title sponsorship-name">'Closest To The Pin' Sponsorship (2 Available)</h3>
+					<h3 class="sponsorship-value">$1,500</h3>
+					<p>Two sponsors will underwrite the Closest to the Pin prize packages for their respective holes and will each receive:</p>
+					<ul>
+						<li>Golfing for one (1) VIP foursome, including VIP parking</li>
+						<li>Name/logo on hole signage on each par three on the course</li>
+						<li>One (1) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="longest-drive">
+					<h3 class="title sponsorship-name">Longest Drive Sponsorship (2 Available)</h3>
+					<h3 class="sponsorship-value">$1,500</h3>
+					<p>Two sponsors will underwrite the Longest Drive prize packages for their respective holes and will each receive:</p>
+					<ul>
+						<li>Golfing for one (1) VIP foursome, including VIP parking</li>
+						<li>Name/logo on hole signage on each par five on the course</li>
+						<li>One (1) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="valet">
+					<h3 class="title sponsorship-name">Valet Sponsorship</h3>
+					<h3 class="sponsorship-value">$1,500</h3>
+					<p>Underwrite the valet service for the tournament and receive:</p>
+					<ul>
+						<li>Golfing for one (1) VIP foursome, including VIP parking</li>
+						<li>Name/logo on exclusive signage at the valet stand at the entrance to Sweetwater Country Club</li>
+						<li>One (1) exclusive tweet from Clements High School’s twitter account (4,000 followers)</li>
+					</ul>
+				</div>
+				<div class="tabs-panel" id="hole">
+					<h3 class="title sponsorship-name">Hole Sponsorship</h3>
+					<h3 class="sponsorship-value">$750</h3>
+					<p>Sponsor one hole on the course and receive:</p>
+					<ul>
+						<li>Golf for one (1) VIP foursome, including VIP parking</li>
+						<li>Name/logo on signage at one hole</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
