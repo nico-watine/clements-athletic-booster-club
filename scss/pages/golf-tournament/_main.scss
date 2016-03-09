@@ -15,7 +15,7 @@ body#cabc-golf-tournament-2016 {
 		#tournament-deets {
 			.content-box {
 				border: em(2) solid $light-blue;
-				border-radius: em(2);
+				border-radius: em(4);
 				box-shadow: $z-3;
 				background: #fff;
 				position: relative;
@@ -27,10 +27,20 @@ body#cabc-golf-tournament-2016 {
 					top: 0;
 					z-index: 1;
 					padding: em(20) 0;
+
+					h3 {
+						margin-bottom: rem(12);
+					}
+
+					p {
+						line-height: 1.3;
+						font-size: rem(22);
+						margin-bottom: rem(12);
+					}
 				}
 				
 				.icon-bg {
-					padding: em(20);
+					padding: em(10);
 				}
 
 				.icon-bg:after {

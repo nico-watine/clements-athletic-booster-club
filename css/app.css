@@ -4206,7 +4206,7 @@ body#cabc-golf-tournament-2016 main #tournament-tag {
 
 body#cabc-golf-tournament-2016 main #tournament-deets .content-box {
   border: 0.125em solid #02C3F3;
-  border-radius: 0.125em;
+  border-radius: 0.25em;
   box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3);
   background: #fff;
   position: relative; }
@@ -4217,8 +4217,14 @@ body#cabc-golf-tournament-2016 main #tournament-deets .content-box {
     top: 0;
     z-index: 1;
     padding: 1.25em 0; }
+    body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose h3 {
+      margin-bottom: 0.75rem; }
+    body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose p {
+      line-height: 1.3;
+      font-size: 1.375rem;
+      margin-bottom: 0.75rem; }
   body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg {
-    padding: 1.25em; }
+    padding: 0.625em; }
   body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg:after {
     font-family: 'cabc';
     color: #E8E8E8;

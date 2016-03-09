@@ -68,6 +68,8 @@
 			<div class="content-box" id="when">
 				<div class="prose">
 					<h3 class="title">When</h3>
+					<p>Monday <br>May 2, 2016</p>
+					<p>11AM Shotgun Start</p>
 				</div>
 				<div class="icon-bg"></div>
 			</div>
@@ -76,6 +78,8 @@
 			<div class="content-box" id="where">
 				<div class="prose">
 					<h3 class="title">Where</h3>
+					<p>Sweetwater Country Club</p>
+					<p>4400 Palm Royale Blvd <br>Sugar Land, TX 77479</p>
 				</div>
 				<div class="icon-bg"></div>
 			</div>
@@ -84,6 +88,8 @@
 			<div class="content-box" id="cost">
 				<div class="prose">
 					<h3 class="title">Cost</h3>
+					<p>$150 / Solo Player</p>
+					<p>$500/ Team of 4</p>
 				</div>
 				<div class="icon-bg"></div>
 			</div>
