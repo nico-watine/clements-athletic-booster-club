@@ -3,7 +3,7 @@
 body#cabc-golf-tournament-2016 {
 	main {
 		#tournament-hero {
-			padding: em(55) 0 em(30);
+			padding: em(55) em(20) em(30);
 			border-bottom: em(5) solid $light-blue;
 			
 			h2#banner-header {
@@ -26,6 +26,22 @@ body#cabc-golf-tournament-2016 {
 				span#tournament {
 					font-size: rem(46);
 				}
+
+				@include breakpoint(small only) {
+					span#annual {
+						font-size: rem(20);
+					}
+					span#name {
+						font-size: rem(40);
+					}
+					span#tournament {
+						font-size: rem(30);
+					}
+				}
+			}
+
+			h3#benefiting {
+				font-size: rem(26);
 			}
 		}
 	}

@@ -57,7 +57,7 @@
 	<div class="row">
 		<ul class="menu">
 			<li><a href="/">Home</a></li>
-			<li class="active"><a href="#">2016 Golf Tournament</a></li>
+			<li id="last" class="active"><a href="#">2016 Golf Tournament</a></li>
 			<li><a href="/cabc-sports">CABC Sports</a></li>
 			<!-- <li><a href="#">Join/Contact CABC</a></li> -->
 		</ul>

@@ -4193,22 +4193,37 @@ nav {
   nav ul.menu li a {
     color: #000;
     padding: 1.125rem; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      nav ul.menu li a {
+        padding: 1.125rem 0.75rem; } }
   nav ul.menu li.active,
   nav ul.menu li:hover {
     background: #2859A6; }
     nav ul.menu li.active a,
     nav ul.menu li:hover a {
       color: #fff; }
+  @media only screen and (max-width: 48.125em) {
+    nav ul.menu li {
+      border-right: 0.25rem solid #2859A6; }
+    nav ul.menu li#last {
+      border-right: 0; } }
 
 section#golf-tournament-banner {
-  height: 33.75em;
+  height: 37.5em;
   width: 100%;
   background: #fff url("/img/events/golf-tournament/index/banner-bg.jpg") no-repeat center top;
   background-size: cover;
   border-bottom: 0.25em solid #2859A6;
   margin-bottom: 1.875em;
   padding: 3.125em 0 0;
-  text-align: center; }
+  text-align: center;
+  padding: 3.4375em 0.875em 1.875em; }
+  @media only screen and (max-width: 43.750em) {
+    section#golf-tournament-banner {
+      background: #fff url("/img/events/golf-tournament/index/banner-bg%40700.jpg") no-repeat right top; } }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    section#golf-tournament-banner {
+      height: auto; } }
   section#golf-tournament-banner * {
     text-shadow: 0 0.125rem 0.25rem #000;
     color: #fff; }
@@ -4225,7 +4240,15 @@ section#golf-tournament-banner {
       font-size: 3.875rem; }
     section#golf-tournament-banner h2#banner-header span#tournament {
       font-size: 2.875rem; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      section#golf-tournament-banner h2#banner-header span#annual {
+        font-size: 1.25rem; }
+      section#golf-tournament-banner h2#banner-header span#name {
+        font-size: 2.5rem; }
+      section#golf-tournament-banner h2#banner-header span#tournament {
+        font-size: 1.875rem; } }
   section#golf-tournament-banner h3#benefiting {
+    font-size: 1.625rem;
     margin-bottom: 1.25rem; }
   section#golf-tournament-banner h3#date-time {
     font-size: 1.625rem;
@@ -4254,9 +4277,12 @@ section#golf-tournament-banner {
       background: #02C3F3;
       color: #fff;
       border: 0.125rem solid #fff; }
+  @media only screen and (max-width: 27.500em) {
+    section#golf-tournament-banner .c2a-button a {
+      width: auto; } }
 
 body#cabc-golf-tournament-2016 main #tournament-hero {
-  padding: 3.4375em 0 1.875em;
+  padding: 3.4375em 1.25em 1.875em;
   border-bottom: 0.3125em solid #02C3F3; }
   body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header {
     line-height: 1.2;
@@ -4271,6 +4297,15 @@ body#cabc-golf-tournament-2016 main #tournament-hero {
       font-size: 3.875rem; }
     body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#tournament {
       font-size: 2.875rem; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#annual {
+        font-size: 1.25rem; }
+      body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#name {
+        font-size: 2.5rem; }
+      body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#tournament {
+        font-size: 1.875rem; } }
+  body#cabc-golf-tournament-2016 main #tournament-hero h3#benefiting {
+    font-size: 1.625rem; }
 
 body#cabc-golf-tournament-2016 main #tournament-tag {
   margin-bottom: 2.5em;

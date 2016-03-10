@@ -1,5 +1,7 @@
 @import "../_settings.scss";
 
+$width-770: "only screen and (max-width : 48.125em)";
+
 nav {
 	background: #fff;
 	border-top: em(3) solid $dark-blue;
@@ -11,6 +13,10 @@ nav {
 				color: #000;
 				padding: rem(18);
 				@extend .title;
+
+				@include breakpoint(small only) {
+					padding: rem(18) rem(12);
+				}
 			}
 		}
 
@@ -20,6 +26,16 @@ nav {
 
 			a {
 				color: #fff;
+			}
+		}
+
+		@media #{$width-770} {
+			li {
+				border-right: rem(4) solid $dark-blue;
+			}
+
+			li#last {
+				border-right: 0;
 			}
 		}
 	}
