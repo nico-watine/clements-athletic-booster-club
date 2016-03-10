@@ -7,30 +7,41 @@ body#cabc-golf-tournament-2016 {
 			margin-bottom: em(50);
 
 			#cabc-badge {
-				position: relative;
-				height: em(220);
-
-				img {
-					padding-right: em(14);
-					@include vertical-center;
-				}
+				margin-bottom: em(40);
+				text-align: center;
 			}
 
 			#quote {
-				position: relative;
-				height: em(220);
+				blockquote {
+					color: #000;
+					font-size: rem(18);
 
-				.wrapper {
-					@include vertical-center;
-
-					blockquote {
-						color: #000;
+					cite {
+						color: #666;
 						font-size: rem(18);
+					}
+				}
+			}
 
-						cite {
-							color: #666;
-							font-size: rem(18);
-						}
+			@include breakpoint(medium) {
+				#cabc-badge {
+					position: relative;
+					height: em(220);
+					margin-bottom: 0;
+					text-align: left;
+
+					img {
+						padding-right: em(14);
+						@include vertical-center;
+					}
+				}
+
+				#quote {
+					position: relative;
+					height: em(220);
+
+					.wrapper {
+						@include vertical-center;
 					}
 				}
 			}

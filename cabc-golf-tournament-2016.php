@@ -105,7 +105,7 @@
 	</section>
 	<section class="row" id="testimonial">
 		<div class="medium-3 columns" id="cabc-badge">
-			<img src="/img/events/golf-tournament/tournament-page/export-cabc.png" alt="">
+			<img srcset="/img/events/golf-tournament/tournament-page/cabc-badge@2x.png 2x" src="/img/events/golf-tournament/tournament-page/cabc-badge.png" alt="">
 		</div>
 		<div class="medium-9 columns" id="quote">
 			<div class="wrapper">
