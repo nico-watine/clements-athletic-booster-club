@@ -9,13 +9,32 @@ body#cabc-golf-tournament-2016 {
 			margin-bottom: em(100);
 			padding-bottom: em(100);
 
-			#question {
-				font-size: rem(48);
+			.blue-banner {
+				background: $light-blue;
+				padding: em(30) 0;
+				margin-bottom: em(50);
+
+				#c2a {
+					font-size: rem(50);
+					line-height: 1.2;
+					margin: 0;
+					color: #fff;
+					text-shadow: 0 rem(2) rem(1) #000;
+
+					@include breakpoint(medium) {
+						font-size: rem(58);
+					}
+				}
 			}
 
-			#c2a {
-				font-size: rem(58);
-				margin-bottom: rem(50);
+			#appeal {
+				line-height: 1.4;
+				font-size: rem(24);
+				margin-bottom: rem(46);
+
+				@include breakpoint(medium) {
+					font-size: rem(31);
+				}
 			}
 
 			p#info {
@@ -77,5 +96,6 @@ body#cabc-golf-tournament-2016 {
 		}
 	}
 }
+
 
 

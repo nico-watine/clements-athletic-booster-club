@@ -225,16 +225,21 @@
 			</div>
 		</div>
 	</section>
-	<section class="row text-center" id="signup-contact">
-		<h2 id="question">Want to play or sponsor?</h2>
-		<h2 id="c2a" class="title">Sign Up Today!</h2>
-		<p id="info">
-			<span>To sign up, please contact :</span>
-			<span id="name">Luis Gonzales</span>
-			<span id="position">CABC Golf Tournament Chair</span>
-		</p>
-		<p id="phone"><i class="icon-mobile-alt"></i>&nbsp;(832) 419-4717</p>
-		<p id="email"><i class="icon-mail"></i>&nbsp;luis.m.gutierrez<span>@morganstanley.com</span></p>
+	<section class="text-center" id="signup-contact">
+		<div class="blue-banner">
+			<h2 id="c2a" class="title">Get Signed Up!</h2>
+		</div>
+		<div class="row">
+			<!-- <h2 id="c2a" class="title">Sign Up Today!</h2> -->
+			<p id="appeal" class="medium-10 medium-offset-1 columns end padding">Our student athletes are the best in the district! Let’s show them how much we care. Sign up today to play or sponsor!</p>
+			<p id="info" class="small-12 columns">
+				<span>To sign up, please contact :</span>
+				<span id="name">Luis Gonzales</span>
+				<span id="position">CABC Golf Tournament Chair</span>
+			</p>
+			<p id="phone" class="small-12 columns"><i class="icon-mobile-alt"></i>&nbsp;(832) 419-4717</p>
+			<p id="email" class="small-12 columns"><i class="icon-mail"></i>&nbsp;luis.m.gutierrez<span>@morganstanley.com</span></p>
+		</div>
 	</section>
 </main>
 
@@ -243,14 +248,14 @@
 <script src="/bower_components/foundation-sites/dist/foundation.js"></script>
 <script src="<?php autoVer('/js/min/app-min.js'); ?>"></script>
 
-<!--<script>
+<script>
 	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
 	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
 	e.src='https://www.google-analytics.com/analytics.js';
 	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 	ga('create','UA-55459011-9','auto');ga('send','pageview');
-</script>-->
+</script>
 
 </body>
 </html>

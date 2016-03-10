@@ -2179,7 +2179,7 @@ body {
   position: absolute;
   z-index: -55;
   width: 100%;
-  height: 100%;
+  height: 1000px;
   top: 0;
   left: 0;
   background: url("/img/assets/bg/logo-shade.png") no-repeat left top; }
@@ -2352,7 +2352,9 @@ body#cabc-golf-tournament-2016 main #tournament-hero {
       font-size: 1.5rem;
       text-transform: uppercase; }
     body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#name {
-      font-size: 3.875rem; }
+      font-size: 3.875rem;
+      color: #02C3F3;
+      text-shadow: 0.125rem 0.125rem 0 #2859A6; }
     body#cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#tournament {
       font-size: 2.875rem; }
     @media screen and (min-width: 0em) and (max-width: 39.9375em) {
@@ -2410,7 +2412,7 @@ body#cabc-golf-tournament-2016 main #tournament-deets {
       padding: 0.625em; }
     body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg:after {
       font-family: 'cabc';
-      color: #E8E8E8;
+      color: #B1EDFC;
       font-size: 11.25rem;
       line-height: 1;
       display: block; }
@@ -2500,11 +2502,26 @@ body#cabc-golf-tournament-2016 main #sponsorship-section {
 body#cabc-golf-tournament-2016 main #signup-contact {
   margin-bottom: 6.25em;
   padding-bottom: 6.25em; }
-  body#cabc-golf-tournament-2016 main #signup-contact #question {
-    font-size: 3rem; }
-  body#cabc-golf-tournament-2016 main #signup-contact #c2a {
-    font-size: 3.625rem;
-    margin-bottom: 3.125rem; }
+  body#cabc-golf-tournament-2016 main #signup-contact .blue-banner {
+    background: #02C3F3;
+    padding: 1.875em 0;
+    margin-bottom: 3.125em; }
+    body#cabc-golf-tournament-2016 main #signup-contact .blue-banner #c2a {
+      font-size: 3.125rem;
+      line-height: 1.2;
+      margin: 0;
+      color: #fff;
+      text-shadow: 0 0.125rem 0.0625rem #000; }
+      @media screen and (min-width: 40em) {
+        body#cabc-golf-tournament-2016 main #signup-contact .blue-banner #c2a {
+          font-size: 3.625rem; } }
+  body#cabc-golf-tournament-2016 main #signup-contact #appeal {
+    line-height: 1.4;
+    font-size: 1.5rem;
+    margin-bottom: 2.875rem; }
+    @media screen and (min-width: 40em) {
+      body#cabc-golf-tournament-2016 main #signup-contact #appeal {
+        font-size: 1.9375rem; } }
   body#cabc-golf-tournament-2016 main #signup-contact p#info {
     line-height: 1.4;
     font-size: 1.9375rem;
