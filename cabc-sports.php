@@ -63,7 +63,7 @@
 		</ul>
 	</div>
 </nav>
-<div class="row text-center" style="padding-top: 80px;">
+<div class="row text-center" style="padding: 80px 0;">
 	<h1 class="title">Coming Soon!</h1>
 </div>
 

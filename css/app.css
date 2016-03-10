@@ -4421,7 +4421,8 @@ body#cabc-golf-tournament-2016 main #sponsorship-section {
         line-height: 1.8; }
 
 body#cabc-golf-tournament-2016 main #signup-contact {
-  margin-bottom: 6.25em; }
+  margin-bottom: 6.25em;
+  padding-bottom: 6.25em; }
   body#cabc-golf-tournament-2016 main #signup-contact #question {
     font-size: 3rem; }
   body#cabc-golf-tournament-2016 main #signup-contact #c2a {
@@ -4447,3 +4448,19 @@ body#cabc-golf-tournament-2016 main #signup-contact {
     body#cabc-golf-tournament-2016 main #signup-contact #email i {
       color: #2859A6;
       font-size: 2.875rem; }
+  @media only screen and (max-width: 25em) {
+    body#cabc-golf-tournament-2016 main #signup-contact #phone,
+    body#cabc-golf-tournament-2016 main #signup-contact #email {
+      font-size: 1.5rem; }
+      body#cabc-golf-tournament-2016 main #signup-contact #phone span,
+      body#cabc-golf-tournament-2016 main #signup-contact #email span {
+        display: block; } }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    body#cabc-golf-tournament-2016 main #signup-contact #question {
+      font-size: 1.875rem; }
+    body#cabc-golf-tournament-2016 main #signup-contact #c2a {
+      font-size: 2.125rem; }
+    body#cabc-golf-tournament-2016 main #signup-contact p#info {
+      font-size: 1.5rem; }
+      body#cabc-golf-tournament-2016 main #signup-contact p#info span#name {
+        font-size: 2rem; } }

@@ -57,8 +57,8 @@
 	<div class="row">
 		<ul class="menu">
 			<li><a href="/">Home</a></li>
-			<li id="last" class="active"><a href="#">2016 Golf Tournament</a></li>
-			<li><a href="/cabc-sports">CABC Sports</a></li>
+			<li class="active"><a href="#">2016 Golf Tournament</a></li>
+			<li id="last"><a href="/cabc-sports">CABC Sports</a></li>
 			<!-- <li><a href="#">Join/Contact CABC</a></li> -->
 		</ul>
 	</div>
@@ -234,7 +234,7 @@
 			<span id="position">CABC Golf Tournament Chair</span>
 		</p>
 		<p id="phone"><i class="icon-mobile-alt"></i>&nbsp;(832) 419-4717</p>
-		<p id="email"><i class="icon-mail"></i>&nbsp;luis.m.gutierrez@morganstanley.com</p>
+		<p id="email"><i class="icon-mail"></i>&nbsp;luis.m.gutierrez<span>@morganstanley.com</span></p>
 	</section>
 </main>
 
