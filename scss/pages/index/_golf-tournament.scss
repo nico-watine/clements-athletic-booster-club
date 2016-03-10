@@ -48,10 +48,6 @@ section#golf-tournament-banner {
 	}
 
 	.c2a-button {
-		// background: #fff;
-		// padding: rem(16);
-		// text-align: center;
-
 		a {
 			@extend .title;
 			text-shadow: none;
@@ -66,19 +62,18 @@ section#golf-tournament-banner {
 			padding: rem(8);
 			border-radius: rem(5);
 			border: rem(2) solid $dark-blue;
-			box-shadow: $z-3;
+			box-shadow: $z-5;
 
-			// background: #fff;
-			// padding: rem(16);
+		    @include transition (background-color 200ms ease-out 0s);
+		    @include transition (color 200ms ease-out 0s);
 
-			// div {
-			// 	background: #fff;
-			// 	padding: rem(16);				
-			// }
-
-			// span {
-			// 	display: block;
-			// }
+			&:hover {
+				box-shadow: $z-2;
+				background: $light-blue;
+				color: #fff;
+				border: rem(2) solid #fff;
+			}
 		}
 	}
 }
+

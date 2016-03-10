@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>2016 CABC Golf Tournament | Clements High School</title>
-	<meta name="description" content="The future home for all Clements High School sports teams, with game schedules and more.">
+	<meta name="description" content="The 2016 CABC Golf Tournament is around the corner! Sign up here.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
 	<link rel="author" href="/humans.txt">
@@ -16,9 +16,9 @@
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Clements Athletic Booster Club" />
-	<meta property="og:description" content="The future home for all Clements High School sports teams, with game schedules and more." />
-	<meta property="og:url" content="http://clementsathleticboosterclub.org" />
+	<meta property="og:title" content="2016 CABC Golf Tournament | Clements Athletic Booster Club" />
+	<meta property="og:description" content="The 2016 CABC Golf Tournament is around the corner! Sign up here." />
+	<meta property="og:url" content="http://clementsathleticboosterclub.org/cabc-golf-tournament-2016" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
 	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-shot.png" />
 	<meta property="fb:app_id" content="1674633382806636" />
@@ -53,13 +53,17 @@
 	<div class="row">
 		<ul class="menu">
 			<li><a href="/">Home</a></li>
-			<li><a href="#">CABC Sports</a></li>
 			<li class="active"><a href="#">2016 Golf Tournament</a></li>
-			<li><a href="#">Join/Contact CABC</a></li>
+			<li><a href="/cabc-sports">CABC Sports</a></li>
+			<!-- <li><a href="#">Join/Contact CABC</a></li> -->
 		</ul>
 	</div>
 </nav>
 <main>
+	<section class="row text-center" id="tournament-hero">
+		<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
+		<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
+	</section>
 	<div class="row" id="tournament-tag">
 		<p class="large-10 large-offset-1 columns p-x">The tournament, open to the public, will include 18 holes of golf, cart, lunch and dinner. Following the tournament, awards will be given.</p>
 	</div>

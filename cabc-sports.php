@@ -5,8 +5,8 @@
 <html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<title>Clements Athletic Booster Club | Clements High School</title>
-	<meta name="description" content="The future home for all Clements High School sports teams, with game schedules and more.">
+	<title>CABC Sports | Clements High School</title>
+	<meta name="description" content="The CABC includes all of Clements High School's athletic programs.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
 	<link rel="author" href="/humans.txt">
@@ -16,9 +16,9 @@
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Clements Athletic Booster Club" />
-	<meta property="og:description" content="The future home for all Clements High School sports teams, with game schedules and more." />
-	<meta property="og:url" content="http://clementsathleticboosterclub.org" />
+	<meta property="og:title" content="CABC Sports | Clements High School" />
+	<meta property="og:description" content="The CABC includes all of Clements High School's athletic programs." />
+	<meta property="og:url" content="http://clementsathleticboosterclub.org/cabc-sports" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
 	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-shot.png" />
 	<meta property="fb:app_id" content="1674633382806636" />
@@ -31,7 +31,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body id="coming-soon">
 
 <div id="logo-shade"></div>
 
@@ -52,26 +52,16 @@
 <nav>
 	<div class="row">
 		<ul class="menu">
-			<li class="active"><a href="/">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="/cabc-golf-tournament-2016">2016 Golf Tournament</a></li>
-			<li><a href="/cabc-sports">CABC Sports</a></li>
+			<li class="active"><a href="/cabc-sports">CABC Sports</a></li>
 			<!-- <li><a href="#">Join/Contact CABC</a></li> -->
 		</ul>
 	</div>
 </nav>
-<section id="golf-tournament-banner">
-	<div class="row">
-		<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
-		<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
-		<h3 id="date-time">2 MAY 2016 | SWEETWATER COUNTRY CLUB</h3>
-		<div class="c2a-button">
-			<a href="/cabc-golf-tournament-2016" class="floating">
-				Tournament Details 
-				<br>Player &amp; Sponsor Info
-			</a>
-		</div>
-	</div>
-</section>
+<div class="row text-center" style="padding-top: 80px;">
+	<h1 class="title">Coming Soon!</h1>
+</div>
 
 
 <script src="/bower_components/jquery/dist/jquery.js"></script>
