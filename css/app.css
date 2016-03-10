@@ -4182,7 +4182,9 @@ header {
     header #masthead #site-logo .vertical-wrapper {
       padding: 0; }
     header #masthead #site-name h1 {
-      padding: 0; } }
+      padding: 0; }
+    header #masthead #site-name h2 {
+      font-size: inherit; } }
 
 nav {
   background: #fff;
