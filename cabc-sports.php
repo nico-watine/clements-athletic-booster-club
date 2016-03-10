@@ -43,8 +43,10 @@
 				<a href="/"><img srcset="/img/assets/logo/logo@2x.png 2x" src="/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
 			</div>
 			<div id="site-name" class="medium-10 columns">
-				<h1 class="title">Clements Athletic Booster Club</h1>
-				<h2>Clements High School | <strong>FBISD</strong></h2>
+				<div class="vertical-wrapper">
+					<h1 class="title">Clements Athletic Booster Club</h1>
+					<h2>Clements High School | <strong>FBISD</strong></h2>
+				</div>
 			</div>
 		</div>
 	</div>

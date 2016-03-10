@@ -4138,14 +4138,51 @@ header {
     position: absolute;
     font-size: 1.125rem;
     padding-right: 1.125em; }
-  header #masthead {
-    margin-bottom: 1.625em; }
-    header #masthead #site-name {
-      padding-top: 1.75rem; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      header address {
+        visibility: hidden;
+        display: none; } }
+  header #masthead #site-logo {
+    position: relative;
+    height: 13.75em;
+    margin-bottom: 1.25em; }
+    header #masthead #site-logo .vertical-wrapper {
+      width: 100%;
+      padding-right: 1em; }
+      @media screen and (min-width: 40em) {
+        header #masthead #site-logo .vertical-wrapper {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); } }
+  header #masthead #site-name {
+    position: relative;
+    height: 13.75em;
+    margin-bottom: 1.25em; }
+    header #masthead #site-name .vertical-wrapper {
+      width: 100%; }
+      @media screen and (min-width: 40em) {
+        header #masthead #site-name .vertical-wrapper {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); } }
+    header #masthead #site-name h1 {
+      margin: 0;
+      line-height: 1.2;
+      padding-right: 1.25em; }
+    header #masthead #site-name h2 {
+      font-size: 1.9375rem; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       header #masthead #site-name h1 {
-        margin: 0; }
-      header #masthead #site-name h2 {
-        font-size: 1.9375rem; }
+        font-size: 2.375rem; } }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    header #masthead #site-logo,
+    header #masthead #site-name {
+      position: initial;
+      height: auto; }
+    header #masthead #site-logo .vertical-wrapper {
+      padding: 0; }
+    header #masthead #site-name h1 {
+      padding: 0; } }
 
 nav {
   background: #fff;

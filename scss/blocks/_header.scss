@@ -9,20 +9,77 @@ header {
 		position: absolute;
 		font-size: rem(18);
 		padding-right: em(18);
+
+		@include breakpoint(small only) {
+			visibility: hidden;
+			display: none;
+		}
 	}
 
 	#masthead {
-		margin-bottom: em(26);
+
+		#site-logo {
+			position: relative;
+			height: em(220);
+			margin-bottom: em(20);
+
+			.vertical-wrapper {
+				width: 100%;
+				padding-right: em(16);
+
+				@include breakpoint(medium) {
+					@include vertical-center;
+				}
+			}
+		}
 
 		#site-name {
-			padding-top: rem(28);
+			position: relative;
+			height: em(220);
+			margin-bottom: em(20);
+
+			.vertical-wrapper {
+				width: 100%;
+
+				@include breakpoint(medium) {
+					@include vertical-center;
+				}
+			}
 
 			h1 {
 				margin: 0;
+				line-height: 1.2;
+				padding-right: em(20);
 			}
 
 			h2 {
 				font-size: rem(31);
+			}
+
+			@include breakpoint(medium only) {
+				h1 {
+					font-size: rem(38);
+				}	
+			}
+		}
+
+		@include breakpoint(small only) {
+			#site-logo,
+			#site-name {
+				position: initial;
+				height: auto;
+			}
+
+			#site-logo {
+				.vertical-wrapper {
+					padding: 0;
+				}
+			}
+
+			#site-name {
+				h1 {
+					padding: 0;
+				}
 			}
 		}
 	}
