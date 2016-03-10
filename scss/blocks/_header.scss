@@ -39,7 +39,6 @@ header {
 			margin-bottom: em(20);
 
 			.vertical-wrapper {
-				width: 100%;
 
 				@include breakpoint(medium) {
 					@include vertical-center;
