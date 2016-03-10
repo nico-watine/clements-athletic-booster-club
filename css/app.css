@@ -4313,6 +4313,9 @@ body#cabc-golf-tournament-2016 main #tournament-tag {
   body#cabc-golf-tournament-2016 main #tournament-tag p {
     font-size: 1.5625rem;
     text-align: center; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    body#cabc-golf-tournament-2016 main #tournament-tag p {
+      font-size: 1.125rem; } }
 
 body#cabc-golf-tournament-2016 main #tournament-deets {
   margin-bottom: 3.75em; }
@@ -4321,7 +4324,11 @@ body#cabc-golf-tournament-2016 main #tournament-deets {
     border-radius: 0.25em;
     box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3);
     background: #fff;
-    position: relative; }
+    position: relative;
+    margin-bottom: 1.875em; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      body#cabc-golf-tournament-2016 main #tournament-deets .content-box {
+        height: 15.625em; } }
     body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose {
       position: absolute;
       width: 100%;
@@ -4331,10 +4338,16 @@ body#cabc-golf-tournament-2016 main #tournament-deets {
       padding: 1.25em 0; }
       body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose h3 {
         margin-bottom: 0.75rem; }
+        @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+          body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose h3 {
+            font-size: 1.75rem; } }
       body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose p {
         line-height: 1.3;
         font-size: 1.375rem;
         margin-bottom: 0.75rem; }
+        @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+          body#cabc-golf-tournament-2016 main #tournament-deets .content-box .prose p {
+            font-size: 1.25rem; } }
     body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg {
       padding: 0.625em; }
     body#cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg:after {

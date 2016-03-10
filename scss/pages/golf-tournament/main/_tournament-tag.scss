@@ -10,6 +10,12 @@ body#cabc-golf-tournament-2016 {
 				font-size: rem(25);
 				text-align: center;
 			}
+
+			@include breakpoint(small only) {
+				p {
+					font-size: rem(18);
+				}
+			}
 		}
 	}
 }
