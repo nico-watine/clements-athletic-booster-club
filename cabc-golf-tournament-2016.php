@@ -20,20 +20,16 @@
 	<meta property="og:description" content="The 2016 CABC Golf Tournament is around the corner! Sign up here." />
 	<meta property="og:url" content="http://clementsathleticboosterclub.org/cabc-golf-tournament-2016" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
-	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-shot.png" />
+	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
 	<link rel="stylesheet" href="<?php autoVer('/css/app.css'); ?>"/>
 
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="<?php autoVer('/css/ie.css'); ?>"/>
-		<script src="<?php autoVer('/js/ie-min.js'); ?>"></script>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
 <body id="cabc-golf-tournament-2016">
-
-<div id="logo-shade"></div>
 
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
@@ -57,7 +53,7 @@
 	<div class="row">
 		<ul class="menu">
 			<li><a href="/">Home</a></li>
-			<li class="active"><a href="#">2016 Golf Tournament</a></li>
+			<li class="active"><a href="/cabc-golf-tournament-2016">2016 Golf Tournament</a></li>
 			<li id="last"><a href="/cabc-sports">CABC Sports</a></li>
 			<!-- <li><a href="#">Join/Contact CABC</a></li> -->
 		</ul>
@@ -124,15 +120,15 @@
 		<div class="styled-content-container">
 			<ul class="tabs" data-tabs id="sponsorship-tabs">
 				<li class="tabs-title is-active"><a class="title" href="#title-sponsorship" aria-selected="true">Title</a></li>
-				<li class="tabs-title"><a class="title" href="#hole-in-one" aria-selected="true">Hole-In-One</a></li>
-				<li class="tabs-title"><a class="title" href="#lunch-dinner" aria-selected="true">Lunch/Dinner</a></li>
-				<li class="tabs-title"><a class="title" href="#hole-19" aria-selected="true">19th Hole</a></li>
-				<li class="tabs-title"><a class="title" href="#closest-to-pin" aria-selected="true">Closest To The Pin</a></li>
-				<li class="tabs-title"><a class="title" href="#longest-drive" aria-selected="true">Longest Drive</a></li>
-				<li class="tabs-title"><a class="title" href="#valet" aria-selected="true">Valet</a></li>
-				<li class="tabs-title"><a class="title" href="#hole" aria-selected="true">Hole</a></li>
+				<li class="tabs-title"><a class="title" href="#hole-in-one">Hole-In-One</a></li>
+				<li class="tabs-title"><a class="title" href="#lunch-dinner">Lunch/Dinner</a></li>
+				<li class="tabs-title"><a class="title" href="#hole-19">19th Hole</a></li>
+				<li class="tabs-title"><a class="title" href="#closest-to-pin">Closest To The Pin</a></li>
+				<li class="tabs-title"><a class="title" href="#longest-drive">Longest Drive</a></li>
+				<li class="tabs-title"><a class="title" href="#valet">Valet</a></li>
+				<li class="tabs-title"><a class="title" href="#hole">Hole</a></li>
 			</ul>
-			<div class="tabs-content" data-tabs-content="example-tabs">
+			<div class="tabs-content" data-tabs-content="sponsorship-tabs">
 				<div class="tabs-panel is-active" id="title-sponsorship">
 					<h3 class="title sponsorship-name">Title Sponsorship</h3>
 					<h3 class="sponsorship-value">$10,000</h3>
@@ -243,10 +239,11 @@
 	</section>
 </main>
 
-<script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="/bower_components/what-input/what-input.js"></script>
-<script src="/bower_components/foundation-sites/dist/foundation.js"></script>
-<script src="<?php autoVer('/js/min/app-min.js'); ?>"></script>
+<div id="logo-shade"><!-- opaque BG logo --></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="<?php autoVer('/js/tournament-tabs-min.js'); ?>"></script>
+<script src="<?php autoVer('/js/what-input-min.js'); ?>"></script>
 
 <script>
 	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

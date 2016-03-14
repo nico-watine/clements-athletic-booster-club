@@ -20,20 +20,16 @@
 	<meta property="og:description" content="The CABC includes all of Clements High School's athletic programs." />
 	<meta property="og:url" content="http://clementsathleticboosterclub.org/cabc-sports" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
-	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/landing-temp/og-shot.png" />
+	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
 	<link rel="stylesheet" href="<?php autoVer('/css/app.css'); ?>"/>
 
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="<?php autoVer('/css/ie.css'); ?>"/>
-		<script src="<?php autoVer('/js/ie-min.js'); ?>"></script>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
 <body id="coming-soon">
-
-<div id="logo-shade"></div>
 
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
@@ -67,6 +63,7 @@
 	<h1 class="title">Coming Soon!</h1>
 </div>
 
+<div id="logo-shade"><!-- opaque BG logo --></div>
 
 <script src="/bower_components/jquery/dist/jquery.js"></script>
 <script src="/bower_components/what-input/what-input.js"></script>
