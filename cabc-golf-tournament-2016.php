@@ -23,7 +23,7 @@
 	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
-	<link rel="stylesheet" href="<?php autoVer('/css/app.css'); ?>"/>
+	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -37,7 +37,7 @@
 		<div class="row">
 			<div id="site-logo" class="medium-3 large-2 columns">
 				<div class="vertical-wrapper text-center">
-					<a href="/"><img srcset="/img/assets/logo/logo@2x.png 2x" src="/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
+					<a href="/"><img srcset="http://cdn.studionclient.rocks/project/cabc/img/assets/logo/logo@2x.png 2x" src="http://cdn.studionclient.rocks/project/cabc/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
 				</div>
 			</div>
 			<div id="site-name" class="medium-9 large-10 columns text-center medium-text-left">
@@ -101,7 +101,7 @@
 	</section>
 	<section class="row" id="testimonial">
 		<div class="medium-3 columns" id="cabc-badge">
-			<img srcset="/img/events/golf-tournament/tournament-page/cabc-badge@2x.png 2x" src="/img/events/golf-tournament/tournament-page/cabc-badge.png" alt="">
+			<img srcset="http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/tournament-page/cabc-badge@2x.png 2x" src="http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/tournament-page/cabc-badge.png" alt="">
 		</div>
 		<div class="medium-9 columns" id="quote">
 			<div class="wrapper">
@@ -243,7 +243,8 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="<?php autoVer('/js/tournament-tabs-min.js'); ?>"></script>
-<script src="<?php autoVer('/js/what-input-min.js'); ?>"></script>
+<script src="/js/what-input-min.js"></script>
+
 
 <script>
 	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
