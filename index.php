@@ -29,7 +29,8 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
+<meta itemprop="datePublished" content="2016-03-12">
 
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>

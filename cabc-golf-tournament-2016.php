@@ -29,7 +29,9 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
-<body id="cabc-golf-tournament-2016">
+
+<body itemscope itemtype="http://schema.org/WebPage" id="cabc-golf-tournament-2016">
+<meta itemprop="datePublished" content="2016-03-12">
 
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
@@ -60,45 +62,49 @@
 	</div>
 </nav>
 <main>
-	<section class="row text-center" id="tournament-hero">
-		<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
-		<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
-	</section>
-	<div class="row" id="tournament-tag">
-		<p class="large-10 large-offset-1 columns p-x">The tournament, open to the public, will include 18 holes of golf, cart, lunch and dinner. Following the tournament, awards will be given.</p>
-	</div>
-	<section class="row text-center" id="tournament-deets">
-		<div class="medium-4 columns">
-			<div class="content-box" id="when">
-				<div class="prose">
-					<h3 class="title">When</h3>
-					<p>Monday <br>May 2, 2016</p>
-					<p>11AM Shotgun Start</p>
-				</div>
-				<div class="icon-bg"></div>
-			</div>
+	<span itemscope itemtype="http://schema.org/Event">
+		<section class="row text-center" id="tournament-hero">
+			<h2 itemprop="name" id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
+			<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
+		</section>
+		<div class="row" id="tournament-tag">
+			<p class="large-10 large-offset-1 columns p-x">The tournament, open to the public, will include 18 holes of golf, cart, lunch and dinner. Following the tournament, awards will be given.</p>
 		</div>
-		<div class="medium-4 columns">
-			<div class="content-box" id="where">
-				<div class="prose">
-					<h3 class="title">Where</h3>
-					<p>Sweetwater Country Club</p>
-					<p>4400 Palm Royale Blvd <br>Sugar Land, TX 77479</p>
+		<section class="row text-center" id="tournament-deets">
+			<div class="medium-4 columns">
+				<div class="content-box" id="when">
+					<meta itemprop="startDate" content="2016-05-02">
+					<div class="prose">
+						<h3 class="title">When</h3>
+						<p>Monday <br>May 2, 2016</p>
+						<p>11AM Shotgun Start</p>
+					</div>
+					<div class="icon-bg"></div>
 				</div>
-				<div class="icon-bg"></div>
 			</div>
-		</div>
-		<div class="medium-4 columns">
-			<div class="content-box" id="cost">
-				<div class="prose">
-					<h3 class="title">Cost</h3>
-					<p>$150 / Solo Player</p>
-					<p>$500/ Team of 4</p>
+			<div class="medium-4 columns">
+				<div class="content-box" id="where" itemprop="location" itemscope itemtype="http://schema.org/Place">
+					<div class="prose">
+						<h3 class="title">Where</h3>
+						<p itemprop="name">Sweetwater Country Club</p>
+						<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">4400 Palm Royale Blvd</span> <br><span itemprop="addressLocality">Sugar Land</span>, <span itemprop="addressRegion">TX</span>  <span itemprop="postalCode">77479</span></p>
+					</div>
+					<div class="icon-bg"></div>
 				</div>
-				<div class="icon-bg"></div>
 			</div>
-		</div>
-	</section>
+			<div class="medium-4 columns">
+				<div class="content-box" id="cost" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+					<div class="prose">
+						<h3 class="title">Cost</h3>
+						<meta itemprop="priceCurrency" content="USD">
+						<p itemprop="price" content="150.00">$150 / Solo Player</p>
+						<p itemprop="price" content="500.00">$500/ Team of 4</p>
+					</div>
+					<div class="icon-bg"></div>
+				</div>
+			</div>
+		</section>
+	</span>
 	<section class="row" id="testimonial">
 		<div class="medium-3 columns" id="cabc-badge">
 			<img srcset="http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/tournament-page/cabc-badge@2x.png 2x" src="http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/tournament-page/cabc-badge.png" alt="">
