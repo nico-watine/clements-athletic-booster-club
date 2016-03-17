@@ -23,8 +23,10 @@
 	<meta property="og:image" content="http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
-	<!-- <link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/> -->
-	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>">
+	<link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/>
+
+	<!-- FOR LOCAL DEV :: -->
+	<!-- <link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"> -->
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
