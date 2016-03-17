@@ -35,6 +35,7 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" id="cabc-golf-tournament-2016">
 <meta itemprop="datePublished" content="2016-03-12">
+<meta itemprop="dateModified" content="2016-03-17">
 
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
