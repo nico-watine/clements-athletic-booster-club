@@ -23,7 +23,7 @@
 	<meta property="og:image" content="http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
-	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
+	<link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/>
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -77,8 +77,8 @@
 <div id="logo-shade"><!-- opaque BG logo --></div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="<?php autoVer('/js/base-min.js'); ?>"></script>
-<script src="/js/what-input-min.js"></script>
+<script src="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/js/base-min.js'); ?>"></script>
+<script src="http://cdn.studionclient.rocks/project/cabc/js/what-input-min.js"></script>
 
 <script>
 	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

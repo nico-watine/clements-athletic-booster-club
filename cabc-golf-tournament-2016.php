@@ -8,7 +8,7 @@
 	<title>2016 CABC Golf Tournament | Clements High School</title>
 	<meta name="description" content="The 2016 CABC Golf Tournament is around the corner! Sign up here.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
+	<link rel="canonical" href="http://clementsathleticboosterclub.org/cabc-golf-tournament-2016" />
 	<link rel="author" href="/humans.txt">
 
 	<link rel="icon" href="/apple-touch-icon.png">
@@ -20,10 +20,10 @@
 	<meta property="og:description" content="The 2016 CABC Golf Tournament is around the corner! Sign up here." />
 	<meta property="og:url" content="http://clementsathleticboosterclub.org/cabc-golf-tournament-2016" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
-	<meta property="og:image" content="http://clementsathleticboosterclub.org/img/assets/og/golf-tournament/og-shot.jpg" />
+	<meta property="og:image" content="http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
-	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>"/>
+	<link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/>
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -236,7 +236,7 @@
 			<p id="appeal" class="medium-10 medium-offset-1 columns end padding">Our student athletes are the best in the district! Let’s show them how much we care. Sign up today to play or sponsor!</p>
 			<p id="info" class="small-12 columns">
 				<span>To sign up, please contact :</span>
-				<span id="name">Luis Gonzales</span>
+				<span id="name">Luis Gutierrez</span>
 				<span id="position">CABC Golf Tournament Chair</span>
 			</p>
 			<p id="phone" class="small-12 columns"><i class="icon-mobile-alt"></i>&nbsp;(832) 419-4717</p>
@@ -248,8 +248,8 @@
 <div id="logo-shade"><!-- opaque BG logo --></div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="<?php autoVer('/js/tournament-tabs-min.js'); ?>"></script>
-<script src="/js/what-input-min.js"></script>
+<script src="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/js/tournament-tabs-min.js'); ?>"></script>
+<script src="http://cdn.studionclient.rocks/project/cabc/js/what-input-min.js"></script>
 
 
 <script>
