@@ -1,5 +1,59 @@
 @import "../_settings.scss";
 
+footer {
+	margin-top: em(200);
+	background: #666;
+	padding: em(30) 0;
 
+	* {
+		color: #fff;
+		margin-bottom: 0;
+		line-height: 1.6;
+	}
+
+	.text-wrapper {
+		margin-bottom: em(30);
+
+		a {
+			// display: block;
+			// text-decoration: underline;
+
+			&:hover,
+			&:active,
+			&:focus {
+				color: #fff;
+				// text-decoration: none;
+			}
+
+			&:hover {
+				text-decoration: none;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	#site-colophon {
+		a {
+			text-decoration: none;
+			color: #ccc;
+			letter-spacing: rem(1.5);
+			font-size: rem(14);
+
+			span {
+				text-decoration: underline;
+				color: #ccc;
+			}
+
+			&:hover {
+				color: #fff;
+				text-decoration: underline;
+
+				span {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
 
 

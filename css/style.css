@@ -804,9 +804,19 @@ figure { border: 0; margin: 0; padding: 0; }
 
 .floating:hover { box-shadow: 0 0.875rem 0.75rem 0 rgba(0, 0, 0, 0.17), 0 1.25rem 2.5rem 0 rgba(0, 0, 0, 0.3); -webkit-transition: box-shadow 90ms ease-out 0s; transition: box-shadow 90ms ease-out 0s; }
 
+html, body { height: 100%; }
+
 .height-wrapper { min-height: 100%; position: relative; }
 
-.height-wrapper main { padding-bottom: 34.375em; }
+.height-wrapper main { padding-bottom: 31.25em; }
+
+.height-wrapper footer { position: absolute; bottom: 0; width: 100%; }
+
+html, body { height: 100%; }
+
+.height-wrapper { min-height: 100%; position: relative; }
+
+.height-wrapper main { padding-bottom: 31.25em; }
 
 .height-wrapper footer { position: absolute; bottom: 0; width: 100%; }
 
@@ -817,6 +827,24 @@ body { background: #E8E8E8 url("http://cdn.studionclient.rocks/project/cabc/img/
 @media only screen and (max-width: 770px) { #logo-shade { background-size: 18.75em; } }
 
 @media only screen and (max-width: 33.750em) { #logo-shade { background-size: 15em; } }
+
+footer { margin-top: 12.5em; background: #666; padding: 1.875em 0; }
+
+footer * { color: #fff; margin-bottom: 0; line-height: 1.6; }
+
+footer .text-wrapper { margin-bottom: 1.875em; }
+
+footer .text-wrapper a:hover, footer .text-wrapper a:active, footer .text-wrapper a:focus { color: #fff; }
+
+footer .text-wrapper a:hover { text-decoration: none; text-decoration: underline; }
+
+footer #site-colophon a { text-decoration: none; color: #ccc; letter-spacing: 0.09375rem; font-size: 0.875rem; }
+
+footer #site-colophon a span { text-decoration: underline; color: #ccc; }
+
+footer #site-colophon a:hover { color: #fff; text-decoration: underline; }
+
+footer #site-colophon a:hover span { color: #fff; }
 
 header { padding-top: 1.125em; }
 

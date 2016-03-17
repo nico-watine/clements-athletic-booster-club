@@ -2,10 +2,10 @@
 
 
 // THIS IS NECESSARY, BUT ALREADY DEFAULT IN FOUNDATION STYLES-----------
-// html,
-// body {
-//     height: 100%;
-// }
+html,
+body {
+    height: 100%;
+}
 
 // THESE STYLES (HEIGHT/COLOR) ARE FOR EXAMPLE SETUP
 .height-wrapper {
@@ -13,7 +13,7 @@
     position:relative;
 
 	main {
-		padding-bottom: em(550);
+		padding-bottom: em(500);
 	}
 
 	footer {

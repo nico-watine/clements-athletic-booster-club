@@ -23,7 +23,8 @@
 	<meta property="og:image" content="http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
-	<link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/>
+	<!-- <link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/> -->
+	<link rel="stylesheet" href="<?php autoVer('/css/style.css'); ?>">
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -33,6 +34,8 @@
 <body itemscope itemtype="http://schema.org/WebPage" id="coming-soon">
 <meta itemprop="datePublished" content="2016-03-12">
 
+<div class="height-wrapper">
+	
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
 	<div id="masthead">
@@ -61,11 +64,35 @@
 		</ul>
 	</div>
 </nav>
-<div class="row text-center" style="padding: 80px 0;">
-	<h1 class="title">Coming Soon!</h1>
-</div>
+
+<main>
+	<div class="row text-center" style="padding: 80px 0;">
+		<h1 class="title">Coming Soon!</h1>
+	</div>
+</main>
 
 <div id="logo-shade"><!-- opaque BG logo --></div>
+
+<footer>
+	<div class="row">
+		<div class="medium-6 columns text-center medium-text-left text-wrapper">
+			<h5 class="title">Clements High School</h5>
+			<p>A Fort Bed ISD School</p>
+			<a href="https://goo.gl/maps/jT3jsuKtRiB2" target="_blank">4200 Elkins Rd | Sugar Land, TX 77479</a>
+		</div>
+		<div class="medium-6 columns text-center medium-text-right text-wrapper">
+			<h5 class="title">Affiliate Sites</h5>
+			<a href="http://www.fortbendisd.com/chs" target="_blank">CHS Official Website &gt;&gt;</a><br><a href="http://www.fortbendisd.com/" target="_blank">FBISD Official Website &gt;&gt;</a>
+		</div>
+	</div>
+	<div class="row">
+		<div id="site-colophon" class="small-12 columns text-center">
+			<a href="http://studioncreations.com/" target="_blank">A <span>STUDIO N</span> CREATION</a>
+		</div>
+	</div>
+</footer>
+
+</div><!-- /HEIGHT WRAPPER -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/js/base-min.js'); ?>"></script>
