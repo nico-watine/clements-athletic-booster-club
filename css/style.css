@@ -838,7 +838,7 @@ footer .text-wrapper a:hover, footer .text-wrapper a:active, footer .text-wrappe
 
 footer .text-wrapper a:hover { text-decoration: none; text-decoration: underline; }
 
-footer #site-colophon a { text-decoration: none; color: #ccc; letter-spacing: 0.09375rem; font-size: 0.875rem; }
+footer #site-colophon a { text-decoration: none; color: #ccc; letter-spacing: 0.09375rem; font-size: 0.75rem; }
 
 footer #site-colophon a span { text-decoration: underline; color: #ccc; }
 
