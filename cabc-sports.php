@@ -80,7 +80,7 @@
 	<div class="row">
 		<div class="medium-6 columns text-center medium-text-left text-wrapper">
 			<h5 class="title">Clements High School</h5>
-			<p>A Fort Bed ISD School</p>
+			<p>A Fort Bend ISD School</p>
 			<a href="https://goo.gl/maps/jT3jsuKtRiB2" target="_blank">4200 Elkins Rd | Sugar Land, TX 77479</a>
 		</div>
 		<div class="medium-6 columns text-center medium-text-right text-wrapper">
