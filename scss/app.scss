@@ -10,15 +10,15 @@
 @include foundation-global-styles;
 @include foundation-grid;
 @include foundation-typography;
-@include foundation-menu;
-@include foundation-button;
-@include foundation-dropdown;
-@include foundation-dropdown-menu;
 @include foundation-tabs;
-@include foundation-top-bar;
+@include foundation-menu;
 @include foundation-visibility-classes;
-@include foundation-float-classes;
 
+// @include foundation-button;
+// @include foundation-dropdown;
+// @include foundation-dropdown-menu;
+// @include foundation-top-bar;
+// @include foundation-float-classes;
 // @include foundation-forms;
 // @include foundation-range-input;
 // @include foundation-accordion;
@@ -62,10 +62,8 @@
 // SITE STYLE COMPONENTS ::
 @import "components/_resets.scss";
 @import "components/_typography.scss";
-// @import "components/_fonts.scss";
 @import "components/_utility-classes.scss";
 @import "components/_buttons.scss";
-@import "components/_extras.scss";
 @import "components/_extras.scss";
 //----------------------------------------------------------------------------
 
@@ -85,10 +83,6 @@
 @import "pages/golf-tournament/_golf-tournament.scss";
 //----------------------------------------------------------------------------
 
-
-//COMMENT OUT PRE-UPLOAD//----------------------------------------------------
-// @import "dev/_grid.scss";
-//----------------------------------------------------------------------------
 
 
 
