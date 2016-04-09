@@ -1,2 +1,3 @@
-// 
+// test import
+$(document).foundation();
 
