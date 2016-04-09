@@ -1,5 +1,11 @@
-
-
+---
+page-title: Clements Athletic Booster Club Sports
+page-description: The CABC includes all of Clements High School's athletic programs.
+url: /cabc-sports
+og-title: Clements Athletic Booster Club Sports
+og-description: The CABC includes all of Clements High School's athletic programs.
+og-image: http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg
+---
 <div class="height-wrapper">
 	
 <header>

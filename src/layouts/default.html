@@ -5,10 +5,10 @@
 <html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<title>Clements Athletic Booster Club | Clements High School</title>
-	<meta name="description" content="The home for all Clements High School sports teams, with game schedules and more.">
+	<title>{{ page-title }} | Clements High School</title>
+	<meta name="description" content="{{ page-description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="canonical" href="http://clementsathleticboosterclub.org" />
+	<link rel="canonical" href="http://clementsathleticboosterclub.org{{ url }}" />
 	<link rel="author" href="/humans.txt">
 
 	<link rel="icon" href="/apple-touch-icon.png">
@@ -16,11 +16,11 @@
 
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Clements Athletic Booster Club" />
-	<meta property="og:description" content="The home for all Clements High School sports teams, with game schedules and more." />
-	<meta property="og:url" content="http://clementsathleticboosterclub.org" />
+	<meta property="og:title" content="{{ og-title }} | Clements Athletic Booster Club" />
+	<meta property="og:description" content="{{ og-description }}" />
+	<meta property="og:url" content="{{ url }}" />
 	<meta property="og:site_name" content="Clements Athletic Booster Club" />
-	<meta property="og:image" content="http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg" />
+	<meta property="og:image" content="{{ og-image }}" />
 	<meta property="fb:app_id" content="1674633382806636" />
 
 	<!-- <link rel="stylesheet" href="http://cdn.studionclient.rocks/project/cabc<?php autoVer('/css/style.css'); ?>"/> -->
@@ -34,7 +34,7 @@
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" id="{{ body-id }}">
 <meta itemprop="datePublished" content="2016-03-12">
-<meta itemprop="dateModified" content="2016-03-17">
+<meta itemprop="dateModified" content="2016-04-09">
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-<script src="/js/app-min.js"></script>
+<script src="<?php autoVer('/js/app-min.js'); ?>"></script>
 
 <script>
 	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
