@@ -3,6 +3,7 @@
 
 @import 'settings';
 @import 'foundation';
+@import "settings/_custom-settings.scss";
 // @import 'motion-ui';
 
 @include foundation-global-styles;

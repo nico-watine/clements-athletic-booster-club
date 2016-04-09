@@ -1,4 +1,5 @@
 @charset 'utf-8';
+@import "bourbon";
 
 @import 'settings';
 @import 'foundation';
@@ -54,24 +55,37 @@
 // @include foundation-flex-grid;
 
 
-//  ---------------------------------------------------------------
-// IMPORT CUSTOM SCSS FILES ::
-//  ---------------------------------------------------------------
+//----------------------------------------------------------------------------
+// SITE STYLE COMPONENTS ::
+@import "components/_resets.scss";
+@import "components/_typography.scss";
+// @import "components/_fonts.scss";
+@import "components/_utility-classes.scss";
+@import "components/_buttons.scss";
+@import "components/_extras.scss";
+@import "components/_extras.scss";
+//----------------------------------------------------------------------------
 
-// BLOCKS ::
+
+//----------------------------------------------------------------------------
+// PAGE BLOCKS STYLES
 @import "blocks/_body.scss";
+@import "blocks/_footer.scss";
 @import "blocks/_header.scss";
 @import "blocks/_nav.scss";
-@import "blocks/_footer.scss";
+//----------------------------------------------------------------------------
 
-// COMPONENTS ::
-@import "components/_extras.scss";
-@import "components/_typography.scss";
-@import "components/_resets.scss";
-@import "components/_utility-classes.scss";
 
-// PAGES ::
-// @import "pages/index/_index.scss";
+//----------------------------------------------------------------------------
+// INDIVIDUAL PAGES ::
+@import "pages/index/_index.scss";
+@import "pages/golf-tournament/_golf-tournament.scss";
+//----------------------------------------------------------------------------
+
+
+//COMMENT OUT PRE-UPLOAD//----------------------------------------------------
+// @import "dev/_grid.scss";
+//----------------------------------------------------------------------------
 
 
 
