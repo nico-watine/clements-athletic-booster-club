@@ -49,17 +49,30 @@ function copy() {
 
 // Copy page templates into finished HTML files
 function pages() {
-  // return gulp.src('src/pages/**/*.{html,hbs,handlebars}')
   return gulp.src('src/pages/**/*.{html,php,hbs,handlebars}')
     .pipe(panini({
       root: 'src/pages/',
       layouts: 'src/layouts/',
+      // For CDN referencing ONLY ::
+      // pageLayouts: {
+      //   '': 'cdn'
+      // },
+      // --------------------
       partials: 'src/partials/',
       data: 'src/data/',
       helpers: 'src/helpers/'
     }))
     .pipe(gulp.dest(PATHS.dist));
 }
+
+// panini({
+//   root: 'src/pages/',
+//   layouts: 'src/layouts/',
+//   pageLayouts: {
+//     // All pages inside src/pages/blog will use the blog.html layout
+//     'blog': 'blog'
+//   }
+// })
 
 // Load updated HTML templates and partials into Panini
 function resetPages(done) {

@@ -4,7 +4,7 @@ page-description: The home for all Clements High School sports teams, with game 
 url: /
 og-title: CABC Sports Home
 og-description: The home for all Clements High School sports teams, with game schedules and more.
-og-image: http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg
+og-image: /img/assets/og/golf-tournament/og-shot.jpg
 ---
 <div class="height-wrapper">
 <header>

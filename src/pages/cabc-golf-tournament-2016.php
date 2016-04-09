@@ -4,7 +4,7 @@ page-description: The 2016 CABC Golf Tournament is around the corner! Sign up he
 url: /cabc-golf-tournament-2016
 og-title: 2016 CABC Golf Tournament
 og-description: The 2016 CABC Golf Tournament is around the corner! Sign up here.
-og-image: http://cdn.studionclient.rocks/project/cabc/img/assets/og/golf-tournament/og-shot.jpg
+og-image: /img/assets/og/golf-tournament/og-shot.jpg
 body-id: cabc-golf-tournament-2016
 ---
 <header>
