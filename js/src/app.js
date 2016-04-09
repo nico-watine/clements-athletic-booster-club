@@ -1,2 +1,1 @@
-// test import
 $(document).foundation();
