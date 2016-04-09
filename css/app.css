@@ -1709,9 +1709,9 @@ figure {
 
 @font-face {
   font-family: 'cabc';
-  src: url("/fonts/icons/cabc/cabc.eot");
+  src: url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/icons/cabc/cabc.eot?#iefix") format("embedded-opentype"), url("/fonts/icons/cabc/cabc.woff") format("woff"), url("/fonts/icons/cabc/cabc.ttf") format("truetype"), url("/fonts/icons/cabc/cabc.svg#c37aea192cd9086cace3ebca564eeccd") format("svg");
+  src: url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.eot?#iefix") format("embedded-opentype"), url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.woff") format("woff"), url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.ttf") format("truetype"), url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.svg#c37aea192cd9086cace3ebca564eeccd") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -1809,7 +1809,7 @@ body {
     width: 100%; }
 
 body {
-  background: #E8E8E8 url("/img/assets/bg/bg.png") repeat; }
+  background: #E8E8E8 url("http://cdn.studionclient.rocks/project/cabc/img/assets/bg/bg.png") repeat; }
 
 #logo-shade {
   position: absolute;
@@ -1818,7 +1818,7 @@ body {
   height: 1000px;
   top: 0;
   left: 0;
-  background: url("/img/assets/bg/logo-shade.png") no-repeat left top; }
+  background: url("http://cdn.studionclient.rocks/project/cabc/img/assets/bg/logo-shade.png") no-repeat left top; }
   @media only screen and (max-width: 770px) {
     #logo-shade {
       background-size: 18.75em; } }
@@ -1935,7 +1935,7 @@ nav {
 section#golf-tournament-banner {
   height: 37.5em;
   width: 100%;
-  background: #fff url("/img/events/golf-tournament/index/banner-bg.jpg") no-repeat center top;
+  background: #fff url("http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/index/banner-bg.jpg") no-repeat center top;
   background-size: cover;
   border-bottom: 0.25em solid #2859A6;
   margin-bottom: 1.875em;
@@ -1944,7 +1944,7 @@ section#golf-tournament-banner {
   padding: 3.4375em 0.875em 1.875em; }
   @media only screen and (max-width: 43.750em) {
     section#golf-tournament-banner {
-      background: #fff url("/img/events/golf-tournament/index/banner-bg%40700.jpg") no-repeat right top; } }
+      background: #fff url("http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/index/banner-bg%40700.jpg") no-repeat right top; } }
   @media screen and (max-width: 39.9375em) {
     section#golf-tournament-banner {
       height: auto; } }

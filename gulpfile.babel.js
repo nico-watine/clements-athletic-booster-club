@@ -54,9 +54,9 @@ function pages() {
       root: 'src/pages/',
       layouts: 'src/layouts/',
       // For CDN referencing ONLY ::
-      // pageLayouts: {
-      //   '': 'cdn'
-      // },
+      pageLayouts: {
+        '': 'default-cdn'
+      },
       // --------------------
       partials: 'src/partials/',
       data: 'src/data/',
@@ -65,14 +65,7 @@ function pages() {
     .pipe(gulp.dest(PATHS.dist));
 }
 
-// panini({
-//   root: 'src/pages/',
-//   layouts: 'src/layouts/',
-//   pageLayouts: {
-//     // All pages inside src/pages/blog will use the blog.html layout
-//     'blog': 'blog'
-//   }
-// })
+
 
 // Load updated HTML templates and partials into Panini
 function resetPages(done) {
