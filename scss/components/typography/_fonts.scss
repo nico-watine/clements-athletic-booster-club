@@ -1,0 +1,64 @@
+@import "../../_settings.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Graduate|Open+Sans:400,700");
+
+
+//---------------------------------------------------------------------------------
+//		CABC ICON FONT ::
+//---------------------------------------------------------------------------------
+
+@font-face {
+  font-family: 'cabc';
+  src: url('#{$url}/fonts/icons/cabc/cabc.eot'); /* IE9 Compat Modes */
+  src: url('#{$url}/fonts/icons/cabc/cabc.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{$url}/fonts/icons/cabc/cabc.woff') format('woff'), /* Modern Browsers */
+       url('#{$url}/fonts/icons/cabc/cabc.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('#{$url}/fonts/icons/cabc/cabc.svg#c37aea192cd9086cace3ebca564eeccd') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "cabc";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  // width: 1em;
+  // margin-right: .2em;
+  line-height: 1;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  // line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  // margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-clock:before { content: '\63'; } /* 'c' */
+.icon-dollar:before { content: '\64'; } /* 'd' */
+.icon-mail:before { content: '\65'; } /* 'e' */
+.icon-location:before { content: '\6d'; } /* 'm' */
+.icon-mobile-alt:before { content: '\70'; } /* 'p' */
+
+// <i class="icon-clock"></i>
