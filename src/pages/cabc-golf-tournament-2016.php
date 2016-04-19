@@ -13,7 +13,7 @@ body-id: cabc-golf-tournament-2016
 		<div class="row">
 			<div id="site-logo" class="medium-3 large-2 columns">
 				<div class="vertical-wrapper text-center">
-					<a href="/"><img srcset="http://cdn.studionclient.rocks/project/cabc/img/assets/logo/logo@2x.png 2x" src="http://cdn.studionclient.rocks/project/cabc/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
+					<a href="/"><img srcset="{{ cdn }}/img/assets/logo/logo@2x.png 2x" src="{{ cdn }}/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
 				</div>
 			</div>
 			<div id="site-name" class="medium-9 large-10 columns text-center medium-text-left">
@@ -81,7 +81,7 @@ body-id: cabc-golf-tournament-2016
 	</span>
 	<section class="row" id="testimonial">
 		<div class="medium-3 columns" id="cabc-badge">
-			<img srcset="http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/tournament-page/cabc-badge@2x.png 2x" src="http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/tournament-page/cabc-badge.png" alt="">
+			<img srcset="{{ cdn }}/img/events/golf-tournament/tournament-page/cabc-badge@2x.png 2x" src="{{ cdn }}/img/events/golf-tournament/tournament-page/cabc-badge.png" alt="">
 		</div>
 		<div class="medium-9 columns" id="quote">
 			<div class="wrapper">
@@ -208,6 +208,25 @@ body-id: cabc-golf-tournament-2016
 		<div class="row">
 			<!-- <h2 id="c2a" class="title">Sign Up Today!</h2> -->
 			<p id="appeal" class="medium-10 medium-offset-1 columns end padding">Our student athletes are the best in the district! Let’s show them how much we care. Sign up today to play or sponsor!</p>
+		</div>
+		<div class="white-banner" id="download">
+			<div class="row" id="buttons">
+				<div class="small-12 columns">
+					<h3>2016 CABC Golf Tournament Registration Form</h3>
+					<a href="#" id="pdf" class="button floating">PDF</a>
+					<a href="#" id="word" class="button floating">Microsoft Word</a>
+				</div>
+			</div>
+			<div class="row">
+				<p id="info" class="small-12 columns" style="margin-bottom: 0;">
+					<span>Please email completed form to</span>
+					<span id="name">Mitch Danklef</span>
+					<span id="position">CABC President</span>
+				</p>
+				<p id="email" class="small-12 columns"><i class="icon-mail"></i>&nbsp;mdanklef@gmail.com</p>
+			</div>
+		</div>
+		<div class="row">
 			<p id="info" class="small-12 columns">
 				<span>To sign up, please contact :</span>
 				<span id="name">Luis Gutierrez</span>

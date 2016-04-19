@@ -28,6 +28,48 @@ $width-400: "only screen and (max-width : 25em)";
 				}
 			}
 
+			.white-banner#download {
+				background: #fff;
+				padding: em(25);
+				border-top: em(5) solid $dark-blue;
+				border-bottom: em(5) solid $dark-blue;
+				margin-bottom: em(40);
+
+				h3 {
+					margin-bottom: rem(20);
+				}
+
+				a {
+					@extend .title;
+					color: #fff;
+					background: $dark-blue;
+					border-radius: rem(5);
+					border: rem(2) solid $light-blue;
+					font-size: rem(31);
+					margin-bottom: rem(22);
+				}
+
+				a#pdf {
+					padding: rem(10) rem(36) rem(12);
+
+					@include breakpoint(medium) {
+						margin-right: rem(30);
+					}
+				}
+
+				a#word {
+					padding: rem(10) rem(20) rem(12);
+
+					@include breakpoint(medium) {
+						margin-left: rem(30);
+					}
+				}
+			}
+
+			.row#buttons {
+				margin-bottom: em(40);
+			}
+
 			#appeal {
 				line-height: 1.4;
 				font-size: rem(24);
@@ -41,7 +83,7 @@ $width-400: "only screen and (max-width : 25em)";
 			p#info {
 				line-height: 1.4;
 				font-size: rem(31);
-				margin-bottom: rem(46);
+				margin-bottom: rem(24);
 
 				span {
 					display: block;

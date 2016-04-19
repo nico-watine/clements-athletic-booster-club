@@ -54,9 +54,9 @@ function pages() {
       root: 'src/pages/',
       layouts: 'src/layouts/',
       // For CDN referencing ONLY ::
-      pageLayouts: {
-        '': 'default-cdn'
-      },
+      // pageLayouts: {
+      //   '': 'default-cdn'
+      // },
       // --------------------
       partials: 'src/partials/',
       data: 'src/data/',

@@ -1758,7 +1758,7 @@ figure {
   content: '\70'; }
 
 /* 'p' */
-.title, nav ul.menu li a, section#golf-tournament-banner .c2a-button a {
+.title, nav ul.menu li a, section#golf-tournament-banner .c2a-button a, #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a {
   font-family: "Graduate", cursive;
   font-weight: 400; }
 
@@ -2181,6 +2181,33 @@ section#golf-tournament-banner {
       @media screen and (min-width: 40em) {
         #cabc-golf-tournament-2016 main #signup-contact .blue-banner #c2a {
           font-size: 3.625rem; } }
+  #cabc-golf-tournament-2016 main #signup-contact .white-banner#download {
+    background: #fff;
+    padding: 1.5625em;
+    border-top: 0.3125em solid #2859A6;
+    border-bottom: 0.3125em solid #2859A6;
+    margin-bottom: 2.5em; }
+    #cabc-golf-tournament-2016 main #signup-contact .white-banner#download h3 {
+      margin-bottom: 1.25rem; }
+    #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a {
+      color: #fff;
+      background: #2859A6;
+      border-radius: 0.3125rem;
+      border: 0.125rem solid #02C3F3;
+      font-size: 1.9375rem;
+      margin-bottom: 1.375rem; }
+    #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#pdf {
+      padding: 0.625rem 2.25rem 0.75rem; }
+      @media screen and (min-width: 40em) {
+        #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#pdf {
+          margin-right: 1.875rem; } }
+    #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#word {
+      padding: 0.625rem 1.25rem 0.75rem; }
+      @media screen and (min-width: 40em) {
+        #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#word {
+          margin-left: 1.875rem; } }
+  #cabc-golf-tournament-2016 main #signup-contact .row#buttons {
+    margin-bottom: 2.5em; }
   #cabc-golf-tournament-2016 main #signup-contact #appeal {
     line-height: 1.4;
     font-size: 1.5rem;
@@ -2191,7 +2218,7 @@ section#golf-tournament-banner {
   #cabc-golf-tournament-2016 main #signup-contact p#info {
     line-height: 1.4;
     font-size: 1.9375rem;
-    margin-bottom: 2.875rem; }
+    margin-bottom: 1.5rem; }
     #cabc-golf-tournament-2016 main #signup-contact p#info span {
       display: block; }
     #cabc-golf-tournament-2016 main #signup-contact p#info span#name {

@@ -13,7 +13,7 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 		<div class="row">
 			<div id="site-logo" class="medium-3 large-2 columns">
 				<div class="vertical-wrapper text-center">
-					<a href="/"><img srcset="http://cdn.studionclient.rocks/project/cabc/img/assets/logo/logo@2x.png 2x" src="http://cdn.studionclient.rocks/project/cabc/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
+					<a href="/"><img srcset="{{ cdn }}/img/assets/logo/logo@2x.png 2x" src="{{ cdn }}/img/assets/logo/logo.png" alt="Clements High School Logo"></a>
 				</div>
 			</div>
 			<div id="site-name" class="medium-9 large-10 columns text-center medium-text-left">
