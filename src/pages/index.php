@@ -6,6 +6,7 @@ og-title: CABC Sports Home
 og-description: The home for all Clements High School sports teams, with game schedules and more.
 og-image: /img/assets/og/golf-tournament/og-shot.jpg
 ---
+
 <div class="height-wrapper">
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
@@ -25,6 +26,7 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 		</div>
 	</div>
 </header>
+<div id="logo-shade"><!-- opaque BG logo --></div>
 <nav>
 	<div class="row">
 		<ul class="menu">
@@ -50,8 +52,6 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 		</div>
 	</section>
 </main>
-
-<div id="logo-shade"><!-- opaque BG logo --></div>
 
 <footer>
 	<div class="row">

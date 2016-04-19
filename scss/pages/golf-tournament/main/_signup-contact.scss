@@ -1,6 +1,6 @@
 @import "../../../_settings.scss";
 
-$width-400: "only screen and (max-width : 25em)";
+$width-620: "only screen and (max-width : 38.750em)";
 
 
 #cabc-golf-tournament-2016 {
@@ -36,7 +36,7 @@ $width-400: "only screen and (max-width : 25em)";
 				margin-bottom: em(40);
 
 				h3 {
-					margin-bottom: rem(20);
+					margin-bottom: rem(36);
 				}
 
 				a {
@@ -47,6 +47,11 @@ $width-400: "only screen and (max-width : 25em)";
 					border: rem(2) solid $light-blue;
 					font-size: rem(31);
 					margin-bottom: rem(22);
+
+					@include breakpoint(small only) {
+						display: block;
+						margin: 0 !important;
+					}
 				}
 
 				a#pdf {
@@ -54,6 +59,10 @@ $width-400: "only screen and (max-width : 25em)";
 
 					@include breakpoint(medium) {
 						margin-right: rem(30);
+					}
+
+					@include breakpoint(small only) {
+						margin-bottom: rem(22) !important;
 					}
 				}
 
@@ -109,7 +118,7 @@ $width-400: "only screen and (max-width : 25em)";
 				}
 			}
 			
-			@media #{$width-400} {
+			@media #{$width-620} {
 				#phone,
 				#email {
 					font-size: rem(24);

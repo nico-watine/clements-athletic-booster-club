@@ -7,6 +7,7 @@ og-description: The 2016 CABC Golf Tournament is around the corner! Sign up here
 og-image: /img/assets/og/golf-tournament/og-shot.jpg
 body-id: cabc-golf-tournament-2016
 ---
+
 <header>
 	<address>4200 Elkins Rd | Sugar Land, TX 77479</address>
 	<div id="masthead">
@@ -25,6 +26,7 @@ body-id: cabc-golf-tournament-2016
 		</div>
 	</div>
 </header>
+<div id="logo-shade"><!-- opaque BG logo --></div>
 <nav>
 	<div class="row">
 		<ul class="menu">
@@ -213,8 +215,8 @@ body-id: cabc-golf-tournament-2016
 			<div class="row" id="buttons">
 				<div class="small-12 columns">
 					<h3>2016 CABC Golf Tournament Registration Form</h3>
-					<a href="#" id="pdf" class="button floating">PDF</a>
-					<a href="#" id="word" class="button floating">Microsoft Word</a>
+					<a href="{{ cdn }}/assets/docs/2016-CABC-Golf-Tournament-Player-Registration-Form.pdf" target="_blank" id="pdf" class="button floating">PDF</a>
+					<a href="{{ cdn }}/assets/docs/2016-CABC-Golf-Tournament-Player-Registration-Form.docx" target="_blank" id="word" class="button floating">Microsoft Word</a>
 				</div>
 			</div>
 			<div class="row">
@@ -228,7 +230,7 @@ body-id: cabc-golf-tournament-2016
 		</div>
 		<div class="row">
 			<p id="info" class="small-12 columns">
-				<span>To sign up, please contact :</span>
+				<span style="margin-bottom: 10px;">For more information on how to contribute to this event, please contact: </span>
 				<span id="name">Luis Gutierrez</span>
 				<span id="position">CABC Golf Tournament Chair</span>
 			</p>
@@ -237,8 +239,6 @@ body-id: cabc-golf-tournament-2016
 		</div>
 	</section>
 </main>
-
-<div id="logo-shade"><!-- opaque BG logo --></div>
 
 <footer>
 	<div class="row">

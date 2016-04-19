@@ -54,9 +54,9 @@ function pages() {
       root: 'src/pages/',
       layouts: 'src/layouts/',
       // For CDN referencing ONLY ::
-      // pageLayouts: {
-      //   '': 'default-cdn'
-      // },
+      pageLayouts: {
+        '': 'default-cdn'
+      },
       // --------------------
       partials: 'src/partials/',
       data: 'src/data/',
@@ -109,7 +109,8 @@ function javascript_other() {
 
 // Copy over fonts
 function fonts() {
-  return gulp.src('fonts/**/**/**/**/**/**/**/**/**/*')
+  // return gulp.src('fonts/**/**/**/**/**/**/**/**/**/*')
+  return gulp.src('fonts/**/*')
     .pipe(gulp.dest(PATHS.dist + '/fonts'));
 }
 
@@ -119,7 +120,8 @@ function fonts() {
 // [ THIS MAKES IT EASIER TO RIGHTCLICK->COPY PATH WHILE CODING]
 // [ ALSO REMOVED THE 'IMAGEMIN' FUNCTION PER PERSONAL PREFERENCE OF GRAPHICS EDITING FLOW ]
 function images() {
-  return gulp.src('img/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/*')
+  // return gulp.src('img/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/*')
+  return gulp.src('img/**/*')
     .pipe(gulp.dest(PATHS.dist + '/img'));
 }
 

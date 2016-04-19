@@ -26,6 +26,7 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 		</div>
 	</div>
 </header>
+<div id="logo-shade"><!-- opaque BG logo --></div>
 <nav>
 	<div class="row">
 		<ul class="menu">
@@ -43,7 +44,6 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 	</div>
 </main>
 
-<div id="logo-shade"><!-- opaque BG logo --></div>
 
 <footer>
 	<div class="row">
