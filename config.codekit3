@@ -127,6 +127,26 @@
 		"oAP": "\/_ignores\/foundation-zurb-template-master.zip",
 		"oF": 0
 		},
+	"\/_ignores\/git-branch-screens\/develop.png": {
+		"ft": 32768,
+		"iS": 699337,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/_ignores\/git-branch-screens\/develop.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_ignores\/git-branch-screens\/master.png": {
+		"ft": 32768,
+		"iS": 699337,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/_ignores\/git-branch-screens\/master.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_ignores\/google-tracking-id.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -3548,7 +3568,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/apple-touch-icon-120x120-precomposed.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/apple-touch-icon-152x152-precomposed.png": {
@@ -3558,7 +3578,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/apple-touch-icon-152x152-precomposed.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/apple-touch-icon-180x180-precomposed.png": {
@@ -3568,7 +3588,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/apple-touch-icon-180x180-precomposed.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/apple-touch-icon-76x76-precomposed.png": {
@@ -3578,7 +3598,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/apple-touch-icon-76x76-precomposed.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/apple-touch-icon.png": {
@@ -3588,7 +3608,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/assets\/docs\/2016-CABC-Golf-Tournament-Player-Registration-Form.docx": {
@@ -3632,7 +3652,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/favicon.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/fonts\/icons\/cabc\/cabc.eot": {
@@ -3841,7 +3861,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/tile-wide.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/tile.png": {
@@ -3851,7 +3871,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/tile.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/dist\/touch-icon-192x192.png": {
@@ -3861,7 +3881,7 @@
 		"oA": 0,
 		"oAP": "\/dist\/touch-icon-192x192.png",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/fonts\/icons\/cabc\/cabc.eot": {
