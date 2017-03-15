@@ -1,12 +1,7 @@
 .DS_Store
 node_modules
-npm-debug.log
 bower_components
+npm-debug.log
 dist
-
-# Codekit Files
-config.codekit
-
-# Sublime Text Files
 *.sublime-project
 *.sublime-workspace
