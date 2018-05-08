@@ -89,8 +89,8 @@ section#golf-tournament-banner {
 			border: rem(2) solid $dark-blue;
 			box-shadow: $z-5;
 
-		    @include transition (background-color 200ms ease-out 0s);
-		    @include transition (color 200ms ease-out 0s);
+		    // @include transition (background-color 200ms ease-out 0s);
+		    // @include transition (color 200ms ease-out 0s);
 
 			&:hover {
 				box-shadow: $z-2;

@@ -1709,9 +1709,9 @@ figure {
 
 @font-face {
   font-family: 'cabc';
-  src: url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.eot");
+  src: url("/fonts/icons/cabc/cabc.eot");
   /* IE9 Compat Modes */
-  src: url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.eot?#iefix") format("embedded-opentype"), url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.woff") format("woff"), url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.ttf") format("truetype"), url("http://cdn.studionclient.rocks/project/cabc/fonts/icons/cabc/cabc.svg#c37aea192cd9086cace3ebca564eeccd") format("svg");
+  src: url("/fonts/icons/cabc/cabc.eot?#iefix") format("embedded-opentype"), url("/fonts/icons/cabc/cabc.woff") format("woff"), url("/fonts/icons/cabc/cabc.ttf") format("truetype"), url("/fonts/icons/cabc/cabc.svg#c37aea192cd9086cace3ebca564eeccd") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -1769,30 +1769,27 @@ figure {
   display: inline-block; }
 
 .p-y {
-  padding: 1em 0; }
+  padding: em(16) 0; }
 
 .p-x {
-  padding: 0 1em; }
+  padding: 0 em(16); }
 
 .p-0 {
   padding: 0; }
 
 .m-y {
-  margin: 1em 0; }
+  margin: em(16) 0; }
 
 .m-x {
-  margin: 0 1em; }
+  margin: 0 em(16); }
 
 .m-0 {
   margin: 0; }
 
 .floating {
-  box-shadow: 0 0.0625rem 0.25rem 0 rgba(0, 0, 0, 0.37); }
+  box-shadow: 0 rem(1) rem(4) 0 rgba(0, 0, 0, 0.37); }
   .floating:hover {
-    box-shadow: 0 0.875rem 0.75rem 0 rgba(0, 0, 0, 0.17), 0 1.25rem 2.5rem 0 rgba(0, 0, 0, 0.3);
-    -webkit-transition: box-shadow 90ms ease-out 0s;
-    -moz-transition: box-shadow 90ms ease-out 0s;
-    transition: box-shadow 90ms ease-out 0s; }
+    box-shadow: 0 rem(14) rem(12) 0 rgba(0, 0, 0, 0.17), 0 rem(20) rem(40) 0 rgba(0, 0, 0, 0.3); }
 
 html,
 body {
@@ -1802,14 +1799,14 @@ body {
   min-height: 100%;
   position: relative; }
   .height-wrapper main {
-    padding-bottom: 31.25em; }
+    padding-bottom: em(500); }
   .height-wrapper footer {
     position: absolute;
     bottom: 0;
     width: 100%; }
 
 body {
-  background: #E8E8E8 url("http://cdn.studionclient.rocks/project/cabc/img/assets/bg/bg.png") repeat; }
+  background: #E8E8E8 url("/img/assets/bg/bg.png") repeat; }
 
 #logo-shade {
   position: absolute;
@@ -1818,24 +1815,24 @@ body {
   height: 1000px;
   top: 0;
   left: 0;
-  background: url("http://cdn.studionclient.rocks/project/cabc/img/assets/bg/logo-shade.png") no-repeat left top; }
+  background: url("/img/assets/bg/logo-shade.png") no-repeat left top; }
   @media only screen and (max-width: 770px) {
     #logo-shade {
-      background-size: 18.75em; } }
-  @media only screen and (max-width: 33.750em) {
+      background-size: em(300); } }
+  @media only screen and (max-width: 33.75em) {
     #logo-shade {
-      background-size: 15em; } }
+      background-size: em(240); } }
 
 footer {
-  margin-top: 12.5em;
+  margin-top: em(200);
   background: #666;
-  padding: 1.875em 0; }
+  padding: em(30) 0; }
   footer * {
     color: #fff;
     margin-bottom: 0;
     line-height: 1.6; }
   footer .text-wrapper {
-    margin-bottom: 1.875em; }
+    margin-bottom: em(30); }
     footer .text-wrapper a:hover, footer .text-wrapper a:active, footer .text-wrapper a:focus {
       color: #fff; }
     footer .text-wrapper a:hover {
@@ -1844,8 +1841,8 @@ footer {
   footer #site-colophon a {
     text-decoration: none;
     color: #ccc;
-    letter-spacing: 0.09375rem;
-    font-size: 0.75rem; }
+    letter-spacing: rem(1.5);
+    font-size: rem(12); }
     footer #site-colophon a span {
       text-decoration: underline;
       color: #ccc; }
@@ -1856,24 +1853,24 @@ footer {
         color: #fff; }
 
 header {
-  padding-top: 1.125em; }
+  padding-top: em(18); }
   header address {
     right: 0;
-    top: 1.125em;
+    top: em(18);
     position: absolute;
-    font-size: 1.125rem;
-    padding-right: 1.125em; }
+    font-size: rem(18);
+    padding-right: em(18); }
     @media screen and (max-width: 39.9375em) {
       header address {
         visibility: hidden;
         display: none; } }
   header #masthead #site-logo {
     position: relative;
-    height: 13.75em;
-    margin-bottom: 1.25em; }
+    height: em(220);
+    margin-bottom: em(20); }
     header #masthead #site-logo .vertical-wrapper {
       width: 100%;
-      padding-right: 1em; }
+      padding-right: em(16); }
       @media screen and (min-width: 40em) {
         header #masthead #site-logo .vertical-wrapper {
           position: absolute;
@@ -1881,8 +1878,8 @@ header {
           transform: translateY(-50%); } }
   header #masthead #site-name {
     position: relative;
-    height: 13.75em;
-    margin-bottom: 1.25em; }
+    height: em(220);
+    margin-bottom: em(20); }
     @media screen and (min-width: 40em) {
       header #masthead #site-name .vertical-wrapper {
         position: absolute;
@@ -1891,12 +1888,12 @@ header {
     header #masthead #site-name h1 {
       margin: 0;
       line-height: 1.2;
-      padding-right: 1.25em; }
+      padding-right: em(20); }
     header #masthead #site-name h2 {
-      font-size: 1.9375rem; }
+      font-size: rem(31); }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       header #masthead #site-name h1 {
-        font-size: 2.375rem; } }
+        font-size: rem(38); } }
   @media screen and (max-width: 39.9375em) {
     header #masthead #site-logo,
     header #masthead #site-name {
@@ -1911,14 +1908,14 @@ header {
 
 nav {
   background: #fff;
-  border-top: 0.1875em solid #2859A6;
-  border-bottom: 0.1875em solid #2859A6; }
+  border-top: em(3) solid #2859A6;
+  border-bottom: em(3) solid #2859A6; }
   nav ul.menu li a {
     color: #000;
-    padding: 1.125rem; }
+    padding: rem(18); }
     @media screen and (max-width: 39.9375em) {
       nav ul.menu li a {
-        padding: 1.125rem 0.75rem; } }
+        padding: rem(18) rem(12); } }
   nav ul.menu li.active,
   nav ul.menu li:hover {
     background: #2859A6; }
@@ -1928,158 +1925,152 @@ nav {
       background: #2859A6; }
   @media only screen and (max-width: 48.125em) {
     nav ul.menu li {
-      border-right: 0.25rem solid #2859A6; }
+      border-right: rem(4) solid #2859A6; }
     nav ul.menu li#last {
       border-right: 0; } }
 
 section#golf-tournament-banner {
-  height: 37.5em;
+  height: em(600);
   width: 100%;
-  background: #fff url("http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/index/banner-bg.jpg") no-repeat center top;
+  background: #fff url("/img/events/golf-tournament/index/banner-bg.jpg") no-repeat center top;
   background-size: cover;
-  border-bottom: 0.25em solid #2859A6;
-  margin-bottom: 1.875em;
-  padding: 3.125em 0 0;
+  border-bottom: em(4) solid #2859A6;
+  margin-bottom: em(30);
+  padding: em(50) 0 0;
   text-align: center;
-  padding: 3.4375em 0.875em 1.875em; }
-  @media only screen and (max-width: 43.750em) {
+  padding: em(55) em(14) em(30); }
+  @media only screen and (max-width: 43.75em) {
     section#golf-tournament-banner {
-      background: #fff url("http://cdn.studionclient.rocks/project/cabc/img/events/golf-tournament/index/banner-bg%40700.jpg") no-repeat right top; } }
+      background: #fff url("/img/events/golf-tournament/index/banner-bg%40700.jpg") no-repeat right top; } }
   @media screen and (max-width: 39.9375em) {
     section#golf-tournament-banner {
       height: auto; } }
   section#golf-tournament-banner * {
-    text-shadow: 0 0.125rem 0.25rem #000;
+    text-shadow: 0 rem(2) rem(4) #000;
     color: #fff; }
   section#golf-tournament-banner h2#banner-header {
     line-height: 1.2;
-    margin-bottom: 1.25rem; }
+    margin-bottom: rem(20); }
     section#golf-tournament-banner h2#banner-header span {
       display: block; }
     section#golf-tournament-banner h2#banner-header span#annual {
-      letter-spacing: 0.125rem;
-      font-size: 1.5rem;
+      letter-spacing: rem(2);
+      font-size: rem(24);
       text-transform: uppercase; }
     section#golf-tournament-banner h2#banner-header span#name {
-      font-size: 3.875rem; }
+      font-size: rem(62); }
     section#golf-tournament-banner h2#banner-header span#tournament {
-      font-size: 2.875rem; }
+      font-size: rem(46); }
     @media screen and (max-width: 39.9375em) {
       section#golf-tournament-banner h2#banner-header span#annual {
-        font-size: 1.25rem; }
+        font-size: rem(20); }
       section#golf-tournament-banner h2#banner-header span#name {
-        font-size: 2.5rem; }
+        font-size: rem(40); }
       section#golf-tournament-banner h2#banner-header span#tournament {
-        font-size: 1.875rem; } }
+        font-size: rem(30); } }
   section#golf-tournament-banner h3#benefiting {
-    font-size: 1.625rem;
-    margin-bottom: 1.25rem; }
+    font-size: rem(26);
+    margin-bottom: rem(20); }
   section#golf-tournament-banner h3#date-time {
-    font-size: 1.625rem;
-    letter-spacing: 0.125rem;
-    margin-bottom: 2.5rem; }
+    font-size: rem(26);
+    letter-spacing: rem(2);
+    margin-bottom: rem(40); }
   section#golf-tournament-banner .c2a-button a {
     text-shadow: none;
-    font-size: 1.5rem;
+    font-size: rem(24);
     color: #000;
     display: block;
-    width: 25rem;
+    width: rem(400);
     margin: 0 auto;
     background: #fff;
-    padding: 0.5rem;
-    border-radius: 0.3125rem;
-    border: 0.125rem solid #2859A6;
-    box-shadow: 0 1.0625rem 1.0625rem 0 rgba(0, 0, 0, 0.15), 0 1.6875rem 3.4375rem 0 rgba(0, 0, 0, 0.3);
-    -webkit-transition: background-color 200ms ease-out 0s;
-    -moz-transition: background-color 200ms ease-out 0s;
-    transition: background-color 200ms ease-out 0s;
-    -webkit-transition: color 200ms ease-out 0s;
-    -moz-transition: color 200ms ease-out 0s;
-    transition: color 200ms ease-out 0s; }
+    padding: rem(8);
+    border-radius: rem(5);
+    border: rem(2) solid #2859A6;
+    box-shadow: 0 rem(17) rem(17) 0 rgba(0, 0, 0, 0.15), 0 rem(27) rem(55) 0 rgba(0, 0, 0, 0.3); }
     section#golf-tournament-banner .c2a-button a:hover {
-      box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.3);
+      box-shadow: 0 rem(2) rem(2) 0 rgba(0, 0, 0, 0.2), 0 rem(6) rem(10) 0 rgba(0, 0, 0, 0.3);
       background: #02C3F3;
       color: #fff;
-      border: 0.125rem solid #fff; }
-  @media only screen and (max-width: 27.500em) {
+      border: rem(2) solid #fff; }
+  @media only screen and (max-width: 27.5em) {
     section#golf-tournament-banner .c2a-button a {
       width: auto; } }
 
 #cabc-golf-tournament-2016 main #tournament-hero {
-  padding: 3.4375em 1.25em 1.875em;
-  border-bottom: 0.3125em solid #02C3F3; }
+  padding: em(55) em(20) em(30);
+  border-bottom: em(5) solid #02C3F3; }
   #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header {
     line-height: 1.2;
-    margin-bottom: 1.25rem; }
+    margin-bottom: rem(20); }
     #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span {
       display: block; }
     #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#annual {
-      letter-spacing: 0.125rem;
-      font-size: 1.5rem;
+      letter-spacing: rem(2);
+      font-size: rem(24);
       text-transform: uppercase; }
     #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#name {
-      font-size: 3.875rem;
+      font-size: rem(62);
       color: #02C3F3;
-      text-shadow: 0.125rem 0.125rem 0 #2859A6; }
+      text-shadow: rem(2) rem(2) 0 #2859A6; }
     #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#tournament {
-      font-size: 2.875rem; }
+      font-size: rem(46); }
     @media screen and (max-width: 39.9375em) {
       #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#annual {
-        font-size: 1.25rem; }
+        font-size: rem(20); }
       #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#name {
-        font-size: 2.5rem; }
+        font-size: rem(40); }
       #cabc-golf-tournament-2016 main #tournament-hero h2#banner-header span#tournament {
-        font-size: 1.875rem; } }
+        font-size: rem(30); } }
   #cabc-golf-tournament-2016 main #tournament-hero h3#benefiting {
-    font-size: 1.625rem; }
+    font-size: rem(26); }
 
 #cabc-golf-tournament-2016 main #tournament-tag {
-  margin-bottom: 2.5em;
-  padding-top: 0.75em; }
+  margin-bottom: em(40);
+  padding-top: em(12); }
   #cabc-golf-tournament-2016 main #tournament-tag p {
-    font-size: 1.5625rem;
+    font-size: rem(25);
     text-align: center; }
   @media screen and (max-width: 39.9375em) {
     #cabc-golf-tournament-2016 main #tournament-tag p {
-      font-size: 1.125rem; } }
+      font-size: rem(18); } }
 
 #cabc-golf-tournament-2016 main #tournament-deets {
-  margin-bottom: 3.75em; }
+  margin-bottom: em(60); }
   #cabc-golf-tournament-2016 main #tournament-deets .content-box {
-    border: 0.125em solid #02C3F3;
-    border-radius: 0.25em;
-    box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3);
+    border: em(2) solid #02C3F3;
+    border-radius: em(4);
+    box-shadow: 0 rem(11) rem(7) 0 rgba(0, 0, 0, 0.19), 0 rem(13) rem(25) 0 rgba(0, 0, 0, 0.3);
     background: #fff;
     position: relative;
-    margin-bottom: 1.875em; }
+    margin-bottom: em(30); }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       #cabc-golf-tournament-2016 main #tournament-deets .content-box {
-        height: 15.625em; } }
+        height: em(250); } }
     #cabc-golf-tournament-2016 main #tournament-deets .content-box .prose {
       position: absolute;
       width: 100%;
       height: 100%;
       top: 0;
       z-index: 1;
-      padding: 1.25em 0; }
+      padding: em(20) 0; }
       #cabc-golf-tournament-2016 main #tournament-deets .content-box .prose h3 {
-        margin-bottom: 0.75rem; }
+        margin-bottom: rem(12); }
         @media screen and (max-width: 39.9375em) {
           #cabc-golf-tournament-2016 main #tournament-deets .content-box .prose h3 {
-            font-size: 1.75rem; } }
+            font-size: rem(28); } }
       #cabc-golf-tournament-2016 main #tournament-deets .content-box .prose p {
         line-height: 1.3;
-        font-size: 1.375rem;
-        margin-bottom: 0.75rem; }
+        font-size: rem(22);
+        margin-bottom: rem(12); }
         @media screen and (min-width: 40em) and (max-width: 63.9375em) {
           #cabc-golf-tournament-2016 main #tournament-deets .content-box .prose p {
-            font-size: 1.25rem; } }
+            font-size: rem(20); } }
     #cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg {
-      padding: 0.625em; }
+      padding: em(10); }
     #cabc-golf-tournament-2016 main #tournament-deets .content-box .icon-bg:after {
       font-family: 'cabc';
       color: #B1EDFC;
-      font-size: 11.25rem;
+      font-size: rem(180);
       line-height: 1;
       display: block; }
 
@@ -2093,58 +2084,58 @@ section#golf-tournament-banner {
   content: '\64'; }
 
 #cabc-golf-tournament-2016 main #testimonial {
-  margin-bottom: 3.125em; }
+  margin-bottom: em(50); }
   #cabc-golf-tournament-2016 main #testimonial #cabc-badge {
-    margin-bottom: 2.5em;
+    margin-bottom: em(40);
     text-align: center; }
   #cabc-golf-tournament-2016 main #testimonial #quote blockquote {
     color: #000;
-    font-size: 1.125rem; }
+    font-size: rem(18); }
     #cabc-golf-tournament-2016 main #testimonial #quote blockquote cite {
       color: #666;
-      font-size: 1.125rem; }
+      font-size: rem(18); }
   @media screen and (min-width: 40em) {
     #cabc-golf-tournament-2016 main #testimonial #cabc-badge {
       position: relative;
-      height: 13.75em;
+      height: em(220);
       margin-bottom: 0;
       text-align: left; }
       #cabc-golf-tournament-2016 main #testimonial #cabc-badge img {
-        padding-right: 0.875em;
+        padding-right: em(14);
         position: absolute;
         top: 50%;
         transform: translateY(-50%); }
     #cabc-golf-tournament-2016 main #testimonial #quote {
       position: relative;
-      height: 13.75em; }
+      height: em(220); }
       #cabc-golf-tournament-2016 main #testimonial #quote .wrapper {
         position: absolute;
         top: 50%;
         transform: translateY(-50%); } }
 
 #cabc-golf-tournament-2016 main #sponsorship-section {
-  margin-bottom: 3.75em; }
+  margin-bottom: em(60); }
   #cabc-golf-tournament-2016 main #sponsorship-section .section-intro {
-    margin-bottom: 2.25em; }
+    margin-bottom: em(36); }
     #cabc-golf-tournament-2016 main #sponsorship-section .section-intro h2 {
       margin-bottom: 0; }
     #cabc-golf-tournament-2016 main #sponsorship-section .section-intro p {
-      font-size: 1.125rem;
+      font-size: rem(18);
       margin-bottom: 0; }
   #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container {
-    box-shadow: 0 0.6875rem 0.4375rem 0 rgba(0, 0, 0, 0.19), 0 0.8125rem 1.5625rem 0 rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 rem(11) rem(7) 0 rgba(0, 0, 0, 0.19), 0 rem(13) rem(25) 0 rgba(0, 0, 0, 0.3); }
     #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container ul#sponsorship-tabs {
-      border: 0.1875rem solid #2859A6;
+      border: rem(3) solid #2859A6;
       border-bottom: 0;
       background: #e6e6e6; }
       #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container ul#sponsorship-tabs li {
         background: #fff; }
         #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container ul#sponsorship-tabs li a {
-          border-right: 0.1875rem solid #2859A6;
-          border-bottom: 0.1875rem solid #2859A6;
-          border-top: 0.1875rem solid #2859A6;
-          font-size: 1.125rem;
-          padding: 1.25rem 0.75rem; }
+          border-right: rem(3) solid #2859A6;
+          border-bottom: rem(3) solid #2859A6;
+          border-top: rem(3) solid #2859A6;
+          font-size: rem(18);
+          padding: rem(20) rem(12); }
         #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container ul#sponsorship-tabs li:hover a {
           background: #2859A6;
           color: #fff; }
@@ -2152,109 +2143,109 @@ section#golf-tournament-banner {
         color: #fff;
         background: #2859A6; }
     #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container .tabs-content {
-      border: 0.1875rem solid #2859A6; }
+      border: rem(3) solid #2859A6; }
       #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container .tabs-content .tabs-panel .sponsorship-name {
         margin-bottom: 0; }
       #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container .tabs-content .tabs-panel .sponsorship-value {
-        font-size: 1.875rem;
-        margin-bottom: 1.125rem; }
+        font-size: rem(30);
+        margin-bottom: rem(18); }
       #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container .tabs-content .tabs-panel p {
-        font-size: 1.375rem;
-        margin-bottom: 0.625rem; }
+        font-size: rem(22);
+        margin-bottom: rem(10); }
       #cabc-golf-tournament-2016 main #sponsorship-section .styled-content-container .tabs-content .tabs-panel ul li {
-        font-size: 1.125rem;
+        font-size: rem(18);
         line-height: 1.8; }
 
 #cabc-golf-tournament-2016 main #signup-contact {
-  margin-bottom: 6.25em;
-  padding-bottom: 6.25em; }
+  margin-bottom: em(100);
+  padding-bottom: em(100); }
   #cabc-golf-tournament-2016 main #signup-contact .blue-banner {
     background: #02C3F3;
-    padding: 1.875em 0;
-    margin-bottom: 3.125em; }
+    padding: em(30) 0;
+    margin-bottom: em(50); }
     #cabc-golf-tournament-2016 main #signup-contact .blue-banner #c2a {
-      font-size: 3.125rem;
+      font-size: rem(50);
       line-height: 1.2;
       margin: 0;
       color: #fff;
-      text-shadow: 0 0.125rem 0.0625rem #000; }
+      text-shadow: 0 rem(2) rem(1) #000; }
       @media screen and (min-width: 40em) {
         #cabc-golf-tournament-2016 main #signup-contact .blue-banner #c2a {
-          font-size: 3.625rem; } }
+          font-size: rem(58); } }
   #cabc-golf-tournament-2016 main #signup-contact .white-banner#download {
     background: #fff;
-    padding: 1.5625em;
-    border-top: 0.3125em solid #2859A6;
-    border-bottom: 0.3125em solid #2859A6;
-    margin-bottom: 2.5em; }
+    padding: em(25);
+    border-top: em(5) solid #2859A6;
+    border-bottom: em(5) solid #2859A6;
+    margin-bottom: em(40); }
     #cabc-golf-tournament-2016 main #signup-contact .white-banner#download h3 {
-      margin-bottom: 2.25rem; }
+      margin-bottom: rem(36); }
     #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a {
       color: #fff;
       background: #2859A6;
-      border-radius: 0.3125rem;
-      border: 0.125rem solid #02C3F3;
-      font-size: 1.9375rem;
-      margin-bottom: 1.375rem; }
+      border-radius: rem(5);
+      border: rem(2) solid #02C3F3;
+      font-size: rem(31);
+      margin-bottom: rem(22); }
       @media screen and (max-width: 39.9375em) {
         #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a {
           display: block;
           margin: 0 !important; } }
     #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#pdf {
-      padding: 0.625rem 2.25rem 0.75rem; }
+      padding: rem(10) rem(36) rem(12); }
       @media screen and (min-width: 40em) {
         #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#pdf {
-          margin-right: 1.875rem; } }
+          margin-right: rem(30); } }
       @media screen and (max-width: 39.9375em) {
         #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#pdf {
-          margin-bottom: 1.375rem !important; } }
+          margin-bottom: rem(22) !important; } }
     #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#word {
-      padding: 0.625rem 1.25rem 0.75rem; }
+      padding: rem(10) rem(20) rem(12); }
       @media screen and (min-width: 40em) {
         #cabc-golf-tournament-2016 main #signup-contact .white-banner#download a#word {
-          margin-left: 1.875rem; } }
+          margin-left: rem(30); } }
   #cabc-golf-tournament-2016 main #signup-contact .row#buttons {
-    margin-bottom: 2.5em; }
+    margin-bottom: em(40); }
   #cabc-golf-tournament-2016 main #signup-contact #appeal {
     line-height: 1.4;
-    font-size: 1.5rem;
-    margin-bottom: 2.875rem; }
+    font-size: rem(24);
+    margin-bottom: rem(46); }
     @media screen and (min-width: 40em) {
       #cabc-golf-tournament-2016 main #signup-contact #appeal {
-        font-size: 1.9375rem; } }
+        font-size: rem(31); } }
   #cabc-golf-tournament-2016 main #signup-contact p#info {
     line-height: 1.4;
-    font-size: 1.9375rem;
-    margin-bottom: 1.5rem; }
+    font-size: rem(31);
+    margin-bottom: rem(24); }
     #cabc-golf-tournament-2016 main #signup-contact p#info span {
       display: block; }
     #cabc-golf-tournament-2016 main #signup-contact p#info span#name {
-      font-size: 2.625rem; }
+      font-size: rem(42); }
     #cabc-golf-tournament-2016 main #signup-contact p#info span#position {
-      font-size: 1.5rem;
+      font-size: rem(24);
       color: #666; }
   #cabc-golf-tournament-2016 main #signup-contact #phone,
   #cabc-golf-tournament-2016 main #signup-contact #email {
     line-height: 1.4;
     margin-bottom: 0;
-    font-size: 1.9375rem; }
+    font-size: rem(31); }
     #cabc-golf-tournament-2016 main #signup-contact #phone i,
     #cabc-golf-tournament-2016 main #signup-contact #email i {
       color: #2859A6;
-      font-size: 2.875rem; }
-  @media only screen and (max-width: 38.750em) {
+      font-size: rem(46); }
+  @media only screen and (max-width: 38.75em) {
     #cabc-golf-tournament-2016 main #signup-contact #phone,
     #cabc-golf-tournament-2016 main #signup-contact #email {
-      font-size: 1.5rem; }
+      font-size: rem(24); }
       #cabc-golf-tournament-2016 main #signup-contact #phone span,
       #cabc-golf-tournament-2016 main #signup-contact #email span {
         display: block; } }
   @media screen and (max-width: 39.9375em) {
     #cabc-golf-tournament-2016 main #signup-contact #question {
-      font-size: 1.875rem; }
+      font-size: rem(30); }
     #cabc-golf-tournament-2016 main #signup-contact #c2a {
-      font-size: 2.125rem; }
+      font-size: rem(34); }
     #cabc-golf-tournament-2016 main #signup-contact p#info {
-      font-size: 1.5rem; }
+      font-size: rem(24); }
       #cabc-golf-tournament-2016 main #signup-contact p#info span#name {
-        font-size: 2rem; } }
+        font-size: rem(32); } }
