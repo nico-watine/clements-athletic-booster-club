@@ -5,6 +5,6 @@
 
     &:hover {
         box-shadow: $z-4;
-        @include transition (box-shadow 90ms ease-out 0s);
+        // @include transition (box-shadow 90ms ease-out 0s);
     }
 }
