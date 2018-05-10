@@ -1769,19 +1769,19 @@ figure {
   display: inline-block; }
 
 .p-y {
-  padding: em(16) 0; }
+  padding: 1rem 0; }
 
 .p-x {
-  padding: 0 em(16); }
+  padding: 0 1rem; }
 
 .p-0 {
   padding: 0; }
 
 .m-y {
-  margin: em(16) 0; }
+  margin: 1rem 0; }
 
 .m-x {
-  margin: 0 em(16); }
+  margin: 0 1rem; }
 
 .m-0 {
   margin: 0; }
@@ -1799,7 +1799,7 @@ body {
   min-height: 100%;
   position: relative; }
   .height-wrapper main {
-    padding-bottom: em(500); }
+    padding-bottom: 31.25rem; }
   .height-wrapper footer {
     position: absolute;
     bottom: 0;
