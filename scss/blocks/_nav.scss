@@ -4,18 +4,18 @@ $width-770: "only screen and (max-width : 48.125em)";
 
 nav {
 	background: #fff;
-	border-top: em(3) solid $dark-blue;
-	border-bottom: em(3) solid $dark-blue;
+	border-top: rem-calc(3) solid $dark-blue;
+	border-bottom: rem-calc(3) solid $dark-blue;
 
 	ul.menu {
 		li {
 			a {
 				color: #000;
-				padding: rem(18);
+				padding: rem-calc(18);
 				@extend .title;
 
 				@include breakpoint(small only) {
-					padding: rem(18) rem(12);
+					padding: rem-calc(18) rem-calc(12);
 				}
 			}
 		}
@@ -32,7 +32,7 @@ nav {
 
 		@media #{$width-770} {
 			li {
-				border-right: rem(4) solid $dark-blue;
+				border-right: rem-calc(4) solid $dark-blue;
 			}
 
 			li#last {

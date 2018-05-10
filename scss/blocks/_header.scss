@@ -1,14 +1,14 @@
 @import "../_settings.scss";
 
 header {
-	padding-top: em(18);
+	padding-top: rem-calc(18);
 
 	address {
 		right: 0;
-		top: em(18);
+		top: rem-calc(18);
 		position: absolute;
-		font-size: rem(18);
-		padding-right: em(18);
+		font-size: rem-calc(18);
+		padding-right: rem-calc(18);
 
 		@include breakpoint(small only) {
 			visibility: hidden;
@@ -20,12 +20,12 @@ header {
 
 		#site-logo {
 			position: relative;
-			height: em(220);
-			margin-bottom: em(20);
+			height: rem-calc(220);
+			margin-bottom: rem-calc(20);
 
 			.vertical-wrapper {
 				width: 100%;
-				padding-right: em(16);
+				padding-right: rem-calc(16);
 
 				@include breakpoint(medium) {
 					@include vertical-center;
@@ -35,8 +35,8 @@ header {
 
 		#site-name {
 			position: relative;
-			height: em(220);
-			margin-bottom: em(20);
+			height: rem-calc(220);
+			margin-bottom: rem-calc(20);
 
 			.vertical-wrapper {
 
@@ -48,16 +48,16 @@ header {
 			h1 {
 				margin: 0;
 				line-height: 1.2;
-				padding-right: em(20);
+				padding-right: rem-calc(20);
 			}
 
 			h2 {
-				font-size: rem(31);
+				font-size: rem-calc(31);
 			}
 
 			@include breakpoint(medium only) {
 				h1 {
-					font-size: rem(38);
+					font-size: rem-calc(38);
 				}	
 			}
 		}

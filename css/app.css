@@ -1818,21 +1818,21 @@ body {
   background: url("/img/assets/bg/logo-shade.png") no-repeat left top; }
   @media only screen and (max-width: 770px) {
     #logo-shade {
-      background-size: em(300); } }
+      background-size: 18.75rem; } }
   @media only screen and (max-width: 33.75em) {
     #logo-shade {
-      background-size: em(240); } }
+      background-size: 15rem; } }
 
 footer {
-  margin-top: em(200);
+  margin-top: 12.5rem;
   background: #666;
-  padding: em(30) 0; }
+  padding: 1.875rem 0; }
   footer * {
     color: #fff;
     margin-bottom: 0;
     line-height: 1.6; }
   footer .text-wrapper {
-    margin-bottom: em(30); }
+    margin-bottom: 1.875rem; }
     footer .text-wrapper a:hover, footer .text-wrapper a:active, footer .text-wrapper a:focus {
       color: #fff; }
     footer .text-wrapper a:hover {
@@ -1841,8 +1841,8 @@ footer {
   footer #site-colophon a {
     text-decoration: none;
     color: #ccc;
-    letter-spacing: rem(1.5);
-    font-size: rem(12); }
+    letter-spacing: 0.09375rem;
+    font-size: 0.75rem; }
     footer #site-colophon a span {
       text-decoration: underline;
       color: #ccc; }
@@ -1853,24 +1853,24 @@ footer {
         color: #fff; }
 
 header {
-  padding-top: em(18); }
+  padding-top: 1.125rem; }
   header address {
     right: 0;
-    top: em(18);
+    top: 1.125rem;
     position: absolute;
-    font-size: rem(18);
-    padding-right: em(18); }
+    font-size: 1.125rem;
+    padding-right: 1.125rem; }
     @media screen and (max-width: 39.9375em) {
       header address {
         visibility: hidden;
         display: none; } }
   header #masthead #site-logo {
     position: relative;
-    height: em(220);
-    margin-bottom: em(20); }
+    height: 13.75rem;
+    margin-bottom: 1.25rem; }
     header #masthead #site-logo .vertical-wrapper {
       width: 100%;
-      padding-right: em(16); }
+      padding-right: 1rem; }
       @media screen and (min-width: 40em) {
         header #masthead #site-logo .vertical-wrapper {
           position: absolute;
@@ -1878,8 +1878,8 @@ header {
           transform: translateY(-50%); } }
   header #masthead #site-name {
     position: relative;
-    height: em(220);
-    margin-bottom: em(20); }
+    height: 13.75rem;
+    margin-bottom: 1.25rem; }
     @media screen and (min-width: 40em) {
       header #masthead #site-name .vertical-wrapper {
         position: absolute;
@@ -1888,12 +1888,12 @@ header {
     header #masthead #site-name h1 {
       margin: 0;
       line-height: 1.2;
-      padding-right: em(20); }
+      padding-right: 1.25rem; }
     header #masthead #site-name h2 {
-      font-size: rem(31); }
+      font-size: 1.9375rem; }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       header #masthead #site-name h1 {
-        font-size: rem(38); } }
+        font-size: 2.375rem; } }
   @media screen and (max-width: 39.9375em) {
     header #masthead #site-logo,
     header #masthead #site-name {
@@ -1908,14 +1908,14 @@ header {
 
 nav {
   background: #fff;
-  border-top: em(3) solid #2859A6;
-  border-bottom: em(3) solid #2859A6; }
+  border-top: 0.1875rem solid #2859A6;
+  border-bottom: 0.1875rem solid #2859A6; }
   nav ul.menu li a {
     color: #000;
-    padding: rem(18); }
+    padding: 1.125rem; }
     @media screen and (max-width: 39.9375em) {
       nav ul.menu li a {
-        padding: rem(18) rem(12); } }
+        padding: 1.125rem 0.75rem; } }
   nav ul.menu li.active,
   nav ul.menu li:hover {
     background: #2859A6; }
@@ -1925,7 +1925,7 @@ nav {
       background: #2859A6; }
   @media only screen and (max-width: 48.125em) {
     nav ul.menu li {
-      border-right: rem(4) solid #2859A6; }
+      border-right: 0.25rem solid #2859A6; }
     nav ul.menu li#last {
       border-right: 0; } }
 
