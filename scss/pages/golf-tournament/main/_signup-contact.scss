@@ -7,46 +7,46 @@ $width-620: "only screen and (max-width : 38.750em)";
 	main {
 
 		#signup-contact {
-			margin-bottom: em(100);
-			padding-bottom: em(100);
+			margin-bottom: rem-calc(100);
+			padding-bottom: rem-calc(100);
 
 			.blue-banner {
 				background: $light-blue;
-				padding: em(30) 0;
-				margin-bottom: em(50);
+				padding: rem-calc(30) 0;
+				margin-bottom: rem-calc(50);
 
 				#c2a {
-					font-size: rem(50);
+					font-size: rem-calc(50);
 					line-height: 1.2;
 					margin: 0;
 					color: #fff;
-					text-shadow: 0 rem(2) rem(1) #000;
+					text-shadow: 0 rem-calc(2) rem-calc(1) #000;
 
 					@include breakpoint(medium) {
-						font-size: rem(58);
+						font-size: rem-calc(58);
 					}
 				}
 			}
 
 			.white-banner#download {
 				background: #fff;
-				padding: em(25);
-				border-top: em(5) solid $dark-blue;
-				border-bottom: em(5) solid $dark-blue;
-				margin-bottom: em(40);
+				padding: rem-calc(25);
+				border-top: rem-calc(5) solid $dark-blue;
+				border-bottom: rem-calc(5) solid $dark-blue;
+				margin-bottom: rem-calc(40);
 
 				h3 {
-					margin-bottom: rem(36);
+					margin-bottom: rem-calc(36);
 				}
 
 				a {
 					@extend .title;
 					color: #fff;
 					background: $dark-blue;
-					border-radius: rem(5);
-					border: rem(2) solid $light-blue;
-					font-size: rem(31);
-					margin-bottom: rem(22);
+					border-radius: rem-calc(5);
+					border: rem-calc(2) solid $light-blue;
+					font-size: rem-calc(31);
+					margin-bottom: rem-calc(22);
 
 					@include breakpoint(small only) {
 						display: block;
@@ -55,53 +55,53 @@ $width-620: "only screen and (max-width : 38.750em)";
 				}
 
 				a#pdf {
-					padding: rem(10) rem(36) rem(12);
+					padding: rem-calc(10) rem-calc(36) rem-calc(12);
 
 					@include breakpoint(medium) {
-						margin-right: rem(30);
+						margin-right: rem-calc(30);
 					}
 
 					@include breakpoint(small only) {
-						margin-bottom: rem(22) !important;
+						margin-bottom: rem-calc(22) !important;
 					}
 				}
 
 				a#word {
-					padding: rem(10) rem(20) rem(12);
+					padding: rem-calc(10) rem-calc(20) rem-calc(12);
 
 					@include breakpoint(medium) {
-						margin-left: rem(30);
+						margin-left: rem-calc(30);
 					}
 				}
 			}
 
 			.row#buttons {
-				margin-bottom: em(40);
+				margin-bottom: rem-calc(40);
 			}
 
 			#appeal {
 				line-height: 1.4;
-				font-size: rem(24);
-				margin-bottom: rem(46);
+				font-size: rem-calc(24);
+				margin-bottom: rem-calc(46);
 
 				@include breakpoint(medium) {
-					font-size: rem(31);
+					font-size: rem-calc(31);
 				}
 			}
 
 			p#info {
 				line-height: 1.4;
-				font-size: rem(31);
-				margin-bottom: rem(24);
+				font-size: rem-calc(31);
+				margin-bottom: rem-calc(24);
 
 				span {
 					display: block;
 				}
 				span#name {
-					font-size: rem(42);
+					font-size: rem-calc(42);
 				}
 				span#position {
-					font-size: rem(24);
+					font-size: rem-calc(24);
 					color: #666;
 				}
 			}
@@ -110,18 +110,18 @@ $width-620: "only screen and (max-width : 38.750em)";
 			#email {
 				line-height: 1.4;
 				margin-bottom: 0;
-				font-size: rem(31);
+				font-size: rem-calc(31);
 
 				i {
 					color: $dark-blue;
-					font-size: rem(46);
+					font-size: rem-calc(46);
 				}
 			}
 			
 			@media #{$width-620} {
 				#phone,
 				#email {
-					font-size: rem(24);
+					font-size: rem-calc(24);
 
 					span {
 						display: block;
@@ -131,17 +131,17 @@ $width-620: "only screen and (max-width : 38.750em)";
 
 			@include breakpoint(small only) {
 				#question {
-					font-size: rem(30);
+					font-size: rem-calc(30);
 				}
 				#c2a {
-					font-size: rem(34);
+					font-size: rem-calc(34);
 				}
 
 				p#info {
-					font-size: rem(24);
+					font-size: rem-calc(24);
 
 					span#name {
-						font-size: rem(32);
+						font-size: rem-calc(32);
 					}
 				}
 			}
