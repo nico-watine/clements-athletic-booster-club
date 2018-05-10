@@ -17,10 +17,10 @@ body {
 	background: url('#{$url}/img/assets/bg/logo-shade.png') no-repeat left top;
 
 	@media #{$max-770} {
-		background-size: em(300);
+		background-size: rem-calc(300);
 	}
 
 	@media #{$max-540} {
-		background-size: em(240);
+		background-size: rem-calc(240);
 	}
 }
