@@ -5,21 +5,21 @@
 	main {
 
 		#testimonial {
-			margin-bottom: em(50);
+			margin-bottom: rem-calc(50);
 
 			#cabc-badge {
-				margin-bottom: em(40);
+				margin-bottom: rem-calc(40);
 				text-align: center;
 			}
 
 			#quote {
 				blockquote {
 					color: #000;
-					font-size: rem(18);
+					font-size: rem-calc(18);
 
 					cite {
 						color: #666;
-						font-size: rem(18);
+						font-size: rem-calc(18);
 					}
 				}
 			}
@@ -27,19 +27,19 @@
 			@include breakpoint(medium) {
 				#cabc-badge {
 					position: relative;
-					height: em(220);
+					height: rem-calc(220);
 					margin-bottom: 0;
 					text-align: left;
 
 					img {
-						padding-right: em(14);
+						padding-right: rem-calc(14);
 						@include vertical-center;
 					}
 				}
 
 				#quote {
 					position: relative;
-					height: em(220);
+					height: rem-calc(220);
 
 					.wrapper {
 						@include vertical-center;

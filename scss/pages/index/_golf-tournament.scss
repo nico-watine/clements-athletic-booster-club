@@ -4,15 +4,15 @@ $width-700: "only screen and (max-width : 43.750em)";
 $width-440: "only screen and (max-width : 27.500em)";
 
 section#golf-tournament-banner {
-	height: em(600);
+	height: rem-calc(600);
 	width: 100%;
 	background: #fff url('#{$url}/img/events/golf-tournament/index/banner-bg.jpg') no-repeat center top;
 	background-size: cover;
-	border-bottom: em(4) solid $dark-blue;
-	margin-bottom: em(30);
-	padding: em(50) 0 0;
+	border-bottom: rem-calc(4) solid $dark-blue;
+	margin-bottom: rem-calc(30);
+	padding: rem-calc(50) 0 0;
 	text-align: center;
-	padding: em(55) em(14) em(30);
+	padding: rem-calc(55) rem-calc(14) rem-calc(30);
 
 	@media #{$width-700} {
 		background: #fff url('#{$url}/img/events/golf-tournament/index/banner-bg%40700.jpg') no-repeat right top;
@@ -23,13 +23,13 @@ section#golf-tournament-banner {
 	}
 
 	* {
-		text-shadow: 0 rem(2) rem(4) #000;
+		text-shadow: 0 rem-calc(2) rem-calc(4) #000;
 		color: #fff;
 	}
 
 	h2#banner-header {
 		line-height: 1.2;
-		margin-bottom: rem(20);
+		margin-bottom: rem-calc(20);
 
 		span {
 			display: block;
@@ -37,56 +37,56 @@ section#golf-tournament-banner {
 
 		span#annual {
 			@extend .body;
-			letter-spacing: rem(2);
-			font-size: rem(24);
+			letter-spacing: rem-calc(2);
+			font-size: rem-calc(24);
 			text-transform: uppercase;
 		}
 		span#name {
-			font-size: rem(62);
+			font-size: rem-calc(62);
 		}
 		span#tournament {
-			font-size: rem(46);
+			font-size: rem-calc(46);
 		}
 
 		@include breakpoint(small only) {
 			span#annual {
-				font-size: rem(20);
+				font-size: rem-calc(20);
 			}
 			span#name {
-				font-size: rem(40);
+				font-size: rem-calc(40);
 			}
 			span#tournament {
-				font-size: rem(30);
+				font-size: rem-calc(30);
 			}
 		}
 	}
 
 	h3#benefiting {
-		font-size: rem(26);
-		margin-bottom: rem(20);
+		font-size: rem-calc(26);
+		margin-bottom: rem-calc(20);
 	}
 
 	h3#date-time {
-		font-size: rem(26);
-		letter-spacing: rem(2);
-		margin-bottom: rem(40);
+		font-size: rem-calc(26);
+		letter-spacing: rem-calc(2);
+		margin-bottom: rem-calc(40);
 	}
 
 	.c2a-button {
 		a {
 			@extend .title;
 			text-shadow: none;
-			font-size: rem(24);
+			font-size: rem-calc(24);
 			color: #000;
 
 			display: block;
-			width: rem(400);
+			width: rem-calc(400);
 			margin: 0 auto;
 
 			background: #fff;
-			padding: rem(8);
-			border-radius: rem(5);
-			border: rem(2) solid $dark-blue;
+			padding: rem-calc(8);
+			border-radius: rem-calc(5);
+			border: rem-calc(2) solid $dark-blue;
 			box-shadow: $z-5;
 
 		    // @include transition (background-color 200ms ease-out 0s);
@@ -96,7 +96,7 @@ section#golf-tournament-banner {
 				box-shadow: $z-2;
 				background: $light-blue;
 				color: #fff;
-				border: rem(2) solid #fff;
+				border: rem-calc(2) solid #fff;
 			}
 		}
 
