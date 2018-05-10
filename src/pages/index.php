@@ -4,7 +4,7 @@ page-description: The home for all Clements High School sports teams, with game 
 url: /
 og-title: CABC Sports Home
 og-description: The home for all Clements High School sports teams, with game schedules and more.
-og-image: /img/assets/og/golf-tournament/og-shot.jpg
+og-image: /img/assets/og/landing-temp/og-shot.png
 ---
 
 <div class="height-wrapper">
@@ -31,26 +31,16 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 	<div class="row">
 		<ul class="menu">
 			<li class="active"><a href="/">Home</a></li>
-			<li><a href="/cabc-golf-tournament-2016">2016 Golf Tournament</a></li>
-			<li id="last"><a href="/cabc-sports">CABC Sports</a></li>
 			<!-- <li><a href="#">Join/Contact CABC</a></li> -->
 		</ul>
 	</div>
 </nav>
-<main>
-	<section id="golf-tournament-banner">
-		<div class="row">
-			<h2 id="banner-header" class="title"><span id="annual">5th Annual</span><span id="name">“Rangers On The Range”</span><span id="tournament">Golf Tournament</span></h2>
-			<h3 id="benefiting"><em>Benefiting the Clements Athletic Booster Club (CABC)</em></h3>
-			<h3 id="date-time">2 MAY 2016 | SWEETWATER COUNTRY CLUB</h3>
-			<div class="c2a-button">
-				<a href="/cabc-golf-tournament-2016" class="floating">
-					Tournament Details 
-					<br>Player &amp; Sponsor Info
-				</a>
-			</div>
+<main style="padding-top: 120px;">
+	<div class="row">
+		<div class="small-12 columns">
+			<h2 class="text-center">Home of the Clements Athletic Booster Club</h2>
 		</div>
-	</section>
+	</div>
 </main>
 
 <footer>
@@ -63,11 +53,6 @@ og-image: /img/assets/og/golf-tournament/og-shot.jpg
 		<div class="medium-6 columns text-center medium-text-right text-wrapper">
 			<h5 class="title">Affiliate Sites</h5>
 			<a href="http://www.fortbendisd.com/chs" target="_blank">CHS Official Website &gt;&gt;</a><br><a href="http://www.fortbendisd.com/" target="_blank">FBISD Official Website &gt;&gt;</a>
-		</div>
-	</div>
-	<div class="row">
-		<div id="site-colophon" class="small-12 columns text-center">
-			<a href="http://studioncreations.com/" target="_blank">A <span>STUDIO N</span> CREATION</a>
 		</div>
 	</div>
 </footer>

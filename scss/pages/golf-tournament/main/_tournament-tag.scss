@@ -3,17 +3,17 @@
 #cabc-golf-tournament-2016 {
 	main {
 		#tournament-tag {
-			margin-bottom: em(40);
-			padding-top: em(12);
+			margin-bottom: rem-calc(40);
+			padding-top: rem-calc(12);
 
 			p {
-				font-size: rem(25);
+				font-size: rem-calc(25);
 				text-align: center;
 			}
 
 			@include breakpoint(small only) {
 				p {
-					font-size: rem(18);
+					font-size: rem-calc(18);
 				}
 			}
 		}

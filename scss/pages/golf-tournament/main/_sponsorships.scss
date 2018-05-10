@@ -5,17 +5,17 @@
 	main {
 
 		#sponsorship-section {
-			margin-bottom: em(60);
+			margin-bottom: rem-calc(60);
 
 			.section-intro {
-				margin-bottom: em(36);
+				margin-bottom: rem-calc(36);
 
 				h2 {
 					margin-bottom: 0;
 				}
 
 				p {
-					font-size: rem(18);
+					font-size: rem-calc(18);
 					margin-bottom: 0;
 				}
 			}
@@ -24,7 +24,7 @@
 				box-shadow: $z-3;
 
 				ul#sponsorship-tabs {
-					border: rem(3) solid $dark-blue;
+					border: rem-calc(3) solid $dark-blue;
 					border-bottom: 0;
 					background: #e6e6e6;
 
@@ -32,11 +32,11 @@
 						background: #fff;
 
 						a {
-							border-right: rem(3) solid $dark-blue;
-							border-bottom: rem(3) solid $dark-blue;
-							border-top: rem(3) solid $dark-blue;
-							font-size: rem(18);
-							padding: rem(20) rem(12);
+							border-right: rem-calc(3) solid $dark-blue;
+							border-bottom: rem-calc(3) solid $dark-blue;
+							border-top: rem-calc(3) solid $dark-blue;
+							font-size: rem-calc(18);
+							padding: rem-calc(20) rem-calc(12);
 						}
 
 						&:hover {
@@ -56,23 +56,23 @@
 				}
 
 				.tabs-content {
-					border: rem(3) solid $dark-blue;
+					border: rem-calc(3) solid $dark-blue;
 
 					.tabs-panel {
 						.sponsorship-name {
 							margin-bottom: 0;
 						}
 						.sponsorship-value {
-							font-size: rem(30);
-							margin-bottom: rem(18);	
+							font-size: rem-calc(30);
+							margin-bottom: rem-calc(18);	
 						}
 						p {
-							font-size: rem(22);
-							margin-bottom: rem(10);
+							font-size: rem-calc(22);
+							margin-bottom: rem-calc(10);
 						}
 						ul {
 							li {
-								font-size: rem(18);
+								font-size: rem-calc(18);
 								line-height: 1.8;
 							}
 						}

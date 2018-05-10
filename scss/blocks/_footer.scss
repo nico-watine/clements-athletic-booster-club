@@ -1,9 +1,9 @@
 @import "../_settings.scss";
 
 footer {
-	margin-top: em(200);
+	margin-top: rem-calc(200);
 	background: #666;
-	padding: em(30) 0;
+	padding: rem-calc(30) 0;
 
 	* {
 		color: #fff;
@@ -12,7 +12,7 @@ footer {
 	}
 
 	.text-wrapper {
-		margin-bottom: em(30);
+		margin-bottom: rem-calc(30);
 
 		a {
 			// display: block;
@@ -36,8 +36,8 @@ footer {
 		a {
 			text-decoration: none;
 			color: #ccc;
-			letter-spacing: rem(1.5);
-			font-size: rem(12);
+			letter-spacing: rem-calc(1.5);
+			font-size: rem-calc(12);
 
 			span {
 				text-decoration: underline;
