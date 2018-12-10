@@ -16,13 +16,6 @@
 		"oAP": "/.babelrc",
 		"oF": 0
 		},
-	"/.bowerrc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/.bowerrc",
-		"oF": 0
-		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -4450,13 +4443,6 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/npm-debug.log": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/npm-debug.log",
 		"oF": 0
 		},
 	"/package.json": {
