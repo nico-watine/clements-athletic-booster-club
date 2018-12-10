@@ -145,88 +145,44 @@
 		"oAP": "/_ignores/foundation-zurb-template-master.zip",
 		"oF": 0
 		},
-	"/_ignores/git-branch-screens/cabc-golf-tournament-2016.png": {
+	"/_ignores/git-branch-screens/develop/cabc-golf-tournament-2016.png": {
 		"ft": 32768,
 		"iS": 2331038,
 		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/cabc-golf-tournament-2016.png",
+		"oAP": "/_ignores/git-branch-screens/develop/cabc-golf-tournament-2016.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/_ignores/git-branch-screens/cabc-sports.png": {
+	"/_ignores/git-branch-screens/develop/cabc-sports.png": {
 		"ft": 32768,
 		"iS": 703578,
 		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/cabc-sports.png",
+		"oAP": "/_ignores/git-branch-screens/develop/cabc-sports.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/_ignores/git-branch-screens/develop.png": {
-		"ft": 32768,
-		"iS": 699337,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/develop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/index.png": {
+	"/_ignores/git-branch-screens/develop/index.png": {
 		"ft": 32768,
 		"iS": 5472742,
 		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/index.png",
+		"oAP": "/_ignores/git-branch-screens/develop/index.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/_ignores/git-branch-screens/master.png": {
+	"/_ignores/git-branch-screens/master/master.png": {
 		"ft": 32768,
 		"iS": 699337,
 		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/master.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/obsolete-golf-site/cabc-golf-tournament-2016.png": {
-		"ft": 32768,
-		"iS": 2331038,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/obsolete-golf-site/cabc-golf-tournament-2016.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/obsolete-golf-site/cabc-sports.png": {
-		"ft": 32768,
-		"iS": 703578,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/obsolete-golf-site/cabc-sports.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/obsolete-golf-site/index.png": {
-		"ft": 32768,
-		"iS": 5472742,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/obsolete-golf-site/index.png",
+		"oAP": "/_ignores/git-branch-screens/master/master.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
