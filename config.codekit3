@@ -3641,12 +3641,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/dist",
-		"oF": 0
-		},
 	"/fonts/icons/cabc/cabc.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -3886,6 +3880,14 @@
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
