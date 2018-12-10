@@ -145,6 +145,31 @@
 		"oAP": "/_ignores/foundation-zurb-template-master.zip",
 		"oF": 0
 		},
+<<<<<<< HEAD
+=======
+	"/_ignores/git-branch-screens/cabc-golf-tournament-2016.png": {
+		"ft": 32768,
+		"iS": 2331038,
+		"oA": 0,
+		"oAP": "/_ignores/git-branch-screens/cabc-golf-tournament-2016.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_ignores/git-branch-screens/cabc-sports.png": {
+		"ft": 32768,
+		"iS": 703578,
+		"oA": 0,
+		"oAP": "/_ignores/git-branch-screens/cabc-sports.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+>>>>>>> feature/obsolete-golf-site
 	"/_ignores/git-branch-screens/develop.png": {
 		"ft": 32768,
 		"iS": 699337,
@@ -156,6 +181,20 @@
 		"oT": 1,
 		"q": 100
 		},
+<<<<<<< HEAD
+=======
+	"/_ignores/git-branch-screens/index.png": {
+		"ft": 32768,
+		"iS": 5472742,
+		"oA": 0,
+		"oAP": "/_ignores/git-branch-screens/index.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+>>>>>>> feature/obsolete-golf-site
 	"/_ignores/git-branch-screens/master.png": {
 		"ft": 32768,
 		"iS": 699337,
@@ -3896,6 +3935,23 @@
 		"oAP": "/dist/browserconfig.xml",
 		"oF": 0
 		},
+<<<<<<< HEAD
+=======
+	"/dist/cabc-golf-tournament-2016.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/dist/cabc-golf-tournament-2016.php",
+		"oF": 0
+		},
+	"/dist/cabc-sports.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/dist/cabc-sports.php",
+		"oF": 0
+		},
+>>>>>>> feature/obsolete-golf-site
 	"/dist/css/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -4824,6 +4880,7 @@
 		"oAP": "/src/pages/_notes.txt",
 		"oF": 0
 		},
+<<<<<<< HEAD
 	"/src/pages/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4831,6 +4888,29 @@
 		"oAP": "/src/pages/index.php",
 		"oF": 0
 		},
+=======
+	"/src/pages/cabc-golf-tournament-2016.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/src/pages/cabc-golf-tournament-2016.php",
+		"oF": 0
+		},
+	"/src/pages/cabc-sports.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/src/pages/cabc-sports.php",
+		"oF": 0
+		},
+	"/src/pages/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/src/pages/index.php",
+		"oF": 0
+		},
+>>>>>>> feature/obsolete-golf-site
 	"/src/partials/_notes.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -5004,11 +5084,19 @@
 			"active": 0
 			},
 		"parameters": {
+<<<<<<< HEAD
 			"active": 0
 			},
 		"pipeline-operator": {
 			"active": 0
 			},
+=======
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+>>>>>>> feature/obsolete-golf-site
 		"property-literals": {
 			"active": 0
 			},
