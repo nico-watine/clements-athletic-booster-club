@@ -16,11 +16,11 @@
 		"oAP": "/.babelrc",
 		"oF": 0
 		},
-	"/.bowerrc": {
+	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/.bowerrc",
+		"oAP": "/.editorconfig",
 		"oF": 0
 		},
 	"/.gitignore": {
@@ -28,34 +28,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/.gitignore",
-		"oF": 0
-		},
-	"/_ignores/_notes.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/_ignores/_notes.txt",
-		"oF": 0
-		},
-	"/_ignores/autoVer-assets.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/autoVer-assets.php",
-		"oF": 0
-		},
-	"/_ignores/browser-upgrade-snippet.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/browser-upgrade-snippet.html",
-		"oF": 0
-		},
-	"/_ignores/cdn-url.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/cdn-url.html",
 		"oF": 0
 		},
 	"/_ignores/clements-athletic-booster-club.sublime-project": {
@@ -72,37 +44,6 @@
 		"oAP": "/_ignores/clements-athletic-booster-club.sublime-workspace",
 		"oF": 0
 		},
-	"/_ignores/compiling-procedure-options.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/compiling-procedure-options.txt",
-		"oF": 0
-		},
-	"/_ignores/css-compilation-notes.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/css-compilation-notes.txt",
-		"oF": 0
-		},
-	"/_ignores/css-references.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/_ignores/css-references-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"/_ignores/default-page-setup.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/default-page-setup.php",
-		"oF": 0
-		},
 	"/_ignores/facebook-script.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -117,37 +58,9 @@
 		"oAP": "/_ignores/facebook-share-snippet.html",
 		"oF": 0
 		},
-	"/_ignores/favicon-linking.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/favicon-linking.html",
-		"oF": 0
-		},
-	"/_ignores/footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/footer.html",
-		"oF": 0
-		},
-	"/_ignores/form-name.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/form-name.txt",
-		"oF": 0
-		},
-	"/_ignores/foundation-zurb-template-master.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/foundation-zurb-template-master.zip",
-		"oF": 0
-		},
 	"/_ignores/git-branch-screens/cabc-golf-tournament-2016.png": {
 		"ft": 32768,
-		"iS": 2331038,
+		"iS": 642974,
 		"oA": 0,
 		"oAP": "/_ignores/git-branch-screens/cabc-golf-tournament-2016.png",
 		"oF": 0,
@@ -158,7 +71,7 @@
 		},
 	"/_ignores/git-branch-screens/cabc-sports.png": {
 		"ft": 32768,
-		"iS": 703578,
+		"iS": 215561,
 		"oA": 0,
 		"oAP": "/_ignores/git-branch-screens/cabc-sports.png",
 		"oF": 0,
@@ -167,66 +80,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/_ignores/git-branch-screens/develop.png": {
-		"ft": 32768,
-		"iS": 699337,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/develop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/_ignores/git-branch-screens/index.png": {
 		"ft": 32768,
-		"iS": 5472742,
+		"iS": 1623764,
 		"oA": 0,
 		"oAP": "/_ignores/git-branch-screens/index.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/master.png": {
-		"ft": 32768,
-		"iS": 699337,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/master.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/obsolete-golf-site/cabc-golf-tournament-2016.png": {
-		"ft": 32768,
-		"iS": 2331038,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/obsolete-golf-site/cabc-golf-tournament-2016.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/obsolete-golf-site/cabc-sports.png": {
-		"ft": 32768,
-		"iS": 703578,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/obsolete-golf-site/cabc-sports.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_ignores/git-branch-screens/obsolete-golf-site/index.png": {
-		"ft": 32768,
-		"iS": 5472742,
-		"oA": 0,
-		"oAP": "/_ignores/git-branch-screens/obsolete-golf-site/index.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -240,13 +98,6 @@
 		"oAP": "/_ignores/google-tracking-id.html",
 		"oF": 0
 		},
-	"/_ignores/head-references.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_ignores/head-references.html",
-		"oF": 0
-		},
 	"/_ignores/reference-welcome-text.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -254,35 +105,11 @@
 		"oAP": "/_ignores/reference-welcome-text.txt",
 		"oF": 0
 		},
-	"/_ignores/scripts.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/scripts.txt",
-		"oF": 0
-		},
-	"/_ignores/stock-files/gulpfile.babel.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "/_ignores/stock-files/min/gulpfile.babel-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/_ignores/team-lists.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_ignores/team-lists.txt",
-		"oF": 0
-		},
-	"/_ignores/type-scales.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_ignores/type-scales.txt",
 		"oF": 0
 		},
 	"/assets/.htaccess": {
@@ -3797,24 +3624,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/CHANGELOG.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "/CHANGELOG.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -3832,403 +3641,11 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/dist/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/.htaccess",
-		"oF": 0
-		},
-	"/dist/403.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/403.html",
-		"oF": 0
-		},
-	"/dist/404.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/404.html",
-		"oF": 0
-		},
-	"/dist/apple-touch-icon-120x120-precomposed.png": {
-		"ft": 32768,
-		"iS": 7656,
-		"oA": 0,
-		"oAP": "/dist/apple-touch-icon-120x120-precomposed.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/apple-touch-icon-152x152-precomposed.png": {
-		"ft": 32768,
-		"iS": 9993,
-		"oA": 0,
-		"oAP": "/dist/apple-touch-icon-152x152-precomposed.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/apple-touch-icon-180x180-precomposed.png": {
-		"ft": 32768,
-		"iS": 12942,
-		"oA": 0,
-		"oAP": "/dist/apple-touch-icon-180x180-precomposed.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/apple-touch-icon-76x76-precomposed.png": {
-		"ft": 32768,
-		"iS": 4270,
-		"oA": 0,
-		"oAP": "/dist/apple-touch-icon-76x76-precomposed.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 12942,
-		"oA": 0,
-		"oAP": "/dist/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/assets/docs/2016-CABC-Golf-Tournament-Player-Registration-Form.docx": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/assets/docs/2016-CABC-Golf-Tournament-Player-Registration-Form.docx",
-		"oF": 0
-		},
-	"/dist/assets/docs/2016-CABC-Golf-Tournament-Player-Registration-Form.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/assets/docs/2016-CABC-Golf-Tournament-Player-Registration-Form.pdf",
-		"oF": 0
-		},
-	"/dist/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/browserconfig.xml",
-		"oF": 0
-		},
-	"/dist/cabc-golf-tournament-2016.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/cabc-golf-tournament-2016.php",
-		"oF": 0
-		},
-	"/dist/cabc-sports.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/cabc-sports.php",
-		"oF": 0
-		},
-	"/dist/css/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dist/css/app-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/dist/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/favicon.ico",
-		"oF": 0
-		},
-	"/dist/favicon.png": {
-		"ft": 32768,
-		"iS": 3421,
-		"oA": 0,
-		"oAP": "/dist/favicon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/fonts/icons/cabc/cabc.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/fonts/icons/cabc/cabc.eot",
-		"oF": 0
-		},
-	"/dist/fonts/icons/cabc/cabc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/fonts/icons/cabc/cabc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/dist/fonts/icons/cabc/cabc.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/fonts/icons/cabc/cabc.ttf",
-		"oF": 0
-		},
-	"/dist/fonts/icons/cabc/cabc.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/fonts/icons/cabc/cabc.woff",
-		"oF": 0
-		},
-	"/dist/googlecc7a9b7996f6ec6a.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/googlecc7a9b7996f6ec6a.html",
-		"oF": 0
-		},
-	"/dist/humans.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/humans.txt",
-		"oF": 0
-		},
-	"/dist/img/assets/bg/bg.png": {
-		"ft": 32768,
-		"iS": 267,
-		"oA": 0,
-		"oAP": "/dist/img/assets/bg/bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/bg/logo-shade.png": {
-		"ft": 32768,
-		"iS": 18601,
-		"oA": 0,
-		"oAP": "/dist/img/assets/bg/logo-shade.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/logo.png": {
-		"ft": 32768,
-		"iS": 7346,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/logo/logo@2x.png": {
-		"ft": 32768,
-		"iS": 15421,
-		"oA": 0,
-		"oAP": "/dist/img/assets/logo/logo@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/assets/og/golf-tournament/og-shot.jpg": {
-		"ft": 16384,
-		"iS": 259197,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/assets/og/golf-tournament/og-shot.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/assets/og/landing-temp/og-shot.png": {
-		"ft": 32768,
-		"iS": 140994,
-		"oA": 0,
-		"oAP": "/dist/img/assets/og/landing-temp/og-shot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/index/_originals/banner-bg.jpg": {
-		"ft": 16384,
-		"iS": 3446905,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/events/golf-tournament/index/_originals/banner-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/index/banner-bg.jpg": {
-		"ft": 16384,
-		"iS": 270064,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/events/golf-tournament/index/banner-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/index/banner-bg@700.jpg": {
-		"ft": 16384,
-		"iS": 137809,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/events/golf-tournament/index/banner-bg@700.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/tournament-page/_cabc-badge.png": {
-		"ft": 32768,
-		"iS": 4473,
+	"/dist": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "/dist/img/events/golf-tournament/tournament-page/_cabc-badge.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/tournament-page/_cabc-badge@2x.png": {
-		"ft": 32768,
-		"iS": 9960,
-		"oA": 1,
-		"oAP": "/dist/img/events/golf-tournament/tournament-page/_cabc-badge@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/tournament-page/cabc-badge.png": {
-		"ft": 32768,
-		"iS": 5215,
-		"oA": 0,
-		"oAP": "/dist/img/events/golf-tournament/tournament-page/cabc-badge.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/img/events/golf-tournament/tournament-page/cabc-badge@2x.png": {
-		"ft": 32768,
-		"iS": 12158,
-		"oA": 0,
-		"oAP": "/dist/img/events/golf-tournament/tournament-page/cabc-badge@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/index.php",
+		"oAP": "/build/dist",
 		"oF": 0
-		},
-	"/dist/js/app-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/dist/app-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/dist/php/autoVer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/php/autoVer.php",
-		"oF": 0
-		},
-	"/dist/robots.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/robots.txt",
-		"oF": 0
-		},
-	"/dist/sitemap.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/dist/sitemap.xml",
-		"oF": 0
-		},
-	"/dist/tile-wide.png": {
-		"ft": 32768,
-		"iS": 22256,
-		"oA": 0,
-		"oAP": "/dist/tile-wide.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/tile.png": {
-		"ft": 32768,
-		"iS": 55151,
-		"oA": 0,
-		"oAP": "/dist/tile.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/touch-icon-192x192.png": {
-		"ft": 32768,
-		"iS": 14144,
-		"oA": 0,
-		"oAP": "/dist/touch-icon-192x192.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"/fonts/icons/cabc/cabc.eot": {
 		"cB": 0,
@@ -4470,13 +3887,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/npm-debug.log": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/npm-debug.log",
-		"oF": 0
-		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -4492,7 +3902,7 @@
 		"oAP": "/php/autoVer.php",
 		"oF": 0
 		},
-	"/readme.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -4500,8 +3910,8 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "/readme.html",
+		"oA": 1,
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -6782,7 +6192,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -6903,7 +6313,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /dist",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,

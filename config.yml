@@ -1,25 +1,13 @@
 
-
 # Autoprefixer will make sure your CSS works with these browsers
 COMPATIBILITY:
   - "last 2 versions"
   - "ie >= 9"
-  # BELOW ADDITIONS BASED ON DEFAULT CODEKIT SETTINGS ::
-  # - "> 1%"
-  # - "Firefox ESR"
-  # - "Opera 12.1"
 
 # UnCSS will use these settings
 UNCSS_OPTIONS:
   html:
-    - "dist/*.html"
-    - "dist/*.php"
-    # - "src/**/*.html"
-    # - "src/**/*.php"
-    # - "src/pages/*.html"
-    # - "src/pages/*.php"
-    # - "src/layouts/*.html"
-    # - "src/partials/*.html"
+    - "dist/**/*.{html,php,htm}"
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
@@ -30,11 +18,8 @@ PATHS:
   dist: "dist"  
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
-    - "src/"
-    - "assets/.htaccess"
-    - "assets/**/*"
-    # - "assets/assets/docs/*"
-    # instead of being able to just import "assets/", we have to explicitly identify the files so that _notes.txt is not imported there may be a better way of doing this but ATM unknown
+    - "assets/.htaccess" # <- specify import invisible file .htaccess
+    - "assets/**" # <- import all files inside assets/
   # Paths to Sass libraries, which can then be loaded with @import
   sass:
     - "bower_components/foundation-sites/scss"
@@ -42,11 +27,13 @@ PATHS:
   # Paths to JavaScript libraries, which are compined into one file
   javascript:
     # Libraries requried by Foundation
-    # - "bower_components/jquery/dist/jquery.js"
+    # - "bower_components/jquery/dist/jquery.js" # <- alternatively utilize Google jQuery CDN
     - "bower_components/what-input/what-input.js"
+
     # Core Foundation files
     - "bower_components/foundation-sites/js/foundation.core.js"
     - "bower_components/foundation-sites/js/foundation.util.*.js"
+
     # Individual Foundation components
     # If you aren't using a component, just remove it from the list
     # - "bower_components/foundation-sites/js/foundation.abide.js"
@@ -68,6 +55,6 @@ PATHS:
     - "bower_components/foundation-sites/js/foundation.tabs.js"
     # - "bower_components/foundation-sites/js/foundation.toggler.js"
     # - "bower_components/foundation-sites/js/foundation.tooltip.js"
-    # Paths to your own project code are here
-    # - "js/!(app-min).js"
+
+    # Main JS file (imports everything above)
     - "js/app-min.js"
